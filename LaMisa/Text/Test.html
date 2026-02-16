@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+</head>
+<body>
+  <input type="text" id="inputId" placeholder="Enter ID">
+  <button id="fetchBtn">Fetch Record</button>
+  <div id="output"></div>
+
+  <script>
+    document.getElementById('fetchBtn').addEventListener('click', function() {
+      const id = document.getElementById('inputId').value;
+      console.log("Fetching record with ID:", id); // Log the ID being sent
+
+      try {
+        google.script.run
+          .withSuccessHandler(displayRecord)
+          .withFailureHandler(handleError)
+          .getRecordById_SIMPLE(id);
+      } catch (error) {
+        console.error("Error calling getRecordById_SIMPLE:", error);
+      }
+    });
+
+    function displayRecord(record) {
+      const outputDiv = document.getElementById('output');
+      if (record) {
+        outputDiv.innerHTML = `<p>ID: ${record.Id}, Nombre: ${record.Nombre}</p>`;
+      } else {
+        outputDiv.innerHTML = '<p>Record not found.</p>';
+      }
+    }
+
+    function handleError(error) {
+      const outputDiv = document.getElementById('output');
+      outputDiv.innerHTML = `<p>Error: ${error.message}</p>`;
+    }
+
+  </script>
+</body>
+</html>

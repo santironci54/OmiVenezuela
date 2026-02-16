@@ -1,0 +1,46 @@
+.Index1 {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  display: list-item;
+  font-size: 1.1rem;
+  line-height: 130%;
+  text-align: left;
+  text-indent: 0rem;
+  margin-bottom: 0.3rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  color: brown;
+}
+
+.Index2 {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  display: list-item;
+  font-size: 0.9rem;
+  line-height: 130%;
+  text-align: left;
+  text-indent: 0rem;
+  margin-bottom: 0.2rem;
+  margin-top: 0.1rem;
+  margin-left: 3rem;
+  color: brown;
+}
+
+.Index3 {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  display: list-item;
+  font-size: 0.9rem;
+  line-height: 130%;
+  text-align: left;
+  text-indent: 0rem;
+  margin-bottom: 0.2rem;
+  margin-top: 0.1rem;
+  margin-left: 5rem;
+  color: brown;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}

@@ -1,0 +1,182 @@
+html {
+	max-width: 90ch;
+	padding: 1ch;
+	margin: auto;
+	color: #333;
+	font-size: 1em;
+}
+
+
+.omi {
+	text-align:center;
+    display:block;
+    font-family:"Times New Roman", serif;
+    line-eight:normal;
+    font-size:1em;
+	padding-left:2px;
+	padding-right:2px;
+	margin-top:0em;
+	margin-bottom:0em;
+    }
+
+.butXL {
+  background-color: orange;
+
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding-bottom: 0.4em;
+  padding-top: 0.4em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.2em 0.2em;
+  cursor: pointer;
+}
+.butXL {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.butXL {
+  width: 50%;
+}
+.button {
+  background-color: #bb1919;
+  border: none;
+  color: white;
+  padding: 0.3em 0.3em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 0.1em 0.1em;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.button {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button {
+  width: 15%;
+}
+
+.button a:link{
+    color:white;
+}
+
+
+
+.pT1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 0.3;
+  margin-top: 0.3em;
+   color: red;
+}
+
+.pT2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.3;
+  margin-top: 0.3em;
+  color: brown;
+}
+
+
+.pT3 {
+
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+  color: red;
+}
+
+.pT4 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+  color: brown;
+}
+
+.pT3but {
+
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+  color: brown;
+}
+
+.ft{
+ 
+}
+
+.fk{
+   font-style: italic;
+}
+
+.Normale{
+    font-family:Times, Times New Roman, serif;
+    font-size:1.2em;
+    text-align:justify; 
+    text-indent:1em;
+    margin-top:0.3px; 
+    margin-bottom:0px; 
+    }
+
+.Versetto{
+	color:red;
+    vertical-align: super;
+    font-size: 0.8em;
+    }
+
+a {
+  color: red;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+a:visited {
+  text-decoration: none;
+}
+a:hover{
+  font-size: 1.2em;
+}
+
+.notemark{
+	color:blue;}
+
+.f{
+     font-family:Times, Times New Roman, serif;
+    font-size:1.1em;
+    text-align:justify; 
+}
+
+.Indice{
+   font-family:Times, Times New Roman, serif;
+    font-size:1.2em;
+    text-align:left; 
+    text-indent:1em;
+    margin-top:9px; 
+    margin-bottom:9px;
+}
+
+/* Bottoni Fissi */
+.fixedButton {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+}
+
+.fixedButtonBack {
+  position: fixed;
+  right: 2px;
+  top: 10px;
+  padding: 0;
+  border: none;
+  background: none;
+}

@@ -1,0 +1,316 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+body {
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+	font-family: "Times New Roman", serif;
+	padding-left: 1px;
+	padding-right: 1px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+
+
+.Titulo1 {
+    font-family: "Times New Roman", Times, serif;
+    color: brown;
+    text-align: center;
+    font-size: 1,2em;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    }
+
+.Titulo2 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 1em;
+    color:brown;
+    font-weight: bold;
+    margin-top: 18px
+    margin-top: 0;
+    margin-bottom: 8px;
+    }
+
+.Titulo3 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    font-size: 0.9em;
+    color:brown;
+    font-weight: bold;
+    margin-top: 12px;
+    padding-left: 15pt;
+    }
+
+.OmiVe_Normal {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.3;
+    font-size: 0.9em;
+    text-align: justify;
+    text-indent: 15px;
+    margin: 0.5em 0;
+    }
+
+.toc2 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 1em;
+    color:brown;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+
+.toc1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 1.2em;
+    color:brown;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 6px;
+    padding-left: 0pt;
+    }
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: brown;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    }
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 1em;
+    color:brown;
+    font-weight: bold;
+    margin-top: 18px
+    margin-top: 0;
+    margin-bottom: 8px;
+    }
+.Firma1 {
+    text-align: right;
+    color: brown;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+    font-style: italic
+    }
+.block_ {
+    border-bottom: 0;
+    border-top: 0;
+    display: block;
+    font-size: 20pt;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    text-indent: 0
+    }
+.block_1 {
+    border-bottom: 0;
+    border-top: 0;
+    display: block;
+    font-size: 20pt;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    text-indent: 0
+    }
+.block_2 {
+    border-bottom: 0;
+    border-top: 0;
+    display: block;
+    font-size: 10pt;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    text-indent: 0
+    }
+.block_3 {
+    border-bottom: 0;
+    border-top: 0;
+    display: block;
+    font-size: 18pt;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    text-indent: 0
+    }
+.block_4 {
+    border-bottom: 0;
+    border-top: 0;
+    display: block;
+    font-size: 10pt;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-indent: 1.5em
+    }
+.block_5 {
+    display: block;
+    font-size: 10pt;
+    font-weight: normal;
+    page-break-after: avoid;
+    text-align: center;
+    text-indent: 0
+    }
+.block_6 {
+    border-bottom: 0;
+    border-top: 0;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-indent: 1.5em
+    }
+.block_7 {
+    border-bottom: 0;
+    border-top: 0;
+    display: block;
+    font-style: italic;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: right;
+    text-indent: 14.2pt
+    }
+.block_8 {
+    border-bottom: 0;
+    border-top: 0;
+    display: block;
+    font-size: 10pt;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    page-break-after: avoid;
+    text-align: center;
+    text-indent: 0
+    }
+.block_9 {
+    border-bottom: 0;
+    border-top: 0;
+    display: block;
+    font-size: 10pt;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    page-break-after: avoid;
+    text-align: center;
+    text-indent: 0
+    }
+
+
+.block_12 {
+    border-bottom: 0;
+    border-top: 0;
+    display: block;
+    font-size: 10pt;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: justify;
+    text-indent: 1.5em
+    }
+
+.block_14 {
+    display: block;
+    font-size: 10pt;
+    font-weight: normal;
+    page-break-after: avoid;
+    text-indent: 35.4pt
+    }
+
+.block_16 {
+    border-bottom: 0;
+    border-top: 0;
+    display: block;
+    letter-spacing: -0.15pt;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    text-indent: 0
+    }
+.calibre {
+    display: block;
+    font-size: 12pt
+    }
+.calibre1 {
+    display: block;
+    line-height: 1.2
+    }
+.calibre2 {
+    display: block
+    }
+.tab {
+    white-space: pre-wrap
+    }
+.text_ {
+    font-size: 20pt;
+    font-weight: bold;
+    line-height: 1.2
+    }
+.text_1 {
+    font-size: 18pt;
+    font-weight: bold;
+    line-height: 1.2
+    }
+.text_2 {
+    font-size: 1pt
+    }
+.text_3 {
+    font-size: 14pt;
+    font-weight: bold;
+    line-height: 1.2
+    }
+.text_4 {
+    font-size: 12pt;
+    font-weight: bold;
+    letter-spacing: -0.15pt
+    }
+.text_5 {
+    font-size: 12pt;
+    font-weight: bold
+    }
+.text_6 {
+    letter-spacing: -0.15pt
+    }
+.text_7 {
+    font-size: 14pt;
+    font-weight: bold;
+    letter-spacing: -0.15pt;
+    line-height: 1.2
+    }
+.text_8 {
+    font-size: 14pt;
+    line-height: 1.2
+    }

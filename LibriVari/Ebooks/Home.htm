@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBooks Library</title>
+    <style>
+        /* Resetta i margini di default del browser */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Evita la barra di scorrimento sulla pagina principale */
+            font-family: sans-serif;
+        }
+
+        /* STRUTTURA DELLA GRIGLIA (Sostituisce il Frameset) */
+        .grid-container {
+            display: grid;
+            height: 100vh; /* Usa il 100% dell'altezza dello schermo */
+            
+            /* Definisce le righe: 93px per la testata, il resto (1fr) per il contenuto */
+            grid-template-rows: 150px 1fr; 
+            
+            /* Definisce le colonne: 100px per il menu, il resto (1fr) per i libri */
+            grid-template-columns: 100px 1fr; 
+            
+            /* Colore e spessore del bordo (simile al tuo vecchio bordercolor="#990066") */
+            gap: 1px; 
+            background-color: #990066; 
+        }
+
+        /* STILE DELLE AREE */
+        .area-alto {
+            grid-column: 1 / -1; /* Occupa tutta la larghezza (da colonna 1 alla fine) */
+            background-color: white;
+        }
+
+        .area-lato {
+            grid-row: 2 / 3; /* Seconda riga */
+            background-color: white;
+        }
+
+        .area-principale {
+            grid-row: 2 / 3; /* Seconda riga */
+            background-color: white;
+        }
+
+        /* STILE DEGLI IFRAME (Per caricare le tue vecchie pagine) */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none; /* Rimuove il bordo standard dell'iframe */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="grid-container">
+        
+        <div class="area-alto">
+            <iframe src="Titles/Htm/High.htm" name="Alto" id="Alto" title="Intestazione"></iframe>
+        </div>
+
+        <div class="area-lato">
+            <iframe src="Titles/Htm/Left.htm" name="Lato" id="Lato" title="Menu Laterale"></iframe>
+        </div>
+
+        <div class="area-principale">
+            <iframe src="Titles/Htm/Books.htm" name="Principale" id="Principale" title="Contenuto Libri"></iframe>
+        </div>
+
+    </div>
+
+</body>
+</html>

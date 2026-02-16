@@ -1,0 +1,555 @@
+html {
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;
+}
+body {
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+	font-family: "Times New Roman", serif;
+	padding-left: 1px;
+	padding-right: 1px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+
+.Tit2 {
+    color: #C00000;
+    display: block;
+    font-size: 13pt;
+    font-weight: bold;
+    line-height: 1.2;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    text-align: center;
+    text-indent: 0;
+    margin: 0 0 12pt;
+    padding: 0
+    }
+
+.normal {
+    color: black;
+    display: block;
+    text-align: justify;
+    text-indent: 0.5em;
+    margin: 0 0 2pt;
+    padding: 0
+    }
+	
+	
+.normal_1 {
+    color: black;
+    display: block;
+    text-align: justify;
+    text-indent: 0.5em;
+    margin: 0 0 2pt;
+    padding: 0
+    }
+	
+	
+.block_ {
+    color: black;
+    display: block;
+    text-align: left;
+    text-indent: 0;
+    margin: 0;
+    padding: 0
+    }
+	body {
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+	font-family: "Times New Roman", serif;
+	padding-left: 1px;
+	padding-right: 1px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+
+
+.block_1 {
+    color: black;
+    display: block;
+    font-size: 10pt;
+    text-align: center;
+    text-indent: 0;
+    margin: 0 0 2pt 14.2pt;
+    padding: 0
+    }
+.block_2 {
+    color: black;
+    display: block;
+    font-family: serif;
+    font-size: 10pt;
+    text-align: justify;
+    text-indent: 0;
+    margin: 0 0 2pt 14.2pt;
+    padding: 0
+    }
+.block_3 {
+    color: black;
+    display: block;
+    text-align: left;
+    text-indent: 0;
+    margin: 0;
+    padding: 0
+    }
+
+.block_5 {
+    color: black;
+    display: block;
+    font-size: 10pt;
+    text-align: left;
+    text-indent: 0;
+    margin: 3pt 0 2pt;
+    padding: 0
+    }
+.block_6 {
+    color: black;
+    display: block;
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 0;
+    margin: 3pt 0 2pt;
+    padding: 0
+    }
+.block_7 {
+    color: black;
+    display: block;
+    font-size: 10pt;
+    font-style: italic;
+    text-align: left;
+    text-indent: 0;
+    margin: 2pt 0 0 11.9pt;
+    padding: 0
+    }
+.block_8 {
+    color: black;
+    display: block;
+    font-size: 10pt;
+    text-align: left;
+    text-indent: 0;
+    margin: 0 0 0 24.1pt;
+    padding: 0
+    }
+.block_9 {
+    color: black;
+    display: block;
+    font-size: 10pt;
+    font-style: italic;
+    margin: 3pt 0 6pt 14.2pt;
+    padding: 0
+    }
+
+.block_11 {
+    color: black;
+    display: block;
+    font-style: italic;
+    text-align: right;
+    text-indent: 0;
+    margin: 6pt 0 12pt;
+    padding: 0
+    }
+.block_12 {
+    color: black;
+    display: block;
+    font-size: 10pt;
+    text-align: justify;
+    text-indent: 22.7pt;
+    margin: 0 0 2pt;
+    padding: 0
+    }
+.block_13 {
+    color: #C00000;
+    display: block;
+    font-size: 1rem;
+    font-variant: small-caps;
+    font-weight: bold;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    text-align: center;
+    text-indent: 0;
+    margin: 12pt 0;
+    padding: 0
+    }
+.block_14 {
+    color: #C00000;
+    display: block;
+    font-size: 14pt;
+    font-weight: normal;
+    line-height: 1.2;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    text-align: center;
+    text-indent: 0;
+    margin: 0 0 12pt;
+    padding: 0
+    }
+.block_15 {
+    color: black;
+    display: block;
+    font-size: 11.5pt;
+    font-weight: bold;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    text-align: left;
+    text-indent: -17pt;
+    margin: 9pt 0 2pt 17pt;
+    padding: 0
+    }
+.block_16 {
+    color: black;
+    display: block;
+    font-family: serif;
+    font-size: 10pt;
+    text-align: justify;
+    text-indent: 22.7pt;
+    margin: 0 0 2pt;
+    padding: 0
+    }
+.block_17 {
+    color: black;
+    display: block;
+    font-size: 10pt;
+    font-weight: bold;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    text-align: left;
+    text-indent: -11.4pt;
+    margin: 6pt 0 0 34.1pt;
+    padding: 0
+    }
+.block_18 {
+    color: black;
+    display: block;
+    font-size: 9pt;
+    text-align: left;
+    text-indent: 0;
+    margin: 0;
+    padding: 0
+    }
+.block_19 {
+    color: black;
+    display: block;
+    font-family: serif;
+    font-size: 10pt;
+    text-align: left;
+    text-indent: 0;
+    margin: 0;
+    padding: 0
+    }
+.block_20 {
+    color: black;
+    display: block;
+    font-size: 9pt;
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 0;
+    margin: 0 0 2pt;
+    padding: 0
+    }
+.block_21 {
+    color: black;
+    display: block;
+    font-size: 10pt;
+    font-weight: normal;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    text-align: left;
+    text-indent: -17pt;
+    margin: 9pt 0 2pt 17pt;
+    padding: 0
+    }
+.block_22 {
+    color: #C00000;
+    display: block;
+    font-size: 11pt;
+    text-align: right;
+    text-indent: 0;
+    margin: 6pt 0;
+    padding: 0
+    }
+.block_23 {
+    color: black;
+    display: block;
+    font-style: italic;
+    text-align: justify;
+    text-indent: 22.7pt;
+    margin: 0 0 2pt;
+    padding: 0
+    }
+.block_24 {
+    background-color: transparent;
+    color: black;
+    display: block;
+    font-size: 10pt;
+    text-align: left;
+    text-indent: -11.4pt;
+    margin: 0 0 2pt 11.4pt;
+    padding: 0
+    }
+.block_25 {
+    background-color: #FFF;
+    color: black;
+    display: block;
+    font-size: 10pt;
+    text-align: left;
+    text-indent: -11.4pt;
+    margin: 0 0 2pt 11.4pt;
+    padding: 0
+    }
+.block_26 {
+    background-color: #FFF;
+    color: black;
+    display: block;
+    font-size: 10pt;
+    text-align: left;
+    text-indent: 0;
+    margin: 0 0 2pt;
+    padding: 0
+    }
+.block_27 {
+    background-color: #FFF;
+    color: black;
+    display: block;
+    font-size: 10pt;
+    text-align: left;
+    text-indent: -8.5pt;
+    margin: 0 0 2pt 8.5pt;
+    padding: 0
+    }
+.OmiVe {
+    color: #1F4E79;
+    display: block;
+    font-family: "Times New Roman", serif;
+    font-size: 12pt;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.OmiVe1 {
+    display: block;
+    height: 527pt;
+    margin-left: auto;
+    margin-right: auto;
+    width: 268pt
+    }
+.OmiVe2 {
+    display: block
+    }
+.OmiVe3 {
+    display: block
+    }
+.OmiVe4 {
+    font-weight: bold
+    }
+.OmiVe5 {
+
+    color: red;
+
+
+    }
+.OmiVe6 {
+    font-style: italic
+    }
+.OmiVe7 {
+    display: block;
+    line-height: 1.2
+    }
+.OmiVe8 {
+    display: table-row-group;
+    vertical-align: middle
+    }
+.OmiVe9 {
+    display: table-row;
+    vertical-align: inherit
+    }
+.OmiVe10 {
+    font-size: smaller;
+    line-height: normal;
+    vertical-align: sub
+    }
+.OmiVe11 {
+    display: block;
+    font-size: 1.1rem;
+    line-height: 1.2
+    }
+.OmiVe12 {
+    line-height: 1.2;
+    text-decoration: none
+    }
+.OmiVe13 {
+    display: block;
+    margin-left: 40px
+    }
+.footnote {
+    display: block;
+    margin: 1em 0
+    }
+.noteref {
+
+    }
+.tab {
+    white-space: pre-wrap
+    }
+.table_ {
+    border-collapse: collapse;
+    border-spacing: 2px;
+    display: table;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-indent: 0
+    }
+.td_ {
+    display: table-cell;
+    text-align: inherit;
+    vertical-align: top;
+    width: 133pt;
+    padding: 0.5ex 5.75pt
+    }
+.td_1 {
+    display: table-cell;
+    text-align: inherit;
+    vertical-align: top;
+    width: 43.3pt;
+    padding: 0.5ex 5.75pt
+    }
+.td_2 {
+    display: table-cell;
+    text-align: inherit;
+    vertical-align: top;
+    width: 113pt;
+    padding: 0.5ex 5.75pt
+    }
+.td_3 {
+    display: table-cell;
+    text-align: inherit;
+    vertical-align: top;
+    width: 42.5pt;
+    padding: 0.5ex 5.75pt
+    }
+.text_ {
+    color: #F00;
+    font-size: smaller;
+    line-height: normal;
+    vertical-align: super
+    }
+.text_1 {
+    font-size: 12pt
+    }
+.text_2 {
+    font-size: 12pt;
+    font-style: italic
+    }
+.text_3 {
+
+    color: #F00;
+
+    }
+.text_4 {
+    font-variant: small-caps;
+    font-weight: bold;
+    line-height: 1.2
+    }
+.text_5 {
+    color: #F00;
+    font-size: 12pt;
+    line-height: normal;
+    vertical-align: super
+    }
+.text_6 {
+    color: black;
+    font-size: 12pt;
+    line-height: normal;
+    vertical-align: super
+    }
+.text_7 {
+    color: black;
+    font-size: smaller;
+    line-height: normal;
+    vertical-align: super
+    }
+.text_8 {
+    font-size: 11.5pt;
+    font-weight: bold
+    }
+.text_9 {
+    background-color: #FFF;
+    color: #F00;
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: normal;
+    vertical-align: super
+    }
+.text_10 {
+    font-size: 11.5pt
+    }
+.text_11 {
+    font-size: 11.5pt;
+    font-weight: bold;
+    line-height: normal;
+    vertical-align: super
+    }
+.text_12 {
+    color: #F00;
+    font-size: 11.5pt;
+    font-weight: bold;
+    line-height: normal;
+    vertical-align: super
+    }
+.text_13 {
+    background-color: #FFF;
+    color: #F00;
+    font-size: smaller;
+    line-height: normal;
+    vertical-align: super
+    }
+.text_14 {
+    background-color: #FFF;
+    font-style: italic
+    }
+.text_15 {
+    background-color: #FFF
+    }
+.text_16 {
+    background-color: transparent
+    }
+
+.pT3but a:link {
+  color: white;
+}
+.pT3but a:visited {
+  color: white;
+}
+.pT3but {
+  font-family: "Times New Roman", serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+  margin-top: 0em;
+  color: brown;
+}
+
+
+.butXL {
+  font: normal 22px Times;
+  background-color: orange;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.butXL {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.butXL {
+  width: 40%;
+}

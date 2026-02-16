@@ -1,0 +1,2377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="es">
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Misas OMI</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style>
+
+ html {
+	max-width: 80ch;
+	padding: 0.2em;
+	margin-left: 0;
+	margin-right: auto;
+	font-size: 1em;
+	}
+	
+	body {
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+	font-family: "Times New Roman", serif;
+	padding-left: 1px;
+	padding-right: 1px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+
+
+	
+.sgc-toc-level-1 {
+    margin-left: 1em;
+    font-size: 1em;
+	margin-bottom:0.5em;
+	margin-top:0em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.Separa {
+	    margin-bottom: 3em;
+    }
+
+.piccolo {
+    font-size: 0.9em;
+    font-style: italic;
+	margin-top: 0em;
+    text-align: right;
+	margin-bottom: 1em;
+    }
+
+.Cover1 {
+    color: black;
+    display: block;
+    font-size: 2em;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0
+    }
+
+.Cover2 {
+    color: black;
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 3em;
+    padding: 0
+    }
+
+
+
+
+
+
+.blockTMP {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+.pLinkIni{
+    font-family:serif;
+    text-align:right;
+    margin-right:1em;  
+    }
+
+
+
+.omi {
+    display:block;
+    font-family:"Times New Roman", serif;
+    line-eight:normal;
+    font-size:1em;
+	padding-left:2px;
+	padding-right:2px;
+    }
+
+.oBienDiv {
+    opacity:0.6;
+    font-size:70%;
+    margin-left:8%;
+    border-top:solid 1px;
+    border-bottom:solid 1px;
+    border-left:solid 1px;
+    border-right:solid 1px;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    padding-left:0.8em;
+    padding-right:0.3em;
+    padding-bottom:0.8em;
+    }
+/*Indici settimana e santi*/
+
+.toc3 {
+    color:red;
+    text-indent:-1em;
+    padding:0px 0px 0px 1em;
+    text-align:center;
+    margin-right: 0em;
+    margin-bottom:0.3em;
+    margin-top:0.3em;
+    }
+.tocSan {
+    color:red;
+    text-indent:-1.5em;
+    padding:0px 0px 0px 1.5em;
+    text-align:left;
+    margin-right: 0em;
+    margin-left:1em;
+    margin-bottom:0.4em;
+    margin-top:0.3em;
+    }
+.DivIndTO {
+	width:90%;
+	box-align:center;
+	padding-bottom:0.8em;
+	padding-top:0.02em;
+	margin: 0 auto;
+	color:#006622;
+	box-shadow: 3px 8px 28px #888888;
+	margin-bottom:1.3em;
+    }
+
+.IndOrd{
+    font-family:Times, Times New Roman, serif;
+    background-color:#F0F0F0;
+    line-height:1.7em;
+    text-align:center;
+    font-size:1em;
+    font-weight:bold;
+    color:#006622;
+    margin-top:0.2em;
+    margin-bottom:0.2em;
+    margin-left:2%;
+    margin-right:2%;
+    border-top: 1px solid red;
+    border-bottom: 1px dashed red;
+    padding:0.2em;
+    }
+
+.IndOrdH2{
+    font-family:Times, Times New Roman, serif;
+    line-height:2.2em;
+    text-align:center;
+    font-size:1.1em;
+    font-weight:bold;
+    color:#006622;
+    margin-top:0em;
+    margin-bottom:0.3em;
+    padding-top:1em;
+    }
+
+
+hr {
+
+	border-top:1px solid red; 
+	margin-top:2em;
+	margin-bottom:2em;
+
+    }
+
+
+
+
+.pT1{
+    font-family:Times, Times New Roman, serif;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.5em;
+    margin-bottom:0.3;
+    margin-top:0.3em;
+    color:red;
+    }
+
+
+
+
+
+
+.pT2{
+    font-family:Times, Times New Roman, serif;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.2em;
+    margin-bottom:0em;
+    color:red;
+    }
+
+.pT3{
+    font-family:Times, Times New Roman, serif;
+    text-align:center;
+    font-size:1em;
+    font-weight:bold;
+    margin-bottom:0.2em;
+    color:red;
+    }
+.pT3ord{
+    font-family:Times, Times New Roman, serif;
+    text-align:center;
+    /*text-transform: lowercase;*/
+    font-size:1em;
+    font-weight:bold;
+    margin-top:0px;
+    margin-bottom:0.2em;
+    color:red;
+    }
+
+.pT4{
+    font-family:Times, Times New Roman, serif;
+    font-size:0.9em;
+    color:red;
+    text-transform: capitalize;
+    text-align:center;
+    font-style:normal;
+	font-weight:bold;
+    margin-top:1em;
+    margin-bottom:0px;
+    }
+
+.pT4ord{
+    font-family:Times, Times New Roman, serif;
+    font-size:0.8em;
+    color:red;
+    text-align:center;
+    font-style:normal;
+	font-weight:bold;
+    margin-top:0em;
+    margin-bottom:0px;
+    }
+
+
+
+
+
+.divPrefac {/* Blocco introduzione Prefazio */
+    font-size:70%;
+    margin-top:0.5em;
+    margin-left:1.5em;
+    margin-bottom:0.3em;
+    opacity:0.7;
+    }
+
+.PrefazTit{
+    font-family:Times, Times New Roman, serif;
+    font-size:small;
+    font-weight:bold;
+    color:red;
+    margin-top:1.5em;
+    margin-bottom:0px;
+    }
+
+.PrefazComm{
+    font-family:Times, Times New Roman, serif;
+    color:red;
+    font-size:0.7em;
+	text-transform:lowercase;
+ 	font-variant:small-caps;
+	letter-spacing:0.05em;
+    margin-top:0px;
+    margin-bottom:12px;
+    }
+
+.Prefac_V {
+    color:black;
+	font-size:1em;
+    margin-top:0em;
+    margin-bottom:0em;
+    margin-left:0em;
+    }
+
+.Prefac_R {
+    color:black;
+    font-style:italic;
+	font-size:0.9em;
+    margin-left:1.6em;
+    margin-top:0em;
+    margin-bottom:0.5em;
+    }
+
+.Prefac::first-letter {
+    font-weight:bold;
+    color:red;
+    margin-right:0.05em;
+    }
+.Prefac_V::first-letter {
+    font-weight:bold;
+    color:red;
+	margin-right:0.3em;
+    }
+
+.Prefac_R::first-letter {
+    font-style:normal;
+    font-weight:bold;
+    color:red;
+	margin-right:0.1em;
+    }
+.Sanctus {
+    color:black;
+    display:block;
+    font-size:0.8em;
+    font-style:italic;
+    margin-left:3em;
+    margin-top:0.5em;
+    margin-bottom:1em;
+    padding:0;
+    }
+
+
+
+
+.Normale{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-align:justify; 
+    text-indent:1em;
+    margin-top:0.3px; 
+    margin-bottom:0px; 
+    }
+
+.NormalParaFin{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-align:justify; 
+    text-indent:1em;
+    margin-top:0.3em; 
+    margin-bottom:0.4em; 
+    }
+.Commento {
+    font-size:0.8em;
+    line-height:1em;
+    color:red;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    margin-left:0em;
+    }
+
+.CommentoVisib {
+    font-size:0.8em;
+    line-height:1em;
+    color:red;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    margin-left:0em;
+    }
+
+.oBienDiv_Visib {
+    opacity:0.6;
+    font-size:70%;
+    margin-left:8%;
+    border-top:solid 1px;
+    border-bottom:solid 1px;
+    border-left:solid 1px;
+    border-right:solid 1px;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    padding-left:0.8em;
+    padding-right:0.3em;
+    padding-bottom:0.8em;
+    }
+.LecturaCarta{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    font-weight:bold;
+    margin-top:2px;
+    margin-bottom:2px;
+    }
+
+.SalmoEtc{
+    font-family:Times, Times New Roman, serif;
+    font-size:0.8em;
+    font-weight:bold;
+    color:red;
+    margin-top:18px;
+    margin-bottom:0px;
+    }
+
+
+.SalmoEtcSpacio{
+    font-family:Times, Times New Roman, serif;
+    font-size:small;
+    font-weight:bold;
+    color:red;
+    margin-top:18px;
+    margin-bottom:0px;
+    }
+
+
+.SalmoEstrib{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    font-weight:bold;
+    text-indent:-25px;
+    padding-left:25px;
+    margin-top:0px;
+    margin-bottom:7px;
+    }
+
+.SalmoEstrib::first-letter {
+    font-style:normal;
+    font-weight:bold;
+    color:red;
+	margin-right:0.1em;
+    }
+
+.SalmoNum{
+    font-family:Times, Times New Roman, serif;
+    font-size:small;
+    color:red;
+    margin-top:0px;
+    margin-bottom:8px;
+    }
+
+.SalmoTxt{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-indent:-13px;
+    padding:0px 0px 0px 20px;
+    margin-top:0px;
+    margin-bottom:6px;
+    }
+
+.SalmoTxt::first-letter {
+    font-weight:bold;
+    color:red;
+	margin-right:0.05em;
+    }
+
+.SalmoTxtPleg{
+    font-family:Times, Times New Roman, serif;
+    font-size:1.1em;
+    text-indent:-0.8em;
+    padding:0px 0px 0px 0.5em;
+    margin-top:0px;
+    margin-bottom:6px;
+    margin-left:5px;
+    }
+
+.SalmoTxtPleg::first-letter {
+    font-weight:bold;
+    color:red;
+	margin-right:0.05em;
+    }
+
+
+
+
+
+.TestoItalic{
+    font-family:Times, Times New Roman, serif;
+    color: red;
+    font-size:small;
+    font-style:italic;
+    margin-top:2px;
+    margin-bottom:12px;
+}
+
+
+.oBienPara{
+    font-family:Times, Times New Roman, serif;
+	color:red;
+	font-weight:bold;
+    font-size:0.8em;
+    font-style:italic;
+    margin-top:1em;
+    margin-bottom:0.5em;
+    }
+
+.Alleluia{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-indent:-20px;
+    padding:0px 0px 0px 20px;
+    margin-top:4px;
+    margin-bottom:4px;
+    }
+
+.PalabraDeDios{
+    font-family:Times, Times New Roman, serif;
+    font-weight:bold;
+    font-size:0.9em;
+    font-style:normal;
+    margin-top:2px;
+    margin-bottom:4px;
+}
+
+.Rosso {
+    color:red;
+    font-weight:bold;
+    }
+/*Nero*/
+
+.Nero {
+    color:brown;
+    font-weight:bold;
+    }
+.Bold {
+    color:#000;
+    font-weight:bold;
+    }
+
+.BoldO {
+    color:brown;
+    font-weight:bold;
+    }
+
+.BoldJ {
+    color:red;
+    font-weight:bold;
+    }
+
+
+
+
+
+.Antifona {
+    font-size:1em;
+	color:black;
+    margin-top:0.2em;
+    margin-bottom:0.5em;
+    margin-left:0em;
+    }
+.AntifonaALT::first-letter {
+	position:relative;
+  	font-family:DampfPlatzsh; 
+    line-height:0em;
+	float:left;
+	margin-top:0.68em;
+	margin-bottom:0.1em;
+    padding-right: 0.05em;
+    padding-left: 0em;
+    font-size:2.2em;
+    font-weight:bold;
+    color:red;
+
+    }
+
+.Antifona::first-letter {
+	position:relative;
+    line-height:0em;
+	float:left;
+	margin-top:0.47em;
+	margin-bottom:0.1em;
+    padding-right: 0.05em;
+    padding-left: 0em;
+    font-size:2.9em;
+    font-weight:bold;
+    color:red;
+    }
+
+.AntSmall {
+    color:red;
+    font-size:0.8em;
+    margin-left:3em;
+    margin-bottom:0em;
+    margin-top:1.5em;
+    }
+
+.Citaz1 {
+    color:red;
+    font-size:0.8em;
+    margin-left:3em;
+    margin-bottom:0.3em;
+    margin-top:0em;
+    }
+
+.AntSmallTxt {
+    color:black;
+    display:block;
+    font-size:0.8em;
+    margin-left:3em;
+    margin-top:0em;
+    margin-right:7em;
+    }
+.Oracion {
+    color:red;
+    display:block;
+    margin-left:0em;
+    margin-bottom:0em;
+    padding:0;
+    }
+
+.OracionTxt {
+    font-size:1em;
+    color:black;
+    margin-top:0em;
+    margin-bottom:0.2em;
+    }
+
+
+.SanFecha{
+	/*background-color:red;*/
+	font-size:1.2em;
+	font-weight:bold;
+	text-transform:lowercase;
+ 	font-variant:small-caps;
+    text-align:center;
+	color:red;
+	margin-top:1em;
+	margin-bottom:0.3em;
+	margin-left:4em;
+	margin-right:4em;
+	border-top:solid 1px;
+	border-bottom:dotted 1px;
+	padding-top:0.2em;
+	padding-bottom:0.2em;
+
+}
+
+
+.SanTipo{
+	font-size:0.9em;
+	color:red;
+	text-transform:lowercase;
+ 	font-variant:small-caps;
+	line-height:0.9;
+    text-align:center;
+    margin-top:0em;
+    margin-bottom:0.3em;
+    }
+
+
+
+</style>
+</head>
+
+<body class="omi">
+
+
+   	<p class="pT3but"><a href="https://omi-venezuela.github.io/biblio" class="butXL">Indice General</a></p>
+<p class="pT3but"><a href="../index.html" class="butXL">Indice BiblioOMI</a></p>
+
+
+
+  <p class="Cover1">Misal y Leccionario</p>
+
+  <p class="Cover2">Para las Celebraciones OMI</p>
+
+<p class="pT2">Indice</p>
+<p class="sgc-toc-level-1">
+  <a href="#sigil_toc_id_0">SAN EUGENIO DE MAZENOD Obispo</a>
+</p>
+<p class="sgc-toc-level-1">
+  <a href="#sigil_toc_id_1">BEATO JOSÉ GÉRARD, Sacerdote</a>
+</p>
+<p class="sgc-toc-level-1">
+  <a href="#sigil_toc_id_2">BEATO JOSÉ CEBULA, Mártir</a>
+</p>
+<p class="sgc-toc-level-1">
+  <a href="#sigil_toc_id_3">B. FRANCISCO ESTEBAN LACAL Y COMPAÑEROS</a>
+</p>
+<p class="sgc-toc-level-1">
+  <a href="#sigil_toc_id_4">B. JOSÉ TIEN, SACERDOTE Y COMPAÑEROS</a>
+</p>
+<p class="sgc-toc-level-1">
+  <a href="#sigil_toc_id_5">17 de FEBRERO MISA DE ACCIÓN DE GRACIAS</a>
+</p>
+<p class="sgc-toc-level-1">
+  <a href="#sigil_toc_id_6">INMACULADA CONCEPCIÓN DE LA VIRGEN MARÍA</a>
+</p>
+<p class="sgc-toc-level-1">
+  <a href="#sigil_toc_id_7">MISA POR LAS VOCACIONES OBLATAS</a>
+</p>
+<p class="sgc-toc-level-1">
+  <a href="#sigil_toc_id_8">MISA POR LA EVANGELIZACIÓN DE LOS PUEBLOS</a>
+</p>
+<p class="sgc-toc-level-1">
+  <a href="#sigil_toc_id_9">MISA POR UN SACERDOTE OBLATO DIFUNTO</a>
+</p>
+<p class="sgc-toc-level-1">
+  <a href="#sigil_toc_id_10">MISA POR UN HERMANO OBLATO DIFUNTO</a>
+</p>
+<p class="sgc-toc-level-1">
+  <a href="#sigil_toc_id_11">MISA POR TODOS NUESTROS DIFUNTOS OMI</a>
+</p>
+<p class="sgc-toc-level-1">
+  <a href="#sigil_toc_id_12">BENDICIONES SOLEMNES</a>
+</p>
+<p class="sgc-toc-level-1">
+  <a href="#sigil_toc_id_13">CONSAGRACIÓN A MARÍA INMACULADA</a>
+</p>
+<p class="sgc-toc-level-1">
+  <a href="#sigil_toc_id_14">FORMULA DE OBLACIÓN</a>
+</p>
+<hr />
+  <p class="Separa"></p>
+
+  <h1 class="pT1" id="sigil_toc_id_0">SAN EUGENIO DE MAZENOD<br/>Obispo</h1>
+
+  <p class="pT4">21 de Mayo — Solemnidad</p>
+
+  <p class="AntSmall">Antífona de entrada</p>
+
+  <p class="AntSmallTxt">«El espíritu del Señor está sobre mí, <br/> porque me ha ungido<br/> y me ha enviado para anunciar la buena nueva a los pobres, <br/> a curar a los de corazón quebrantado». (T.P. Aleluya)</p>
+
+  <p class="Commento">Se dice Gloria</p>
+
+  <p class="SalmoEtc">ORACIÓN COLECTA</p>
+
+  <p class="Antifona">Oh Dios, que para anunciar el Evangelio a los pueblos<br/> has colmado tu obispo San Eugenio de las virtudes apostólicas; <br/> concédenos que, inflamados del mismo Espíritu, <br/> aspiremos únicamente al servicio de la Iglesia <br/> y a la salvación de las almas.<br/> Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo <br/> en la unidad del Espíritu Santo, y es Dios, por los siglos de los siglos.</p>
+
+  <p class="SalmoEtc">PRIMERA LECTURA</p>
+
+  <p class="TestoItalic">La tierra entera verá la salvación que viene de nuestro Dios</p>
+
+  <p class="LecturaCarta">Lectura del libro del profeta Isaías</p>
+
+  <p class="SalmoNum">52,7-10</p>
+
+  <p class="Normale">¡Qué hermosos son sobre las montañas los pasos del que trae la buena noticia, del que proclama la paz, del que anuncia la felicidad, del que proclama la salvación y dice a Sión:</p>
+
+  <p class="Normale">"¡Tu Dios reina!". ¡Escucha! Tus centinelas levantan la voz, gritan todos juntos de alegría, porque ellos ven con sus propios ojos el regreso del Señor a Sión.</p>
+
+  <p class="Normale">¡Prorrumpan en gritos de alegría, ruinas de Jerusalén, porque el Señor consuela a su Pueblo, él redime a Jerusalén! El Señor desnuda su santo brazo a la vista de todas las naciones, y todos los confines de la tierra verán la salvación de nuestro Dios.</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+
+ <p class="SalmoEtc">SALMO RESPONSORIAL</p>
+
+  <p class="SalmoNum">Del salmo 95</p>
+
+  <p class="SalmoEstrib">R/. Cuenten a todas las naciones las maravillas de Dios.</p>
+
+  <p class="SalmoTxt">Cantemos la grandeza del Señor.<br/>Cantemos al Señor un nuevo canto,<br/>que le cante al Señor toda la tierra;<br/>cantemos al Señor y bendigámoslo. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Proclamemos su amor día tras día,<br/>su grandeza anunciemos a los pueblos,<br/>de nación en nación, sus maravillas. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Alaben al Señor, pueblos del orbe,<br/>reconozcan su gloria y su poder<br/>y tribútenle honores a su nombre. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">"Reina el Señor", anuncien a los pueblos,<br/>él afianzó con su poder el orbe,<br/>con toda rectitud rige a los pueblos. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoEtc">SEGUNDA LECTURA</p>
+
+  <p class="TestoItalic">Les he anunciado a Cristo crucificado.</p>
+
+  <p class="LecturaCarta">Lectura de la primera carta del apóstol San Pablo a los Corintios.</p>
+
+  <p class="SalmoNum">1,17-31; 2,15</p>
+
+  <p class="Normale">Hermanos: No me envió Cristo a bautizar, sino a predicar el Evangelio, y eso, no con sabiduría de palabras, para no hacer ineficaz la cruz de Cristo. En efecto, la predicación de la cruz es una locura para los que van por el camino de la perdición; en cambio, para los que van por el camino de la salvación, para nosotros, es fuerza de Dios. Por eso dice la Escritura: Anularé la sabiduría de los sabios e inutilizaré la inteligencia de los inteligentes.</p>
+
+  <p class="Normale">¿Acaso hay entre ustedes algún sabio, algún erudito, algún filósofo? ¿Acaso no ha demostrado Dios que tiene por locura la sabiduría de este mundo? En efecto, puesto que mediante su propia sabiduría, el mundo no reconoció a Dios en las obras de su divina sabiduría, quiso Dios salvar a los creyentes mediante la predicación de la locura del Evangelio.</p>
+
+  <p class="Normale">Por su parte, los judíos exigen señales milagrosas y los paganos piden sabiduría. Pero nosotros predicamos a Cristo crucificado, que es escándalo para los judíos y locura para los paganos; en cambio, para los llamados, sean judíos o paganos, Cristo es la fuerza y la sabiduría de Dios. Porque la locura de Dios es más sabia que la sabiduría de los hombres y la debilidad de Dios es más fuerte que la fuerza de los hombres.</p>
+
+  <p class="Normale">Consideren que entre ustedes, los que han sido llamados por Dios, no hay muchos sabios, ni muchos poderosos, ni muchos nobles, según los criterios humanos. Pues Dios ha elegido a los ignorantes de este mundo, para humillar a los sabios; a los débiles del mundo, para avergonzar a los fuertes; a los insignificantes y despreciados del mundo, es decir, a los que no valen nada, para reducir a la nada a los que valen; de manera que nadie pueda presumir delante de Dios.</p>
+
+  <p class="Normale">En efecto, por obra de Dios, ustedes están injertados en Cristo Jesús, a quien Dios hizo nuestra sabiduría, nuestra justicia, nuestra santificación y nuestra redención. Por lo tanto, como dice la Escritura: "El que se gloria se gloríe en el Señor".</p>
+
+  <p class="Normale">Pues, cuando llegué a la ciudad de ustedes para anunciarles el Evangelio, no busqué hacerlo mediante la elocuencia del lenguaje o la sabiduría humana, sino que resolví no hablarles sino de Jesucristo, más aún, de Jesucristo crucificado.</p>
+
+  <p class="Normale">Me presenté ante ustedes débil y temblando de miedo. Cuando les hablé y les prediqué el Evangelio, no quise convencerlos con palabras de hombre sabio; al contrario, los convencí por medio del Espíritu y del poder de Dios, a fin de que la fe de ustedes dependiera del poder de Dios y no de la sabiduría de los hombres.</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+ <p class="SalmoEtc">ACLAMACIÓN ANTES DEL EVANGELIO</p>
+
+  <p class="SalmoNum">Cfr, Lc 4,16</p>
+
+  <p class="Alleluia"><span class="Rosso">R/.</span> <b>Aleluya, aleluya</b>.<br/>El Señor me ha enviado<br/>para anunciar a los pobres la buena nueva<br/><b><span class="Rosso">R/.</span></b> <b>Aleluya</b>.</p>
+
+  <p class="SalmoEtc">EVANGELIO</p>
+
+  <p class="TestoItalic">Hoy mismo se ha cumplido este pasaje de la Escritura que acaban de oír</p>
+
+  <p class="Normale"></p>
+
+  <p class="LecturaCarta"><span class="Rosso">†</span> Lectura del santo Evangelio según san Lucas</p>
+
+  <p class="SalmoNum">4, 16-30</p>
+
+  <p class="Normale">En aquel tiempo, Jesús fue a Nazaret, donde se había criado. Entró en la sinagoga, como era su costumbre hacerlo los sábados, y se levantó para hacer la lectura. Se le dio el volumen del profeta Isaías, lo desenrolló y encontró el pasaje en que estaba escrito: El Espíritu del Señor está sobre mí, porque me ha ungido para llevar a los pobres la buena nueva, para anunciar la liberación a los cautivos y la curación a los ciegos, para dar libertad a los oprimidos y proclamar el año de gracia del Señor.</p>
+
+  <p class="Normale">Enrolló el volumen, lo devolvió al encargado y se sentó. Los ojos de todos los asistentes a la sinagoga estaban fijos en Él. Entonces comenzó a hablar, diciendo: “Hoy mismo se ha cumplido este pasaje de la Escritura que acaban de oír”.</p>
+
+  <p class="Normale">Todos le daban su aprobación y admiraban la sabiduría de las palabras que salían de sus labios.</p>
+
+  <p class="PalabraDeDios">Palabra del Señor.</p>
+
+  <p class="Commento">Se dice Credo</p>
+
+  <p class="SalmoEtc">ORACIÓN SOBRE LAS OFRENDAS</p>
+
+  <p class="Antifona">Acepta, oh Padre, los dones que te presentamos en la fiesta de San Eugenio<br/> y reaviva en nuestros corazones el fuego de tu caridad,<br/> para que a la ofrenda eucarística<br/> siempre la acompañe el don de toda nuestra vida.<br/> Por Jesucristo Nuestro Señor.</p>
+
+  <p class="SalmoEtc">PREFACIO</p>
+
+
+  <div class="divPrefac">
+    <p class="Prefac_V">V. El Señor esté con ustedes</p>
+
+    <p class="Prefac_R">R. Y con tu espíritu.</p>
+
+    <p class="Prefac_V">V. Levantemos el corazón.</p>
+
+    <p class="Prefac_R">R. Lo tenemos levantado hacia el Señor.</p>
+
+    <p class="Prefac_V">V. Demos gracias al Señor, nuestro Dios.</p>
+
+    <p class="Prefac_R">R. Es justo y necesario.</p>
+  </div>
+
+
+  <p class="Antifona">En verdad, es justo y necesario,<br/> es nuestro deber de salvación darte gracias siempre<br/> y en todo lugar, Señor, Padre Santo,<br/> Dios todopoderoso y eterno<br/> por Cristo, Señor Nuestro.</p>
+
+  <p class="SalmoTxt">Para difundir tu reino en el mundo<br/> nos has dado en San Eugenio un pastor según tu corazón,<br/> que fiel al Evangelio se hizo servidor de todos.<br/> Apasionado por Cristo y por la Iglesia,<br/> fue dispensador intrépido e incansable<br/> de tu palabra de salvación.</p>
+
+  <p class="SalmoTxt">Su ejemplo y su paterna intercesión nos sostienen<br/> en el camino de la vida para que se cumpla en nosotros<br/> tu misterio de redención.</p>
+
+  <p class="SalmoTxt">Por eso, con los ángeles y los santos,<br/> cantamos con alegría el himno de tu gloria:</p>
+
+  <p class="Sanctus">Santo, Santo, Santo es el Señor,<br/> Dios del Universo.<br/> Llenos están el cielo y la tierra de tu gloria.<br/> Hosanna en el cielo.</p>
+
+  <p class="AntSmall">Antífona de comunión</p>
+
+  <p class="AntSmallTxt">«Permanezcan en mí y yo en ustedes», dice el Señor.<br/> «El que permanece en mí da fruto abundante». (T.P. Aleluya)</p>
+
+  <p class="SalmoEtc">ORACIÓN PARA DESPUÉS DE LA COMUNIÓN</p>
+
+  <p class="Antifona">Al darte gracias, Dios de bondad, <br/> por la participación en este banquete eucarístico, <br/> concédenos caminar en santidad de vida <br/> para ser partícipes, con San Eugenio,<br/> del gozo prometido a los fieles servidores del Evangelio.<br/> Por Jesucristo nuestro Señor.</p>
+
+  <p class="Commento">Puede impartirse la bendición solemne. </p>
+<hr /><p class="Separa"></p>
+  <h1 class="pT1" id="sigil_toc_id_1">BEATO JOSÉ GÉRARD, Sacerdote</h1>
+
+  <p class="pT4">29 de Mayo — Memoria</p>
+
+  <p class="pT4"></p>
+
+  <p class="AntSmall">Antífona de entrada</p>
+
+  <p class="AntSmallTxt">«¡Qué hermosos son sobre las montañas<br/> los pies del que anuncia buenas noticias, <br/> proclama la paz, trae la felicidad, <br/> pregona la salvación ».</p>
+
+  <p class="SalmoEtc">ORACIÓN COLECTA</p>
+
+  <p class="Antifona">Oh Dios, fuente de paz, tu, que das la lluvia y la abundancia de bienes, <br/> has conducido los pueblos de África meridional a la luz del Evangelio <br/> por la predicación de tu sacerdote, el beato José Gérard;<br/> concédenos, por su intercesión, imitar su amor por los pobres <br/> y trabajar por la paz y la reconciliación. <br/> Por nuestro Señor Jesucristo, tu Hijo, <br/> que vive y reina contigo <br/> en la unidad del Espíritu Santo, <br/> y es Dios, por los siglos de los siglos.</p>
+
+  <p class="SalmoEtc">PRIMERA LECTURA</p>
+
+  <p class="TestoItalic">La tierra entera verá la salvación que viene de nuestro Dios</p>
+
+  <p class="LecturaCarta">Lectura del libro del profeta Isaías</p>
+
+  <p class="SalmoNum">52,7-10</p>
+
+  <p class="Normale">¡Qué hermosos son sobre las montañas los pasos del que trae la buena noticia, del que proclama la paz, del que anuncia la felicidad, del que proclama la salvación y dice a Sión:</p>
+
+  <p class="Normale">"¡Tu Dios reina!". ¡Escucha! Tus centinelas levantan la voz, gritan todos juntos de alegría, porque ellos ven con sus propios ojos el regreso del Señor a Sión.</p>
+
+  <p class="Normale">¡Prorrumpan en gritos de alegría, ruinas de Jerusalén, porque el Señor consuela a su Pueblo, él redime a Jerusalén! El Señor desnuda su santo brazo a la vista de todas las naciones, y todos los confines de la tierra verán la salvación de nuestro Dios.</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+    <p class="SalmoEtc">SALMO RESPONSORIAL</p>
+
+    <p class="SalmoNum">Del salmo 18</p>
+
+    <p class="SalmoEstrib"><span class="Rosso">R/.</span> Los mandamientos del Señor alegran el corazón.</p>
+
+    <p class="SalmoTxt">La ley del Señor es perfecta<br/> del todo y reconforta el alma;<br/> inmutables son las palabras del Señor<br/> y hacen sabio al sencillo. <span class="Rosso">R/.</span></p>
+
+    <p class="SalmoTxt">En los mandamientos de Dios<br/> hay rectitud y alegría para el corazón;<br/> son luz los preceptos del Señor<br/> para alumbrar el camino. <span class="Rosso">R/.</span></p>
+
+    <p class="SalmoTxt">La voluntad de Dios es santa<br/> y para siempre estable;<br/> los mandamientos del Señor<br/> son verdaderos y enteramente justos. <span class="Rosso">R/.</span></p>
+
+    <p class="SalmoTxt">Más deseables que el oro<br/> y las piedras preciosas,<br/> las normas del Señor,<br/> y más dulces que la miel<br/> de un panal que gotea. <span class="Rosso">R/.</span></p>
+
+
+
+  <p class="SalmoEtc">SEGUNDA LECTURA</p>
+
+  <p class="TestoItalic">Dios nos confirió el ministerio de la reconciliación.</p>
+
+
+
+  <p class="LecturaCarta">Lectura de la segunda carta del apóstol san Pablo a los corintios</p>
+
+  <p class="SalmoNum">5, 14-20</p>
+
+  <p class="Normale">Hermanos: El amor de Cristo nos apremia, al pensar que si uno murió por todos, todos murieron. Cristo murió por todos para que los que viven ya no vivan para sí mismos, sino para aquel que murió y resucitó por ellos.</p>
+
+  <p class="Normale">Por eso nosotros ya no juzgamos a nadie con criterios humanos. Si alguna vez hemos juzgado a Cristo con tales criterios, ahora ya no lo hacemos. El que vive según Cristo es una creatura nueva; para él todo lo viejo ha pasado; ya todo es nuevo.</p>
+
+  <p class="Normale">Todo esto proviene de Dios, que nos reconcilió consigo por medio de Cristo y que nos confirió el ministerio de la reconciliación. Porque, efectivamente, en Cristo, Dios reconcilió al mundo consigo y renunció a tomar en cuenta los pecados de los hombres, y a nosotros nos confió el mensaje de la reconciliación. Por eso, nosotros somos embajadores de Cristo, y por nuestro medio, es Dios mismo el que los exhorta a ustedes. En nombre de Cristo les pedimos que se reconcilien con Dios.</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+    <p class="SalmoEtc">ACLAMACIÓN ANTES DEL EVANGELIO</p>
+
+    <p class="SalmoNum">Cfr. Col 3, 16. 17</p>
+
+    <p class="Alleluia"><span class="Rosso">R/.</span> <b>Aleluya, aleluya.</b><br/> Que la palabra de Cristo habite en ustedes abundantemente.<br/> Háganlo todo dando gracias a Dios Padre, por medio de Cristo.<br/> <span class="Rosso">R/.</span> <b> Aleluya.</b></p>
+
+  <p class="SalmoEtc">EVANGELIO</p>
+
+  <p class="TestoItalic">Prediquen el Evangelio a todas las creaturas.</p>
+
+  <p class="Normale"></p>
+
+  <p class="LecturaCarta"><span class="Rosso">†</span> Lectura del santo Evangelio según san Marcos</p>
+
+  <p class="SalmoNum">16, 15-20</p>
+
+  <p class="Normale">En aquel tiempo, se apareció Jesús a los Once y les dijo: «Vayan por todo el mundo y prediquen el Evangelio a toda creatura. El que crea y se bautice, se salvará; el que se resista a creer, será condenado. Estos son los milagros que acompañarán a los que hayan creído: arrojarán demonios en mi nombre, hablarán lenguas nuevas, cogerán serpientes en sus manos, y si beben un veneno mortal, no les hará daño; impondrán las manos a los enfermos y éstos quedarán sanos».</p>
+
+  <p class="Normale">El Señor Jesús, después de hablarles, subió al cielo y está sentado a la derecha de Dios. Ellos fueron y proclamaron el Evangelio por todas partes, y el Señor actuaba con ellos y confirmaba su predicación con los milagros que hacían.</p>
+
+  <p class="PalabraDeDios">Palabra del Señor.</p>
+
+  <p class="SalmoEtc">ORACIÓN SOBRE LAS OFRENDAS</p>
+
+  <p class="Antifona">Dios todopoderoso,<br/> humildemente imploramos de tu divina Majestad<br/> que estos dones, que ofrecemos<br/> en honor del beato José Gérard<br/> y que testimonian tu poder y tu gloria,<br/> le alcancen a tu pueblo los frutos<br/> de la eterna salvación.<br/> Por Jesucristo nuestro Señor.</p>
+
+  <p class="SalmoEtc">PREFACIO</p>
+
+
+  <div class="divPrefac">
+    <p class="Prefac_V">V. El Señor esté con ustedes</p>
+
+    <p class="Prefac_R">R. Y con tu espíritu.</p>
+
+    <p class="Prefac_V">V. Levantemos el corazón.</p>
+
+    <p class="Prefac_R">R. Lo tenemos levantado hacia el Señor.</p>
+
+    <p class="Prefac_V">V. Demos gracias al Señor, nuestro Dios.</p>
+
+    <p class="Prefac_R">R. Es justo y necesario.</p>
+  </div>
+
+
+  <p class="Antifona">En verdad es justo y necesario,<br/> es nuestro deber y salvación<br/> darte gracias siempre y en todo lugar,<br/> Señor, Padre santo,<br/> Dios todopoderoso y eterno,<br/> por Cristo, Señor nuestro.</p>
+
+  <p class="SalmoTxt">Porque nos concedes la alegría<br/> de celebrar hoy la fiesta del beato José Gérard,<br/> fortaleciendo a tu Iglesia con el ejemplo de su vida,<br/> la enseñanza de su doctrina<br/> y la ayuda de su intercesión.</p>
+
+  <p class="SalmoTxt">Por eso, unidos a los ángeles y a los santos,<br/> te alabamos llenos de alegría:</p>
+
+  <p class="Sanctus">Santo, Santo, Santo es el Señor,<br/> Dios del Universo.<br/> Llenos están el cielo y la tierra de tu gloria.<br/> Hosanna en el cielo.</p>
+
+  <p class="AntSmall">Antífona de comunión</p>
+
+  <p class="AntSmallTxt">«Sepan que yo estoy con ustedes todos lo dias<br/> hasta el fin del mundo, dice el Señor</p>
+
+  <p class="SalmoEtc">ORACIÓN PARA DESPUÉS DE LA COMUNIÓN</p>
+
+  <p class="Antifona">Fortalecidos con el pan de la vida,<br/> te rogamos, Señor,<br/> que, a ejemplo del beato José Gérard,<br/> nos concedas servirte con entrega generosa<br/> y amar a nuestros hermanos con amor incansable.<br/> Por Jesucristo nuestro Señor.</p>
+
+  <p class="Commento">Puede impartirse la bendición solemne</p>
+
+<hr /><p class="Separa"></p>
+
+  <h1 class="pT1" id="sigil_toc_id_2">BEATO JOSÉ CEBULA, Mártir</h1>
+
+  <p class="pT4">12 de Junio — Memoria</p>
+
+  <p class="pT4"></p>
+
+  <p class="AntSmall">Antífona de entrada</p>
+
+  <p class="AntSmallTxt">Este santo combatió hasta la muerte en defensa de la ley de Dios <br/> y no temió las amenazas de los impíos: <br/> estaba arraigado sobre roca firme.</p>
+
+  <p class="SalmoEtc">ORACIÓN COLECTA</p>
+
+  <p class="Antifona">Dios todopoderoso y eterno<br/> que concediste al Beato José Cebúla, sacerdote,<br/> y a sus compañeros, la gracia de morir por Cristo,<br/> ayúdanos en nuestra debilidad para que,<br/> así como ellos no dudaron en morir por Ti,<br/> así también nosotros nos mantengamos fuertes<br/> en la confesión de tu nombre.<br/> Por nuestro Señor Jesucristo, tu Hijo, <br/> que vive y reina contigo <br/> en la unidad del Espíritu Santo, <br/> y es Dios, por los siglos de los siglos.</p>
+
+  <p class="SalmoEtc">PRIMERA LECTURA</p>
+
+  <p class="TestoItalic">¿Qué cosa podrá apartarnos del amor con que nos ama Cristo?</p>
+
+  <p class="LecturaCarta">Lectura de la carta del apóstol san Pablo a los romanos</p>
+
+  <p class="SalmoNum">8, 31-35. 37-39</p>
+
+  <p class="Normale">Hermanos: Si Dios está a nuestro favor, ¿quién estará en contra nuestra? El que no nos escatimó a su propio Hijo, sino que lo entregó por todos nosotros, ¿cómo no va a estar dispuesto a dárnoslo todo, junto con su Hijo? ¿Quién acusará a los elegidos de Dios? Si Dios mismo es quien los perdona, ¿quién será el que los condene? ¿Acaso Jesucristo, que murió, resucitó y está a la derecha de Dios para interceder por nosotros?</p>
+
+  <p class="Normale">¿Qué cosa podrá apartarnos del amor con que nos ama Cristo? ¿Las tribulaciones? ¿Las angustias? ¿La persecución? ¿El hambre? ¿La desnudez? ¿El peligro? ¿La espada?</p>
+
+  <p class="Normale">Ciertamente de todo esto salimos más que victoriosos, gracias a aquel que nos ha amado; pues estoy convencido de que ni la muerte ni la vida, ni los ángeles ni los demonios, ni el presente ni el futuro, ni los poderes de este mundo, ni lo alto ni lo bajo, ni creatura alguna podrá apartarnos del amor que nos ha manifestado Dios en Cristo Jesús.</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+    <p class="SalmoEtc">SALMO RESPONSORIAL</p>
+
+    <p class="SalmoNum">Del salmo 102</p>
+
+    <p class="SalmoEstrib"><span class="Rosso">R/.</span> El Señor es compasivo y misericordioso.</p>
+
+    <p class="SalmoTxt">Bendice al Señor, alma mía,<br/> que todo mi ser bendiga su santo nombre.<br/> Bendice al Señor, alma mía,<br/> y no te olvides de sus beneficios. <span class="Rosso">R/.</span></p>
+
+    <p class="SalmoTxt">El Señor perdona tus pecados<br/> y cura tus enfermedades;<br/> Él rescata tu vida del sepulcro<br/> y te colma de amor y de ternura. <span class="Rosso">R/.</span></p>
+
+    <p class="SalmoTxt">El Señor es compasivo y misericordioso,<br/> lento para enojarse y generoso para perdonar.<br/> El Señor no estará siempre enojado,<br/> ni durará para siempre su rencor. <span class="Rosso">R/.</span></p>
+
+    <p class="SalmoTxt">Como desde la tierra hasta el cielo,<br/> así es de grande su misericordia;<br/> como un padre es compasivo con sus hijos,<br/> así es compasivo el Señor con quien lo ama. <span class="Rosso">R/.</span></p>
+
+    <p class="SalmoEtc">ACLAMACIÓN ANTES DEL EVANGELIO</p>
+
+    <p class="SalmoNum">Sal 118, 36. 29</p>
+
+    <p class="Alleluia"><span class="Rosso">R/.</span> <b>Aleluya, aleluya.</b><br/> Inclina, Dios mío, mi corazón a tus preceptos<br/> y dame la gracia de cumplir tu voluntad.<br/> <span class="Rosso">R/.</span> <b> Aleluya.</b></p>
+
+  <p class="SalmoEtc">EVANGELIO</p>
+
+  <p class="TestoItalic">Si a mí me han perseguido, también a ustedes los perseguirán.</p>
+
+  <p class="LecturaCarta"><span class="Rosso">†</span> Lectura del santo Evangelio según san Juan</p>
+
+  <p class="SalmoNum">15, 18-21. 26-16, 4</p>
+
+  <p class="Normale">En aquel tiempo, Jesús dijo a sus discípulos: “Si el mundo los odia, sepan que me ha odiado a mí antes que a ustedes. Si fueran del mundo, el mundo los amaría como cosa suya; pero el mundo los odia porque no son del mundo, pues al elegirlos, yo los he separado del mundo.</p>
+
+  <p class="Normale">Acuérdense de lo que les dije: ‘El siervo no es superior a su señor’. Si a mí me han perseguido, también a ustedes los perseguirán, y el caso que han hecho de mis palabras lo harán de las de ustedes. Todo esto se lo van a hacer por mi causa, pues no conocen a aquel que me envió.</p>
+
+  <p class="PalabraDeDios">Palabra del Señor.</p>
+
+  <p class="SalmoEtc">ORACIÓN SOBRE LAS OFRENDAS</p>
+
+  <p class="Antifona">Recibe, Señor, los dones de tu pueblo<br/> ofrecidos en honor de la pasión de tus santos mártires,<br/> y lo que dio fortaleza en la persecución<br/> al Beato José Cebúla y a sus compañeros,<br/> nos dé también a nosotros constancia en las adversidades.<br/> Por Jesucristo nuestro Señor.</p>
+
+  <p class="SalmoEtc">PREFACIO</p>
+
+ 
+  <div class="divPrefac">
+    <p class="Prefac_V">V. El Señor esté con ustedes</p>
+
+    <p class="Prefac_R">R. Y con tu espíritu.</p>
+
+    <p class="Prefac_V">V. Levantemos el corazón.</p>
+
+    <p class="Prefac_R">R. Lo tenemos levantado hacia el Señor.</p>
+
+    <p class="Prefac_V">V. Demos gracias al Señor, nuestro Dios.</p>
+
+    <p class="Prefac_R">R. Es justo y necesario.</p>
+  </div>
+
+
+  <p class="Antifona">En verdad es justo y necesario,<br/> es nuestro deber y salvación<br/> darte gracias siempre y en todo lugar,<br/> Señor, Padre santo, Dios todopoderoso y eterno.</p>
+
+  <p class="SalmoTxt">Porque la sangre del Mártir Beato José Cebúla,<br/> derramada como la de Cristo, para confesar tu nombre,<br/> manifiesta las maravillas de tu poder;<br/>pues en su martirio, Señor,<br/> has sacado fuerza de lo débil,<br/> haciendo de la fragilidad tu propio testimonio;<br/> por Cristo, Señor nuestro.</p>
+
+  <p class="SalmoTxt">Por eso, con las virtudes del cielo<br/> te aclamamos continuamente en la tierra,<br/> alabando tu gloria sin cesar:</p>
+
+  <p class="Sanctus">Santo, Santo, Santo es el Señor,<br/> Dios del Universo.<br/> Llenos están el cielo y la tierra de tu gloria.<br/> Hosanna en el cielo.</p>
+
+  <p class="AntSmall">Antífona de comunión</p>
+
+  <p class="AntSmallTxt">El que me sigue no andará en tinieblas,<br/> sino que tendrá la luz de la vida, dice el Señor</p>
+
+  <p class="SalmoEtc">ORACIÓN PARA DESPUÉS DE LA COMUNIÓN</p>
+
+  <p class="Antifona">Oh Dios, que iluminaste de modo admirable <br/> el misterio de la cruz en tus beatos mártires,<br/> concédenos, por tu bondad, que, fortalecidos por este sacrificio<br/> permanezcamos siempre fieles a Cristo<br/> y trabajemos en la Iglesia por la salvación de todos.<br/> Por Jesucristo nuestro Señor.</p>
+
+  <p class="Commento">Puede impartirse la bendición solemne.</p>
+
+<hr /><p class="Separa"></p>
+
+  <h1 class="pT1" title="B. FRANCISCO ESTEBAN LACAL Y COMPAÑEROS" id="sigil_toc_id_3">BEATOS FRANCISCO ESTEBAN LACAL, RELIGIOSO Y COMPAÑEROS, Mártires</h1>
+
+  <p class="pT4">28 de Noviembre — Memoria</p>
+  <p class="pT1"></p>
+  <p class="TestoItalic">Santa misa de los beatos Francisco Esteban Lacal <br/>religioso profeso de la congregación<br/>de los misioneros oblatos de Maria Inmaculada <br/>y 21 compañeros, religiosos, miembros del mismo instituto <br/>así como del seglar y padre de familia Cándido Castán San José</p>
+
+  <p class="AntSmall">Antífona de entrada</p>
+
+  <p class="AntSmallTxt">Estos santos combatieron hasta la muerte en defensa de la ley de Dios <br/> y no temieron las amenazas de los impíos: <br/> estaban arraigados sobre roca firme.</p>
+
+  <p class="SalmoEtc">ORACIÓN COLECTA</p>
+
+  <p class="Antifona">Dios todopoderoso y eterno<br/> que concediste al Beato Francisco Esteban Lacal,<br/> y a sus compañeros, la gracia de morir por Cristo,<br/> ayúdanos en nuestra debilidad para que,<br/> así como ellos no dudaron en morir por Ti,<br/> así también nosotros nos mantengamos fuertes<br/> en la confesión de tu nombre.<br/> Por nuestro Señor Jesucristo, tu Hijo, <br/> que vive y reina contigo <br/> en la unidad del Espíritu Santo, <br/> y es Dios, por los siglos de los siglos.</p>
+
+  <p class="SalmoEtc">PRIMERA LECTURA</p>
+
+  <p class="TestoItalic">Ni la muerte ni la vida podrá apartamos del amor de Dios</p>
+
+  <p class="LecturaCarta">Lectura de la carta del apóstol San Pablo a los Romanos</p>
+
+  <p class="SalmoNum">8, 31b -39</p>
+
+  <p class="Normale">Hermanos: Si Dios está con nosotros, ¿quién estará contra nosotros? El que no perdonó a su propio Hijo, sino que lo entregó a la muerte por nosotros, ¿cómo no nos dará todo con Él? ¿Quién acusará a los elegidos de Dios? Dios es el que justifica.</p>
+
+  <p class="Normale">¿Quién condenará? ¿Será acaso Cristo que murió, más aún, resucitó y está sentado a la derecha de Dios, y que intercede por nosotros? ¿Quién podrá apartamos del amor de Cristo?; ¿La aflicción?, ¿la angustia?, ¿la persecución?, ¿el hambre?, ¿la desnudez?, ¿la espada?, como dice la Escritura: “Por su causa nos degüellan cada día, nos tratan como ovejas de matanza”. Pero en todo esto vencemos fácilmente por Aquel que nos ha amado. Pues estoy convencido de que ni muerte, ni vida, ni ángeles, ni principados, ni presente, ni futuro, ni potencias, ni criatura alguna, podrá apartamos del amor de Dios, manifestado en Cristo Jesús, Señor nuestro.</p>
+
+  <p class="PalabraDeDios">Palabra de Dios</p>
+
+  <p class="SalmoEtc">SALMO RESPONSORIAL</p>
+
+  <p class="SalmoEstrib">R/. Los que sembraban con lágrimas cosechan entre cantares</p>
+
+  <p class="SalmoTxt">Cuando el Señor nos hizo volver del cautiverio, <br/>creíamos soñar; <br/>entonces no cesaba de reír nuestra boca<br/>ni se cansaba entonces la lengua de cantar. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Aun los mismos paganos con asombro decían: <br/>“¡Grandes cosas ha hecho por ellos el Señor!” <br/>Y estábamos alegres, <br/>pues ha hecho grandes cosas <br/>por su pueblo el Señor. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Como cambian los ríos la suerte del desierto, <br/>cambia también ahora nuestra suerte, Señor, <br/>y entre gritos de júbilo cosecharán<br/>aquellos que siembran con dolor. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Al ir, iban llorando, cargando la semilla; <br/>al regresar, cantando vendrán con sus gavillas. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoEtc">ACLAMACIÓN ANTES DEL EVANGELIO</p>
+
+  <p class="Alleluia"><span class="Rosso">R/.</span> <b>Aleluya, aleluya</b>.<br/>Dichosos los perseguidos por causa de la justicia, <br/>porque de ellos es el Reino de los cielos. <br/><span class="Rosso">R/.</span> <b>Aleluya</b>.</p>
+
+  <p class="SalmoEtc">EVANGELIO</p>
+
+  <p class="TestoItalic">El siervo no es superior a su señor</p>
+
+  <p class="Normale"></p>
+
+  <p class="LecturaCarta"><span class="Rosso">†</span> Lectura del santo Evangelio según san Juan</p>
+
+  <p class="SalmoNum">Jn 15,18-2</p>
+
+  <p class="Normale">En aquel tiempo, Jesús dijo a sus discípulos: "Si el mundo los odia, sepan que me ha odiado a mí antes que a ustedes. Si fueran del mundo, el mundo los amaría como cosa suya; pero el mundo los odia porque no son del mundo, pues al elegirlos, yo los he separado del mundo. Acuérdense de lo que les dije: 'El siervo no es superior a su señor'.</p>
+
+  <p class="Normale">Si a mí me han perseguido, también a ustedes los perseguirán, y el caso que han hecho de mis palabras lo harán de las de ustedes. Todo esto se lo van a hacer por mi causa, pues no conocen a aquel que me envió".</p>
+
+  <p class="PalabraDeDios">Palabra del Señor.</p>
+
+  <p class="SalmoEtc">ORACIÓN SOBRE LAS OFRENDAS</p>
+
+  <p class="Antifona">Recibe, Señor, los dones de tu pueblo<br/> ofrecidos en honor de la pasión de tus santos mártires,<br/> y lo que dio fortaleza en la persecución<br/> al Beato Francisco Esteban Lacal y a sus compañeros,<br/> nos dé también a nosotros constancia en las adversidades.<br/> Por Jesucristo nuestro Señor.</p>
+
+  <p class="SalmoEtc">PREFACIO</p>
+
+ 
+  <div class="divPrefac">
+    <p class="Prefac_V">V. El Señor esté con ustedes</p>
+
+    <p class="Prefac_R">R. Y con tu espíritu.</p>
+
+    <p class="Prefac_V">V. Levantemos el corazón.</p>
+
+    <p class="Prefac_R">R. Lo tenemos levantado hacia el Señor.</p>
+
+    <p class="Prefac_V">V. Demos gracias al Señor, nuestro Dios.</p>
+
+    <p class="Prefac_R">R. Es justo y necesario.</p>
+  </div>
+
+
+  <p class="Antifona">En verdad es justo y necesario,<br/> es nuestro deber y salvación<br/> darte gracias siempre y en todo lugar,<br/> Señor, Padre santo, Dios todopoderoso y eterno.</p>
+
+  <p class="SalmoTxt">Porque la sangre de tus gloriosos Mártires, <br/> Francisco Esteban Lacal y compañeros,<br/> derramada como la de Cristo, para confesar tu nombre,<br/> manifiesta las maravillas de tu poder; pues en su martirio, Señor,<br/> has sacado fuerza de lo débil,<br/> haciendo de la fragilidad tu propio testimonio;<br/> por Cristo, Señor nuestro.</p>
+
+  <p class="SalmoTxt">Por eso, con las virtudes del cielo<br/> te aclamamos continuamente en la tierra,<br/> alabando tu gloria sin cesar:</p>
+
+  <p class="Sanctus">Santo, Santo, Santo es el Señor,<br/> Dios del Universo.<br/> Llenos están el cielo y la tierra de tu gloria.<br/> Hosanna en el cielo.</p>
+
+  <p class="AntSmall">Antífona de comunión</p>
+
+  <p class="AntSmallTxt">El que me sigue no andará en tinieblas,<br/> sino que tendrá la luz de la vida, dice el Señor</p>
+
+  <p class="SalmoEtc">ORACIÓN PARA DESPUÉS DE LA COMUNIÓN</p>
+
+  <p class="Antifona">Oh Dios, que iluminaste de modo admirable <br/> el misterio de la cruz en tus beatos mártires,<br/> concédenos, por tu bondad, que, fortalecidos por este sacrificio<br/> permanezcamos siempre fieles a Cristo<br/> y trabajemos en la Iglesia por la salvación de todos.<br/> Por Jesucristo nuestro Señor.</p>
+
+  <p class="Commento">Puede impartirse la bendición solemne.</p>
+
+  <hr /><p class="Separa"></p>
+
+  <h1 class="pT1" title="B.  JOSÉ TIEN, SACERDOTE Y  COMPAÑEROS" id="sigil_toc_id_4">BIENAVENTURADO JOSÉ TIEN, SACERDOTE<br/> Y SUS COMPAÑEROS, MÁRTIRES</h1>
+
+  <p class="pT4">16 de diciembre – Memoria</p>
+
+  <p class="pT4"></p>
+
+  <p class="AntSmall">Antífona de entrada</p>
+
+  <p class="AntSmallTxt">Estos santos combatieron hasta la muerte en defensa de la ley de Dios <br/> y no temieron las amenazas de los impíos: estaban arraigados sobre roca firme.</p>
+
+  <p class="SalmoEtc">ORACIÓN</p>
+
+  <p class="Antifona">Dios de providencia infinita, <br/> Tú has escogido al Bienaventurado José Tien, sacerdote, <br/> y a sus compañeros, mártires, para establecer tu pueblo entre los laosianos, <br/> concédenos, te rogamos, que poniéndonos al servicio <br/> de nuestros hermanos más pequeños, podamos también nosotros, <br/> con su intercesión, ser dignos del Reino de los Cielos. <br/> Por nuestro Señor Jesucristo, tu Hijo, <br/> que vive y reina contigo <br/> en la unidad del Espíritu Santo, <br/> y es Dios, por los siglos de los siglos.</p>
+
+  <p class="SalmoEtc">PRIMERA LECTURA</p>
+
+  <p class="TestoItalic">Ni la muerte ni la vida podrá apartarnos del amor que nos ha manifestado Dios en Cristo Jesús.</p>
+
+  <p class="LecturaCarta">Lectura de la carta del apóstol san Pablo a los romanos</p>
+
+  <p class="SalmoNum">8, 30-39</p>
+
+  <p class="Normale">Hermanos: Si Dios está a nuestro favor, ¿quién estará en contra nuestra? El que no nos escatimó a su propio Hijo, sino que lo entregó por todos nosotros, ¿cómo no va a estar dispuesto a dárnoslo todo, junto con su Hijo? ¿Quién acusará a los elegidos de Dios? Si Dios mismo es quien los perdona, ¿quién será el que los condene? ¿Acaso Jesucristo, que murió, resucitó y está a la derecha de Dios para interceder por nosotros?</p>
+
+  <p class="Normale">¿Qué cosa podrá apartarnos del amor con que nos ama Cristo? ¿Las tribulaciones? ¿Las angustias? ¿La persecución? ¿El hambre? ¿La desnudez? ¿El peligro? ¿La espada?</p>
+
+  <p class="Normale">Como dice la Escritura: Por tu causa estamos expuestos a la muerte todo el día; nos tratan como ovejas llevadas al matadero.</p>
+
+  <p class="Normale">Ciertamente de todo esto salimos más que victoriosos, gracias a aquel que nos ha amado; pues estoy convencido de que ni la muerte ni la vida, ni los ángeles ni los demonios, ni el presente ni el futuro, ni los poderes de este mundo, ni lo alto ni lo bajo, ni creatura alguna podrá apartarnos del amor que nos ha manifestado Dios en Cristo Jesús.</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+  <p class="SalmoEtc">SALMO RESPONSORIAL</p>
+
+  <p class="SalmoNum">Del salmo 30</p>
+
+  <p class="SalmoEstrib">R/. Padre, en tus manos encomiendo mi espíritu.</p>
+
+  <p class="SalmoTxt">Sé tú mi fortaleza y mi refugio,<br/> mi muro de resguardo.<br/> Pues eres mi refugio y fortaleza,<br/> por tu nombre, Señor, guía mis pasos. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">En tus manos encomiendo mi espíritu<br/> y tu lealtad me librará, Dios mío.<br/> Tu amor, Señor, me llenará de gozo<br/>cuando te hayas de mí compadecido. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Líbrame del poder de mi enemigo<br/> que viene tras mis pasos.<br/> Vuelve, Señor, tus ojos a tu siervo<br/> y por tu amor tan grande, ponme a salvo. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoEtc">ACLAMACIÓN ANTES DEL EVANGELIO</p>
+
+  <p class="SalmoNum">Mt 5, 10</p>
+
+  <p class="Alleluia"><span class="Rosso">R/.</span> <b>Aleluya, aleluya</b>.<br/> Dichosos los perseguido por causa de la justicia,<br/> porque de ellos es el Remo de los cielos, dice el Señor.<br/><b><span class="Rosso">R/.</span></b> <b>Aleluya</b>.</p>
+
+  <p class="SalmoEtc">EVANGELIO</p>
+
+  <p class="TestoItalic">Si el grano de trigo muere, producirá mucho fruto,</p>
+
+  <p class="LecturaCarta"><span class="Rosso">†</span> Lectura del santo Evangelio según san Juan</p>
+
+  <p class="SalmoNum">12, 24-26</p>
+
+  <p class="Normale">En aquel tiempo, Jesús dijo a sus discípulos: “Yo les aseguro que si el grano de trigo sembrado en la tierra, no muere, queda infecundo; pero si muere, producirá mucho fruto. El que se ama a sí mismo, se pierde; el que se aborrece a sí mismo en este mundo, se asegura para la vida eterna.</p>
+
+  <p class="Normale">El que quiera servirme, que me siga, para que donde yo esté, también esté mi servidor. El que me sirve será honrado por mi Padre”.</p>
+
+  <p class="PalabraDeDios">Palabra del Señor</p>
+
+  <p class="SalmoEtc">ORACIÓN SOBRE LAS OFRENDAS</p>
+
+  <p class="Antifona">Recibe, Señor, los dones de tu pueblo<br/> ofrecidos en honor de la pasión de tus santos mártires,<br/> y lo que dio fortaleza en la persecución<br/> al Beato José Tien y a sus compañeros,<br/> nos dé también a nosotros constancia en las adversidades.<br/> Por Jesucristo nuestro Señor.</p>
+
+  <p class="SalmoEtc">PREFACIO</p>
+
+
+  <div class="divPrefac">
+    <p class="Prefac_V">V. El Señor esté con ustedes</p>
+
+    <p class="Prefac_R">R. Y con tu espíritu.</p>
+
+    <p class="Prefac_V">V. Levantemos el corazón.</p>
+
+    <p class="Prefac_R">R. Lo tenemos levantado hacia el Señor.</p>
+
+    <p class="Prefac_V">V. Demos gracias al Señor, nuestro Dios.</p>
+
+    <p class="Prefac_R">R. Es justo y necesario.</p>
+  </div>
+
+
+  <p class="Antifona">En verdad es justo y necesario,<br/> es nuestro deber y salvación<br/> darte gracias siempre y en todo lugar,<br/> Señor, Padre santo, Dios todopoderoso y eterno.</p>
+
+  <p class="SalmoTxt">Porque la sangre de tus gloriosos Mártires, <br/> José Tien y compañeros,<br/> derramada como la de Cristo, para confesar tu nombre,<br/> manifiesta las maravillas de tu poder; pues en su martirio, Señor,<br/> has sacado fuerza de lo débil,<br/> haciendo de la fragilidad tu propio testimonio;<br/> por Cristo, Señor nuestro.</p>
+
+  <p class="SalmoTxt">Por eso, con las virtudes del cielo<br/> te aclamamos continuamente en la tierra,<br/> alabando tu gloria sin cesar:</p>
+
+  <p class="Sanctus">Santo, Santo, Santo es el Señor,<br/> Dios del Universo.<br/> Llenos están el cielo y la tierra de tu gloria.<br/> Hosanna en el cielo.</p>
+
+  <p class="AntSmall">Antífona de comunión</p>
+
+  <p class="AntSmallTxt">El que me sigue no andará en tinieblas,<br/> sino que tendrá la luz de la vida, dice el Señor</p>
+
+  <p class="SalmoEtc">ORACIÓN PARA DESPUÉS DE LA COMUNIÓN</p>
+
+  <p class="Antifona">Oh Dios, que iluminaste de modo admirable <br/> el misterio de la cruz en tus beatos mártires,<br/> concédenos, por tu bondad, que, fortalecidos por este sacrificio<br/> permanezcamos siempre fieles a Cristo<br/> y trabajemos en la Iglesia por la salvación de todos.<br/> Por Jesucristo nuestro Señor.</p>
+
+  <p class="Commento">Puede impartirse la bendición solemne.</p>
+
+  <hr /><p class="Separa"></p>
+
+
+
+  <h1 class="pT1" title="17 de FEBRERO MISA DE ACCIÓN DE GRACIAS" id="sigil_toc_id_5">17 de FEBRERO<br/> MISA DE ACCIÓN DE GRACIAS <br/> POR NUESTRA VOCACIÓN</h1>
+
+  <p class="pT4"></p>
+
+  <p class="pT4"></p>
+
+  <p class="Commento">Todos los sacerdotes aplican la Misa por la Congregación.<br/> Renovación de los Votos y Acto de Consagración a María Inmaculada (cfr. p.?? 41).</p>
+
+  <p class="AntSmall">Antífona de entrada</p>
+
+  <p class="AntSmallTxt">Den gracias al Señor, porque es bueno porque es eterna su misericordia.<br/> Den gracias al Dios de los dioses porque es eterna su misericordia.<br/> Den gracia al Señor de los señores porque es eterna su misericordia.</p>
+
+  <p class="Commento">Se dice Gloria</p>
+
+  <p class="SalmoEtc">ORACIÓN COLECTA</p>
+
+  <p class="Antifona">Oh Dios, Padre de todos los dones,<br/> de quien viene cuanto somos y tenemos, <br/> enséñanos a reconocer los beneficios de tu amor<br/> y a amarte con todas las fuerzas de nuestro corazón.<br/> Por nuestro Señor Jesucristo, tu Hijo, <br/> que vive y reina contigo <br/> en la unidad del Espíritu Santo, <br/> y es Dios, por los siglos de los siglos.</p>
+
+  <p class="SalmoEtc">PRIMERA LECTURA</p>
+
+  <p class="TestoItalic">Voy ol grabar mi ley en sus corazones.</p>
+
+  <p class="LecturaCarta">Lectura del libro del profeta Jeremías</p>
+
+  <p class="SalmoNum">31, 31-34</p>
+
+  <p class="Normale">Se acerca el tiempo, dice el Señor,<br/> en que haré con la casa de Israel <br/> y la casa de Judá una alianza nueva.<br/> No será como la alianza que hice con los padres de ustedes, <br/> cuando los tomé de la mano para sacarlos de Egipto.<br/> Ellos rompieron mi alianza <br/> y yo tuve que hacer un escarmiento con ellos.</p>
+
+  <p class="Normale">Esta será la alianza nueva <br/> que voy a hacer con la casa de Israel:<br/> Voy a poner mi ley en lo más profundo de su mente <br/> y voy a grabarla en sus corazones.<br/> Yo seré su Dios y ellos serán mi pueblo.<br/> Ya nadie tendrá que instruir a su prójimo ni a su hermano,<br/> diciéndole: ‘Conoce al Señor’, porque todos me van a conocer,<br/> desde el más pequeño hasta el mayor de todos,<br/> cuando yo les perdone sus culpas y olvide para siempre sus pecados.</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+  <p class="SalmoEtc">SALMO RESPONSORIAL</p>
+
+  <p class="SalmoNum">Sal 51</p>
+
+  <p class="SalmoEstrib">R/. Crea en mí, Señor, un corazón puro.</p>
+
+  <p class="SalmoTxt">Dame, Señor, un corazón sincero<br/> y un espíritu firme.<br/> No me arrojes, Señor, lejos de ti<br/> ni tu santo espíritu me retires. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">De tu perdón el júbilo devuélveme<br/> y un generoso espíritu disponme;<br/> enseñaré tus sendas a los malos<br/> y volverán a ti los pecadores. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Tú, Señor, no te complaces en los sacrificios<br/> y si te ofreciera un holocausto, no te agradaría.<br/> Un corazón contrito te presento,<br/> y a un corazón contrito, tú nunca lo desprecias. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoEtc">SEGUNDA LECTURA</p>
+
+  <p class="TestoItalic">Cristo es la cabeza que hace crecer todo el cuerpo.</p>
+
+  <p class="LecturaCarta">Lectura de la carta del apóstol san Pablo a los efesios</p>
+
+  <p class="SalmoNum">4, 7. 11-16</p>
+
+  <p class="Normale">Hermanos: Cada uno de nosotros ha recibido la gracia en la medida en que Cristo se la ha dado. Él fue quien concedió a unos ser apóstoles; a otros, ser profetas; a otros, ser evangelizadores; a otros, ser pastores y maestros. Y esto, para capacitar a los fieles, a fin de que, desempeñando debidamente su tarea, construyan el cuerpo de Cristo, hasta que todos lleguemos a estar unidos en la fe y en el conocimiento del Hijo de Dios, y lleguemos a ser hombres perfectos, que alcancemos en todas sus dimensiones la plenitud de Cristo.</p>
+
+  <p class="Normale">Así, ya no seremos como niños, zarandeados por las olas y llevados de un lado para otro por el viento de cualquier doctrina, a merced de hombres malvados y astutos, que conducen engañosamente al error. Por el contrario, viviendo sinceramente en el amor, creceremos en todos sentidos, unidos a aquel que es la cabeza: Cristo. De Él, todo el cuerpo recibe su organización, su cohesión y su vida, según la actividad propia de cada una de las partes, y así el cuerpo va creciendo y construyéndose por medio del amor.</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+  <p class="SalmoEtc">ACLAMACIÓN ANTES DEL EVANGELIO</p>
+
+  <p class="SalmoNum">Jn 16, 13; 14, 26</p>
+
+<p class="Alleluia"><span class="Rosso">R/.</span> <b>Aleluya, aleluya</b>.<br/> Cuando venga el Espíritu de verdad,<br/> él les enseñará toda la verdad<br/> y les recordará todo cuanto yo les he dicho, dice el Señor.<br/><b><span class="Rosso">R/.</span></b> <b>Aleluya</b>.</p>
+
+  <p class="SalmoEtc">EVANGELIO</p>
+
+  <p class="TestoItalic">El Espíritu Santo les enseñará todas las cosas.</p>
+
+  <p class="Normale"></p>
+
+  <p class="LecturaCarta"><span class="Rosso">†</span> Lectura del santo Evangelio según san Juan</p>
+
+  <p class="SalmoNum">14, 25-27</p>
+
+  <p class="Normale">En aquel tiempo, Jesús dijo a sus discípulos: Les he hablado de esto ahora que estoy con ustedes; pero el Consolador, el Espíritu Santo que mi Padre les enviará en mi nombre, les enseñará todas las cosas y les recordará todo cuanto yo les he dicho.</p>
+
+  <p class="Normale">La paz les dejo, mi paz les doy. No se la doy como la da el mundo. No pierdan la paz ni se acobarden.</p>
+
+  <p class="PalabraDeDios">Palabra del Señor.</p>
+
+  <p class="Commento">Se dice Credo</p>
+
+  <p class="SalmoEtc">ORACIÓN SOBRE LAS OFRENDAS</p>
+
+  <p class="Antifona">Te rogamos, Señor, que por estos dones que te presentamos<br/> santifiques a tus hijos unidos en tu nombre,<br/> para que cumpliendo fielmente sus votos<br/> puedan servirte con sincero corazón.<br/> Per Jesucristo nuestro Señor.</p>
+
+  <p class="SalmoEtc">PREFACIO</p>
+
+ 
+  <div class="divPrefac">
+    <p class="Prefac_V">V. El Señor esté con ustedes</p>
+
+    <p class="Prefac_R">R. Y con tu espíritu.</p>
+
+    <p class="Prefac_V">V. Levantemos el corazón.</p>
+
+    <p class="Prefac_R">R. Lo tenemos levantado hacia el Señor.</p>
+
+    <p class="Prefac_V">V. Demos gracias al Señor, nuestro Dios.</p>
+
+    <p class="Prefac_R">R. Es justo y necesario.</p>
+  </div>
+
+
+  <p class="Antifona">En verdad es justo y necesario,<br/> es nuestro deber y salvación<br/> darte gracias siempre y en todo lugar,<br/> Señor, Padre santo, Dios todopoderoso y eterno.</p>
+
+  <p class="SalmoTxt">Porque El,<br/> retoño inmaculado de la raíz de una Virgen,<br/> proclamó dichosos a los limpios de corazón<br/> y con el ejemplo de su vida reveló la grandeza de la castidad.</p>
+
+  <p class="SalmoTxt">El quiso hacer de la obediencia sacrificio perfecto,<br/> siguiendo en todo tu voluntad hasta morir por nosotros.</p>
+
+  <p class="SalmoTxt">El prometió las riquezas del cielo<br/> a los que, dejándolo todo en la tierra,<br/> viven solamente para tu servicio.</p>
+
+  <p class="SalmoTxt">Por eso, unidos a la asamblea de los ángeles y de los santos<br/> te cantamos un himno de alabanza<br/> diciendo sin cesar:</p>
+
+  <p class="Sanctus">Santo, Santo, Santo es el Señor,<br/> Dios del Universo.<br/> Llenos están el cielo y la tierra de tu gloria.<br/> Hosanna en el cielo.</p>
+
+  <p class="AntSmall">Antífona de comunión</p>
+
+  <p class="AntSmallTxt">El pan es uno, y así nosotros,<br/> aunque somos muchos, formamos un solo cuerpo,<br/> porque comemos todos del mismo pan.</p>
+
+  <p class="SalmoEtc">ORACIÓN PARA DESPUÉS DE LA COMUNIÓN</p>
+
+  <p class="Antifona">Señor, te suplicamos concedas a tus hijos<br/> que se juntan en tu amor y participan en un mismo pan,<br/> la gracia de animarse mutuamente a la práctica de la caridad y de las buenas obras,<br/> para que puedan presentarse ante el mundo como verdaderos testigos de Cristo.<br/> Que vive y reina por los siglos de los siglos.</p>
+
+  <p class="Commento">Puede impartirse la bendición solemne. </p>
+  <hr /><p class="Separa"></p>
+
+  <h1 class="pT1" id="sigil_toc_id_6">INMACULADA CONCEPCIÓN <br/> DE LA VIRGEN MARÍA</h1>
+
+  <p class="pT4">Titular y Patrona Principal de nuestra Congregación</p>
+
+  <p class="pT4"></p>
+
+  <p class="Commento">Se dice el acto de Consagración a María Inmaculada</p>
+
+  <p class="AntSmall">Antífona de entrada</p>
+
+  <p class="AntSmallTxt">Desbordo de alegría en el Señor, <br/> mi alma se regocija en mi Dios. <br/> Porque él me vistió con las vestiduras de la salvación <br/> y me envolvió con el manto de la justicia, <br/> como una esposa que se adorna con sus joyas.</p>
+
+  <p class="Commento">Se dice Gloria</p>
+
+  <p class="SalmoEtc">ORACIÓN COLECTA</p>
+
+  <p class="Antifona">Dios nuestro, por la Concepción Inmaculada de la Virgen María <br/> preservada de todo pecado, preparaste a tu Hijo una digna morada,<br/> en atención a los méritos de la muerte redentora de Cristo, <br/> concédenos, por su intercesión, que también nosotros <br/> lleguemos a ti purificados de todas nuestras culpas. <br/> Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo <br/> en la unidad del Espíritu Santo, y es Dios, <br/> por los siglos de los siglos.</p>
+
+  <p class="SalmoEtc">PRIMERA LECTURA</p>
+
+  <p class="TestoItalic">Pondré enemistad entre ti y la mujer, entre tu descendencia y la suya.</p>
+
+  <p class="LecturaCarta">Lectura del libro del Génesis</p>
+
+  <p class="SalmoNum">3, 9-15. 20</p>
+
+  <p class="Normale">Después de que el hombre y la mujer comieron del fruto del árbol prohibido, el Señor Dios llamó al hombre y le preguntó: “¿Dónde estás?” Éste le respondió: “Oí tus pasos en el jardín y tuve miedo, porque estoy desnudo, y me escondí”. Entonces le dijo Dios: “¿y quién te ha dicho que estabas desnudo? ¿Has comido acaso del árbol del que te prohibí comer?”</p>
+
+  <p class="Normale">Respondió Adán: “La mujer que me diste por compañera me ofreció del fruto del árbol y comí”. El Señor Dios dijo a la mujer: “¿Por qué has hecho esto?” Repuso la mujer: “La serpiente me engañó y comí”.</p>
+
+  <p class="Normale">Entonces dijo el Señor Dios a la serpiente: “Porque has hecho esto, serás maldita entre todos los animales y entre todas las bestias salvajes. Te arrastrarás sobre tu vientre y comerás polvo todos los días de tu vida. Pondré enemistad entre ti y la mujer, entre tu descendencia y la suya; y su descendencia te aplastará la cabeza, mientras tú tratarás de morder su talón”.</p>
+
+  <p class="Normale">El hombre le puso a su mujer el nombre de “Eva”, porque ella fue la madre de todos los vivientes.</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+  <p class="SalmoEtc">SALMO RESPONSORIAL</p>
+
+  <p class="SalmoNum">Del salmo 97, 1.2-3ab. 3cd-4</p>
+
+  <p class="SalmoEstrib">R/. Cantemos al Señor un canto nuevo, pues ha hecho maravillas.</p>
+
+  <p class="SalmoTxt">Cantemos al Señor un canto nuevo,<br/> pues ha hecho maravillas.<br/> Su diestra y su santo brazo le han dado la victoria. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">El Señor ha dado a conocer su victoria<br/> y ha revelado a las naciones su justicia.<br/> Una vez más ha demostrado Dios<br/> su amor y su lealtad hacia Israel. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">La tierra entera ha contemplado<br/> la victoria de nuestro Dios.<br/> Que todos los pueblos y naciones<br/> aclamen con júbilo al Señor. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoEtc">SEGUNDA LECTURA</p>
+
+  <p class="TestoItalic">Dios nos eligió en Cristo, antes de crear el mundo.</p>
+
+  <p class="LecturaCarta">Lectura de la carta del apóstol san Pablo a los efesios</p>
+
+  <p class="SalmoNum">1, 3-6.11-12:</p>
+
+  <p class="Normale">Bendito sea Dios, Padre de nuestro Señor Jesucristo, que nos ha bendecido en Él con toda clase de bienes espirituales y celestiales. Él nos eligió en Cristo, antes de crear el mundo, para que fuéramos santos e irreprochables a sus ojos, por el amor, y determinó, porque así lo quiso, que, por medio de Jesucristo, fuéramos sus hijos, para que alabemos y glorifiquemos la gracia con que nos ha favorecido, por medio de su Hijo amado.</p>
+
+  <p class="Normale">Con Cristo somos herederos también nosotros. Para esto estábamos destinados, por decisión del que lo hace todo según su voluntad: para que fuéramos una alabanza continua de su gloria, nosotros, los que ya antes esperábamos en Cristo.</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+  <p class="SalmoEtc">ACLAMACIÓN ANTES DEL EVANGELIO</p>
+
+  <p class="SalmoNum">Cfr. Lc 1, 28</p>
+
+<p class="Alleluia"><span class="Rosso">R/.</span> <b>Aleluya, aleluya</b>.<br/> Dios te salve, María, llena de gracia, el Señor está contigo,<br/> bendita tú entre las mujeres.<br/><b><span class="Rosso">R/.</span></b> <b>Aleluya</b>.</p>
+
+  <p class="SalmoEtc">EVANGELIO</p>
+
+  <p class="TestoItalic">Alégrate, llena de gracia, el Señor está contigo.</p>
+
+  <p class="Normale"></p>
+
+  <p class="LecturaCarta"><span class="Rosso">†</span> Lectura del santo Evangelio según san Lucas</p>
+
+  <p class="SalmoNum">1, 26-38</p>
+
+  <p class="Normale">En aquel tiempo, el ángel Gabriel fue enviado por Dios a una ciudad de Galilea, llamada Nazaret, a una virgen desposada con un varón de la estirpe de David, llamado José. La virgen se llamaba María. Entró el ángel a donde ella estaba y le dijo: “Alégrate, llena de gracia, el Señor está contigo”.</p>
+
+  <p class="Normale">Al oír estas palabras, ella se preocupó mucho y se preguntaba qué querría decir semejante saludo.</p>
+
+  <p class="Normale">El ángel le dijo: “No temas, María, porque has hallado gracia ante Dios. Vas a concebir y a dar a luz un hijo y le pondrás por nombre Jesús. Él será grande y será llamado Hijo del Altísimo; el Señor Dios le dará el trono de David, su padre, y Él reinará sobre la casa de Jacob por los siglos y su reinado no tendrá fin”. María le dijo entonces al ángel: “¿Cómo podrá ser esto, puesto que yo permanezco virgen?”</p>
+
+  <p class="Normale">El ángel le contestó: “El Espíritu Santo descenderá sobre ti y el poder del Altísimo te cubrirá con su sombra. Por eso, el Santo, que va a nacer de ti, será llamado Hijo de Dios. Ahí tienes a tu parienta Isabel, que a pesar de su vejez, ha concebido un hijo y ya va en el sexto mes la que llamaban estéril, porque no hay nada imposible para Dios”.</p>
+
+  <p class="Normale">María contestó: “Yo soy la esclava del Señor; cúmplase en mí lo que me has dicho”.</p>
+
+  <p class="Normale">Y el ángel se retiró de su presencia.</p>
+
+  <p class="PalabraDeDios">Palabra del Señor.</p>
+
+  <p class="Normale"></p>
+
+  <p class="Commento">Se dice Credo</p>
+
+  <p class="SalmoEtc">ORACIÓN SOBRE LAS OFRENDAS</p>
+
+  <p class="Antifona">Recibe, Señor, este sacrificio de salvación que te ofrecemos <br/> en la solemnidad de la Inmaculada Concepción de la Virgen María, <br/> y así como a ella tu gracia la preservó limpia de toda mancha, <br/> por su intercesión líbranos de todas las culpas. <br/> Por Jesucristo, nuestro Señor.</p>
+
+  <p class="SalmoEtc">PREFACIO: El misterio de María y de la Iglesia</p>
+
+
+  <div class="divPrefac">
+    <p class="Prefac_V">V. El Señor esté con ustedes</p>
+
+    <p class="Prefac_R">R. Y con tu espíritu.</p>
+
+    <p class="Prefac_V">V. Levantemos el corazón.</p>
+
+    <p class="Prefac_R">R. Lo tenemos levantado hacia el Señor.</p>
+
+    <p class="Prefac_V">V. Demos gracias al Señor, nuestro Dios.</p>
+
+    <p class="Prefac_R">R. Es justo y necesario.</p>
+  </div>
+
+
+  <p class="Antifona">En verdad es justo y necesario, <br/> es nuestro deber y salvación <br/> darte gracias siempre y en todo lugar, <br/> Señor, Padre santo, Dios todopoderoso y eterno.</p>
+
+  <p class="SalmoTxt">Tú preservaste a la Virgen María <br/> de toda mancha del pecado original <br/> y la enriqueciste con la plenitud de tu gracia, <br/> preparándola para que fuera <br/> la Madre digna de tu Hijo y comienzo e imagen <br/> de la Iglesia, esposa de Cristo, <br/> llena de juventud y de limpia hermosura.</p>
+
+  <p class="SalmoTxt">Purísima debía ser la Virgen <br/> que nos diera a tu Hijo, el Cordero inocente <br/> que quita el pecado del mundo. <br/> Purísima la que, para todos los hombres, <br/> es ahora abogada de gracia <br/> y modelo de santidad.</p>
+
+  <p class="SalmoTxt">Por eso, unidos a los coros de los ángeles, <br/> cantamos un himno a tu gloria, <br/> diciendo sin cesar:</p>
+
+  <p class="AntSmall">Antífona de comunión</p>
+
+  <p class="AntSmallTxt">Virgen María, de ti se han dicho maravillas, <br/> porque de ti nació el sol de justicia, Cristo, nuestro Dios.</p>
+
+  <p class="SalmoEtc">ORACIÓN PARA DESPUÉS DE LA COMUNIÓN</p>
+
+  <p class="Antifona">Señor, Dios nuestro, que el sacramento recibido <br/> repare en nosotros las consecuencias de aquella culpa <br/> de la que preservaste a la Virgen María en su Concepción Inmaculada. <br/> Por Jesucristo, nuestro Señor.</p>
+
+  <p class="Commento">Puede impartirse la bendición solemne. </p>
+  <hr /><p class="Separa"></p>
+
+  <h1 class="pT1" id="sigil_toc_id_7">MISA POR LAS VOCACIONES OBLATAS</h1>
+
+  <p class="pT4">21 — 29 de mayo</p>
+
+  <p class="pT4"></p>
+
+  <p class="AntSmall">Antífona de entrada</p>
+
+  <p class="AntSmallTxt">«Si quieres ser perfecto, ve a vender todo lo que tienes,<br/> dales el dinero a los pobres; luego ven y sígueme»,<br/> dice el Señor.</p>
+
+  <p class="SalmoEtc">ORACIÓN COLECTA</p>
+
+  <p class="Antifona">Señor, Padre santo, tú que invitas a todos los fieles<br/> a alcanzar la caridad perfecta,<br/> pero no dejas de llamar a muchos<br/> para que sigan más de cerca las huellas de tu Hijo,<br/> concede a quienes llamas para esta peculiar vocación<br/> llegar a ser, por su vida, signo y testimonio de tu reino<br/> ante la Iglesia y ante el mundo.<br/> Por nuestro Señor Jesucristo, tu Hijo, <br/> que vive y reina contigo <br/> en la unidad del Espíritu Santo, <br/> y es Dios, por los siglos de los siglos.</p>
+
+  <p class="SalmoEtc">PRIMERA LECTURA</p>
+
+  <p class="TestoItalic">Desde antes de formarte en el seno materno, te conozco.</p>
+
+  <p class="LecturaCarta">Lectura del libro del profeta Jeremías</p>
+
+  <p class="SalmoNum">Ger 1, 1.4-10</p>
+
+  <p class="Normale">En tiempo de Josías, el Señor me dirigió estas palabras: <br/> “Desde antes de formarte en el seno materno, <br/> te conozco desde antes de que nacieras, <br/> te consagré profeta para las naciones”.</p>
+
+  <p class="Normale">Yo le contesté: “Pero, Señor mío, yo no sé expresarme,<br/> porque apenas soy un muchacho”.</p>
+
+  <p class="Normale">El Señor me dijo: “No digas que eres un muchacho, <br/> pues irás a donde yo te envíe y dirás lo que yo te mande.<br/> No tengas miedo, porque yo estoy contigo para protegerte”, <br/> palabra del Señor.</p>
+
+  <p class="Normale">El Señor extendió entonces su brazo,<br/> con su mano me tocó la boca y me dijo:<br/> “Desde hoy pongo mis palabras en tu boca <br/> y te doy autoridad sobre pueblos y reyes, <br/> para que arranques y derribes, para que destruyas y deshagas, <br/> para que edifiques y plantes!’.</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+  <p class="SalmoEtc">SALMO RESPONSORIAL</p>
+
+  <p class="SalmoNum">Sal 139</p>
+
+  <p class="SalmoEstrib">R/. Sondéame, Señor, y conoce mi corazón.</p>
+
+  <p class="SalmoTxt">Señor, tú me sondeas y me conoces;<br/> me conoces cuando me siento o me levanto,<br/> de lejos penetras mis pensamientos;<br/> distingues mi camino y mi descanso. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Todas mis sendas te son familiares,<br/> no ha llegado la palabra a mi lengua,<br/> y ya, Señor, te la sabes toda. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Me envuelves por doquier,<br/> me cubres con tu mano.<br/> Tanto saber me sobrepasa,<br/> es sublime, y no lo abarco. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoEtc">ACLAMACIÓN ANTES DEL EVANGELIO</p>
+
+  <p class="SalmoNum">Cfr. Lc 4,18</p>
+
+<p class="Alleluia"><span class="Rosso">R/.</span> <b>Aleluya, aleluya</b>.<br/> El Espíritu del Señor está sobre mí; <br/> él me ha enviado para anunciar a los pobres la buena nueva.<br/><b><span class="Rosso">R/.</span></b> <b>Aleluya</b>.</p>
+
+  <p class="SalmoEtc">EVANGELIO</p>
+
+  <p class="TestoItalic">Rueguen al dueño de la mies que envíe trabajadores</p>
+
+  <p class="Normale"></p>
+
+  <p class="LecturaCarta"><span class="Rosso">†</span> Lectura del santo Evangelio según san Mateo</p>
+
+  <p class="SalmoNum">9, 35-38</p>
+
+  <p class="Normale">En aquel tiempo, Jesús recorría todas las ciudades y los pueblos, enseñando en las sinagogas, predicando el Evangelio del Reino y curando toda enfermedad y dolencia. Al ver a las multitudes, se compadecía de ellas, porque estaban extenuadas y desamparadas, como ovejas sin pastor.</p>
+
+  <p class="Normale">Entonces dijo a sus discípulos: “La cosecha es mucha y los trabajadores, pocos. Rueguen, por lo tanto, al dueño de la mies que envíe trabajadores a sus campos”.</p>
+
+  <p class="PalabraDeDios">Palabra del Señor.</p>
+
+  <p class="SalmoEtc">ORACIÓN SOBRE LAS OFRENDAS</p>
+
+  <p class="Antifona">Recibe complacido, Padre santo,<br/> los dones que te presentamos,<br/> y concede una vida de comunión fraterna<br/> y en libertad de espíritu<br/> a cuantos se han propuesto seguir con alegría a tu Hijo<br/> por la senda difícil de la perfección.<br/> Por Jesucristo nuestro Señor. </p>
+
+  <p class="SalmoEtc">PREFACIO</p>
+
+
+  <div class="divPrefac">
+    <p class="Prefac_V">V. El Señor esté con ustedes</p>
+
+    <p class="Prefac_R">R. Y con tu espíritu.</p>
+
+    <p class="Prefac_V">V. Levantemos el corazón.</p>
+
+    <p class="Prefac_R">R. Lo tenemos levantado hacia el Señor.</p>
+
+    <p class="Prefac_V">V. Demos gracias al Señor, nuestro Dios.</p>
+
+    <p class="Prefac_R">R. Es justo y necesario.</p>
+  </div>
+
+
+  <p class="Antifona">Realmente es justo y necesario,<br/> es nuestro deber y salvación<br/> darte gracias siempre y en todo lugar,<br/> Señor, Padre santo, Dios todopoderoso y eterno,<br/> por Cristo, Señor nuestro.</p>
+
+  <p class="SalmoTxt">Él mismo, por su misterio pascual,<br/> realizó la obra maravillosa<br/> de llamarnos del pecado y de la muerte<br/> a la gloria de construir una raza elegida, un reino sacerdotal,<br/> una nación santa, un pueblo de su propiedad,<br/> para que, llevados de las tinieblas a tu luz admirable,<br/> proclamemos ante el mundo tus maravillas.</p>
+
+  <p class="SalmoTxt">Por eso, con los ángeles y arcángeles,<br/> y con todos los coros celestiales,<br/> cantamos sin cesar el himno de tu gloria:</p>
+
+  <p class="Sanctus">Santo, Santo, Santo es el Señor,<br/> Dios del Universo.<br/> Llenos están el cielo y la tierra de tu gloria.<br/> Hosanna en el cielo.</p>
+
+  <p class="AntSmall">Antífona de comunión</p>
+
+  <p class="AntSmallTxt">«En verdad, en verdad les digo: ustedes, los que me han seguido, <br/> y que por mí han dejado todo, recibirán cien veces más <br/> y heredarán la vida eterna», dice el Señor.</p>
+
+  <p class="SalmoEtc">ORACIÓN PARA DESPUÉS DE LA COMUNIÓN</p>
+
+  <p class="Antifona">Te rogamos, Señor,<br/> que des fuerza a tus hijos<br/> con estos alimentos celestiales,<br/> para que, manteniéndose fieles a su vocación evangélica,<br/> sean en todas partes la imagen viva de tu Hijo.<br/> Él, que vive y reina por los siglos de los siglos. </p>
+  <hr /><p class="Separa"></p>
+
+  <h1 class="pT1" id="sigil_toc_id_8">MISA<br/> POR LA EVANGELIZACIÓN <br/> DE LOS PUEBLOS</h1>
+
+  <p class="Normale"></p>
+
+  <p class="pT4"></p>
+
+  <p class="Normale"></p>
+
+  <p class="AntSmall">Antífona de entrada</p>
+
+  <p class="AntSmallTxt">«El Señor tenga piedad y nos bendiga, <br/> haga brillar su rostro sobre nosotros, <br/> para que en la tierra se reconozca su dominio, <br/> y su victoria entre las naciones».</p>
+
+  <p class="SalmoEtc">ORACIÓN COLECTA</p>
+
+  <p class="Antifona">Dios nuestro, que quieres que todos los hombres se salven <br/> y lleguen al conocimiento de la verdad; <br/> mira la abundante cosecha y envía operarios <br/> que anuncien el Evangelio a toda creatura, <br/> para que tu pueblo, congregado por la Palabra de vida <br/> y sostenido por la gracia de los sacramentos, <br/> avance por el camino de la salvación y del amor. <br/> Por nuestro Señor Jesucristo, tu Hijo, <br/> que vive y reina contigo en la unidad del Espíritu Santo, <br/> y es Dios, por los siglos de los siglos</p>
+
+  <p class="SalmoEtc">PRIMERA LECTURA</p>
+
+  <p class="TestoItalic">¿Cómo van a oír hablar de él, si no hay nadie que se la anuncie? <br/> ¿ Y cómo va a haber quienes lo anuncien, si no son enviados?</p>
+
+  <p class="LecturaCarta">Lectura de la carta del apóstol san Pablo a los romanos</p>
+
+  <p class="SalmoNum">10, 9-18</p>
+
+  <p class="Normale">Hermanos: Basta que cada uno declare con su boca que Jesús es el Señor y que crea en su corazón que Dios lo resucitó de entre los muertos, para que pueda salvarse.'</p>
+
+  <p class="Normale">En efecto, hay que creer con el corazón para alcanzar la santidad y declarar con la boca para alcanzar la salvación. Por eso dice la Escritura: Ninguno que crea en él quedará defraudado, porque no existe diferencia entre judío y no judío, ya que uno mismo es el Señor de todos, espléndido con todos los que lo invocan, pues todo el que invoque al Señor como a su Dios, será salvado por él.</p>
+
+  <p class="Normale">Ahora bien, ¿cómo van a invocar al Señor, si no creen en él? ¿Y cómo van a creer en él, si no han oído hablar de él? ¿Y cómo van a oír hablar de él, si no hay nadie que se lo anuncie? ¿Y cómo va a haber quienes lo anuncien, si no son enviados? Por eso dice la Escritura: ¡Qué hermoso es ver correr sobre los montes al mensajero que trae buenas noticias!</p>
+
+  <p class="Normale">Sin embargo, no todos han creído en el Evangelio. Ya lo dijo Isaías: Señor, | quién ha creído en nuestra predicación? Por lo tanto, la fe viene de la predicación y la predicación consiste en anunciar la palabra de Cristo.</p>
+
+  <p class="Normale">Entonces yo pregunto: ¿Acaso no habrán oído la predicación? ¡Claro que la han oído!, pues la Escritura dice: La voz de los mensajeros ha resonado en todo el mundo y sus palabras han llegado hasta el último rincón de la tierra.</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+  <p class="SalmoEtc">SALMO RESPONSORIAL</p>
+
+  <p class="SalmoNum">Sal 18</p>
+
+  <p class="SalmoEstrib">R/. Gloria a ti, Señor, per la potencia de tu evangelio.</p>
+
+  <p class="SalmoTxt">Los cielos proclaman la gloria de Dios<br/> y el firmamento anuncia la obra de sus manos.<br/> Un día comunica su mensaje al otro día<br/> y una noche se lo trasmite a la otra noche.<span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Sin que pronuncien una palabra,<br/> sin que resuene su voz,<br/> a toda la tierra llega su sonido<br/> y su mensaje, hasta el fin del mundo. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Allí le ha puesto su tienda al sol:<br/> él sale como el esposo de su alcoba,<br/> contento como un héroe, a recorrer su camino.<br/> Asoma por un extremo del cielo,<br/> y su órbita llega al otro extremo:<br/> nada se libra de su calor. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoEtc">ACLAMACIÓN ANTES DEL EVANGELIO</p>
+
+  <p class="SalmoNum">Mt 28, 19. 20</p>
+
+<p class="Alleluia"><span class="Rosso">R/.</span> <b>Aleluya, aleluya</b>.<br/> Vayan y enseñen a todas las naciones, dice el Señor,<br/> y sepan que yo estaré con ustedes todos los días<br/> hasta el fin del mundo.<br/><b><span class="Rosso">R/.</span></b> <b>Aleluya</b>.</p>
+
+  <p class="SalmoEtc">EVANGELIO</p>
+
+  <p class="TestoItalic">Era necesario que se predicara a todas las naciones la necesidad de volverse a Dios <br/> para el perdón de los pecados.</p>
+
+  <p class="Normale"></p>
+
+  <p class="LecturaCarta"><span class="Rosso">†</span> Lectura del santo Evangelio según san Lucas</p>
+
+  <p class="SalmoNum">24, 44-53</p>
+
+  <p class="Normale">En aquel tiempo, Jesús dijo a sus discípulos: “Lo que ha sucedido es aquello de que les hablaba yo, cuando aún estaba con ustedes: que tenía que cumplirse todo lo que estaba escrito de mí en la ley de Moisés, en los profetas y en los salmos”.</p>
+
+  <p class="Normale">Entonces les abrió el entendimiento para que comprendieran las Escrituras y les dijo: “Está escrito que el Mesías tenía que padecer y había de resucitar de entre los muertos al tercer día, y que en su nombre se había de predicar a todas las naciones, comenzando por Jerusalén, la necesidad de volverse a Dios para el perdón de los pecados. Ustedes son testigos de esto.</p>
+
+  <p class="Normale">Ahora yo les voy a enviar al que mi Padre les prometió. Permanezcan, pues, en la ciudad, hasta que reciban la fuerza de lo alto”.</p>
+
+  <p class="Normale">Después salió con ellos fuera de la ciudad, hacia un lugar cercano a Betania; levantando las manos, los bendijo, y mientras los bendecía, se fue apartando de ellos y elevándose al cielo. Ellos, después de adorarlo, regresaron a Jerusalén, llenos de gozo, y permanecían constantemente en el templo, alabando a Dios.</p>
+
+  <p class="PalabraDeDios">Palabra del Señor.</p>
+
+  <p class="SalmoEtc">ORACIÓN SOBRE LAS OFRENDAS</p>
+
+  <p class="Antifona">Mira, Señor, a tu Hijo Jesucristo, <br/> que se entregó por la redención de todos los hombres,<br/> para que, por él, desde la salida del sol hasta su ocaso, <br/> tu nombre sea glorificado en todo el mundo <br/> y en todo lugar se ofrezca el único sacrificio. <br/> Por Jesucristo, nuestro Señor. </p>
+
+  <p class="SalmoEtc">PREFACIO</p>
+
+
+  <div class="divPrefac">
+    <p class="Prefac_V">V. El Señor esté con ustedes</p>
+
+    <p class="Prefac_R">R. Y con tu espíritu.</p>
+
+    <p class="Prefac_V">V. Levantemos el corazón.</p>
+
+    <p class="Prefac_R">R. Lo tenemos levantado hacia el Señor.</p>
+
+    <p class="Prefac_V">V. Demos gracias al Señor, nuestro Dios.</p>
+
+    <p class="Prefac_R">R. Es justo y necesario.</p>
+  </div>
+
+
+  <p class="Antifona">Realmente es justo y necesario,<br/> es nuestro deber y salvación<br/> darte gracias siempre y en todo lugar,<br/> Señor, Padre santo,<br/> Dios todopoderoso y eterno,<br/> por Cristo, Señor nuestro.</p>
+
+  <p class="SalmoTxt">Él mismo, por su misterio pascual,<br/> realizó la obra maravillosa<br/> de llamarnos del pecado y de la muerte<br/> a la gloria de construir<br/> una raza elegida, un reino sacerdotal,<br/> una nación santa, un pueblo de su propiedad,<br/> para que, llevados de las tinieblas <br/> a tu luz admirable,<br/> proclamemos ante el mundo tus maravillas.</p>
+
+  <p class="SalmoTxt">Por eso, con los ángeles y arcángeles,<br/> y con todos los coros celestiales,<br/> cantamos sin cesar el himno de tu gloria:</p>
+
+  <p class="Sanctus">Santo, Santo, Santo es el Señor,<br/> Dios del Universo.<br/> Llenos están el cielo y la tierra de tu gloria.<br/> Hosanna en el cielo.</p>
+
+  <p class="AntSmall">Antífona de comunión</p>
+
+  <p class="AntSmallTxt">Dice el Señor: «Enseñen a cumplir todo lo que yo les he mandado. <br/> Yo estaré siempre con ustedes hasta el fin del mundo».</p>
+
+  <p class="SalmoEtc">ORACIÓN PARA DESPUÉS DE LA COMUNIÓN</p>
+
+  <p class="Antifona">Renovados por el don de nuestra redención, <br/> te pedimos, Padre, que con este auxilio de salvación eterna <br/> se acreciente siempre en nosotros la verdadera fe. <br/> Por Jesucristo, nuestro Señor. </p>
+  <hr /><p class="Separa"></p>
+
+  <h1 class="pT1" id="sigil_toc_id_9">MISA POR UN SACERDOTE OBLATO DIFUNTO</h1>
+
+
+
+  <p class="SalmoEtc">SIGNOS OBLATOS Y SACERDOTALES</p>
+
+  <p class="Commento">Encendiendo el Cirio Pascual dice:</p>
+
+  <p class="SalmoTxt">Encendemos esta llama para N., nuestro hermano.<br/> Esta llama que viene de ti, Señor,<br/> luz en nuestras oscuridades,<br/> ilumine el paso que debemos dar<br/> para empezar un nuevo camino<br/> en la esperanza.</p>
+
+  <p class="Commento">Sobre el ataúd, el celebrante pone la cruz del Oblato diciendo:</p>
+
+  <p class="SalmoTxt">Señor Jesús, recuerda: <br/> llamando N., nuestro hermano, a la vida religiosa <br/> en la Congregación de los Misioneros Oblatos de María Inmaculada, <br/> tu lo invitaste a renunciar a si mismo, a llevar su cruz y seguirte;<br/> míralo ahora a la conclusión de su camino. <br/> Esta cruz nos recuerda que tu nos ama hasta dar tu vida para nosotros; <br/> también sea en nuestros corazones el signo que tu amas N., <br/> así como cada uno de nosotros.</p>
+
+  <p class="Commento">Si el Oblato era sacerdote o diacono, el celebrante pone sobre el ataúd una estola y dice:</p>
+
+  <p class="SalmoTxt">Mira, Señor, con misericordia a tu servo N.:<br/> llevaba la estola cuando reunía a los fieles<br/> para partir tu pan y tu palabra;<br/> que se presente hoy ante ti<br/> liberado del pecado, con el vestido de fiesta <br/> de tus amigos.</p>
+
+  <p class="SalmoEtc">ORACIÓN COLECTA</p>
+
+  <p class="Antifona">Padre de misericordia, escucha con bondad las súplicas<br/> que te dirigimos por la salvación de tu servidor N., sacerdote,<br/> para que, después de ejercer fielmente y en tu nombre<br/> el ministerio sacerdotal,<br/> pueda gozar de la eterna compañía de tus santos.<br/> Por nuestro Señor Jesucristo, tu Hijo,<br/> que vive y reina contigo en la unidad del Espíritu Santo,<br/> y es Dios, por los siglos de los siglos.</p>
+
+  <p class="SalmoEtc">PRIMERA LECTURA</p>
+
+  <p class="TestoItalic">Dichosos los que mueren en el Señor.</p>
+
+  <p class="LecturaCarta">Lectura del libro del Apocalipsis del apóstol san Juan</p>
+
+  <p class="SalmoNum">14, 13</p>
+
+  <p class="Normale">Yo, Juan, oí una voz que venía del cielo y me decía: “Escribe: ‘Dichosos ya desde ahora los muertos que han muerto en el Señor. El Espíritu es quien lo dice: Que descansen ya de sus fatigas, pues sus obras los acompañan’</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+  <p class="SalmoEtc">SALMO RESPONSORIAL</p>
+
+  <p class="SalmoNum">Sal 62</p>
+
+  <p class="SalmoEstrib">R/. Señor, mi alma tiene sed de ti.</p>
+
+  <p class="SalmoTxt">Señor, tú eres mi Dios, a ti te busco;<br/> de ti sedienta está mi alma.<br/> Señor, todo mi ser te añora,<br/> como el suelo reseco añora el agua. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Para admirar tu gloria y tu poder,<br/> anhelo contemplarte en el santuario.<br/> Pues mejor es tu amor que la existencia,<br/> siempre, Señor, te alabarán mis labios. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Podré así bendecirte mientras viva<br/> y levantar en oración mis manos.<br/> De lo mejor se saciará mi alma;<br/> te alabaré con júbilo en los labios. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Fuiste mi auxilio<br/> y a tu sombra canté lleno de gozo.<br/> A ti se adhiere mi alma,<br/> y tu diestra me da seguro apoyo. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoEtc">ACLAMACIÓN ANTES DEL EVANGELIO</p>
+
+  <p class="SalmoNum">Mt 25, 34</p>
+
+<p class="Alleluia"><span class="Rosso">R/.</span> <b>Aleluya, aleluya</b>.<br/> Vengan, benditos de mi Padre, dice el Señor; <br/> tomen posesión del Reino preparado para ustedes<br/> desde la creación del mundo.<br/><b><span class="Rosso">R/.</span></b> <b>Aleluya</b>.</p>
+
+  <p class="SalmoEtc">EVANGELIO</p>
+
+  <p class="TestoItalic">Inclinando la cabeza, entregó el espíritu.</p>
+
+  <p class="LecturaCarta"><span class="Rosso">†</span> Lectura del santo Evangelio según san Juan</p>
+
+  <p class="SalmoNum">19, 17-18. 25-39,</p>
+
+  <p class="Normale">En aquel tiempo, Jesús, cargando con la cruz, se dirigió hacia el sitio llamado “la Calavera” (que en hebreo se dice Gólgota), donde lo crucificaron, y con él a otros dos, uno de cada lado, y en medio Jesús.</p>
+
+  <p class="Normale">Junto a la cruz de Jesús estaban su madre, la hermana de su madre, María la de Cleofás, y María Magdalena. Al ver a su madre y junto a ella al discípulo que tanto quería, Jesús dijo a su madre: “Mujer, ahí está tu hijo”. Luego dijo al discípulo: “Ahí está tu madre”. Y desde entonces el discípulo se la llevó a vivir con él.</p>
+
+  <p class="Normale">Después de esto, sabiendo Jesús que todo había llegado a su término, para que se cumpliera la Escritura dijo: “Tengo sed”. Había allí un jarro lleno de vinagre. Los soldados sujetaron una esponja empapada en vinagre a una caña de hisopo y se la acercaron a la boca. Jesús probó el vinagre y dijo: “Todo está cumplido”, e inclinando la cabeza, entregó el espíritu.</p>
+
+  <p class="PalabraDeDios">Palabra del Señor.</p>
+
+  <p class="SalmoEtc">ORACIÓN SOBRE LAS OFRENDAS</p>
+
+  <p class="Antifona">Por este sacrificio que te ofrecemos por tu hijo N., sacerdote,<br/> imploramos tu misericordia, Señor,<br/> para que lo purifique tu perdón,<br/> que él ofreció con amor en la Iglesia,<br/> Por Jesucristo, nuestro Señor.</p>
+
+  <p class="SalmoEtc">PREFACIO</p>
+
+
+  <div class="divPrefac">
+    <p class="Prefac_V">V. El Señor esté con ustedes</p>
+
+    <p class="Prefac_R">R. Y con tu espíritu.</p>
+
+    <p class="Prefac_V">V. Levantemos el corazón.</p>
+
+    <p class="Prefac_R">R. Lo tenemos levantado hacia el Señor.</p>
+
+    <p class="Prefac_V">V. Demos gracias al Señor, nuestro Dios.</p>
+
+    <p class="Prefac_R">R. Es justo y necesario.</p>
+  </div>
+
+
+  <p class="Antifona">En verdad es justo y necesario,<br/> es nuestro deber y salvación<br/> darte gracias siempre y en todo lugar,<br/> Señor, Padre santo, Dios todopoderoso y eterno,<br/> por Cristo, Señor nuestro.</p>
+
+  <p class="SalmoTxt">Porque él quiso morir por nosotros<br/> para librarnos de la muerte eterna;<br/> más aún, solo él entregó su vida por todos,<br/> para que viviéramos eternamente para ti.</p>
+
+  <p class="SalmoTxt">Por eso, unidos a los ángeles,<br/> cantamos un himno a tu gloria,<br/> diciendo sin cesar:</p>
+
+  <p class="Sanctus">Santo, Santo, Santo es el Señor,<br/> Dios del Universo.<br/> Llenos están el cielo y la tierra de tu gloria.<br/> Hosanna en el cielo.</p>
+
+  <p class="AntSmall">Antífona de comunión</p>
+
+  <p class="AntSmallTxt">« Todo aquel que me da el Padre viene hacia mí; <br/> y al que viene a mí yo no lo echaré fuera »,<br/> dice el Señor.</p>
+
+  <p class="SalmoEtc">ORACIÓN PARA DESPUÉS DE LA COMUNIÓN</p>
+
+  <p class="Antifona">Padre, alimentados con los sacramentos de la salvación,<br/> imploramos tu misericordia sobre tu servidor N., sacerdote,<br/> y ya que hiciste de él un administrador de tus misterios en la tierra,<br/> permítele gozarlos plenamente en el cielo.<br/> Por Jesucristo, nuestro Señor.</p>
+
+  
+  <p class="SalmoEtc">ÚLTIMA RECOMENDACIÓN Y DESPEDIDA</p>
+
+  <p class="SalmoTxt">Nuestro hermano N . ha muerto en la paz de Cristo; <br/> con la fe y la esperanza puestas en la vida eterna, <br/> lo confiamos al amor de nuestro Padre.</p>
+
+  <p class="SalmoTxt">Fue adoptado entre los hijos de Dios en el Bautismo, <br/> y, unido a sus hermanos, participó en la mesa del Señor; <br/> pidamos ahora que sea admitido al banquete del Reino <br/> y herede, con los santos, los premios eternos.</p>
+
+  <p class="SalmoTxt">Y en este momento de la separación oremos al Señor por nosotros, <br/> para que podamos con nuestro hermano salir al encuentro de Cristo, <br/> cuando él mismo, vida nuestra, aparezca en gloria.</p>
+
+  <p class="Commento">Rezan todos algunos momentos en silencio. Después se bendice e inciensa el cuerpo.</p>
+
+  <p class="SalmoTxt">Vengan en su ayuda, santos de Dios; <br/> salgan a su encuentro, ángeles del Señor.</p>
+
+  <p class="SalmoTxt">Reciban su alma <br/> y preséntenla ante el Altísimo.</p>
+
+  <p class="SalmoTxt">Que te reciba Cristo, el mismo que te llamó; <br/> y que el coro de los ángeles <br/> te introduzca en el cielo.</p>
+
+  <p class="SalmoTxt">Reciban su alma <br/> y preséntenla ante el Altísimo.</p>
+
+  <p class="SalmoTxt">Dale, Señor, el descanso eterno <br/> y la Luz perpetua brille para él.</p>
+
+  <p class="SalmoTxt">Reciban su alma <br/> y preséntenla ante el Altísimo.</p>
+
+  <p class="SalmoEtc">OREMOS</p>
+
+  <p class="Antifona">A tus manos, Padre de bondad, encomendamos el alma de nuestro hermano <br/> con la firme esperanza de que resucitará en el último día,<br/> con todos los que han muerto en Cristo.<br/> Te damos gracias por todos los dones <br/> con que lo enriqueciste a lo largo de su vida; <br/> en ellos reconocemos un signo de tu amor y de la comunión de los santos.<br/> Dios de misericordia, en tu amor sin limites ábrele las puertas de tu mansión. <br/> Y a todos nosotros, los que hemos quedado en este mundo, <br/> concédenos saber consolarnos con palabras de fe, <br/> hasta que también nos llegue el momento de volver a reunirnos con él, <br/> junto a ti, en el gozo de tu reino eterno. <br/> Por Jesucristo nuestro Señor.</p>
+  <hr /><p class="Separa"></p>
+
+  <h1 class="pT1" id="sigil_toc_id_10">MISA POR UN HERMANO OBLATO DIFUNTO</h1>
+
+
+
+
+  <p class="SalmoEtc">LOS SIGNOS OBLATOS</p>
+
+  <p class="Commento">Encendiendo el Cirio Pascual dice:</p>
+
+  <p class="SalmoTxt">Encendemos esta llama para N., nuestro hermano.<br/> Esta llama que viene de ti, Señor, luz en nuestras oscuridades,<br/> ilumine el paso que debemos dar<br/> para empezar un nuevo camino en la esperanza.</p>
+
+  <p class="Commento">Sobre el ataúd, el celebrante pone la cruz del Oblato diciendo:</p>
+
+  <p class="SalmoTxt">Señor Jesús, recuerda: <br/> llamando N., nuestro hermano, a la vida religiosa <br/> en la Congregación de los Misioneros Oblatos de María Inmaculada, <br/> tu lo invitaste a renunciar a si mismo, a llevar su cruz y seguirte;<br/> míralo ahora a la conclusión de su camino. <br/> Esta cruz nos recuerda que tu nos ama hasta dar tu vida para nosotros; <br/> también sea en nuestros corazones el signo que tu amas N., <br/> así como cada uno de nosotros.</p>
+
+  <p class="SalmoEtc">ORACIÓN COLECTA</p>
+
+  <p class="Antifona">Padre de misericordia, escucha con bondad las súplicas<br/> que te dirigimos por la salvación de tu servidor N.,<br/> para que después de haber servido a tu Hijo Jesucristo en esta vida,<br/> resucite con tus servidores fieles para la gloria eterna.<br/> Por nuestro Señor Jesucristo, tu Hijo,<br/> que vive y reina contigo en la unidad del Espíritu Santo,<br/> y es Dios, por los siglos de los siglos.</p>
+
+  <p class="SalmoEtc">PRIMERA LECTURA</p>
+
+  <p class="TestoItalic">Dichosos los que mueren en el Señor.</p>
+
+  <p class="LecturaCarta">Lectura del libro del Apocalipsis del apóstol san Juan</p>
+
+  <p class="SalmoNum">14, 13</p>
+
+  <p class="Normale">Yo, Juan, oí una voz que venía del cielo y me decía: “Escribe: ‘Dichosos ya desde ahora los muertos que han muerto en el Señor. El Espíritu es quien lo dice: Que descansen ya de sus fatigas, pues sus obras los acompañan’</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+  <p class="SalmoEtc">SALMO RESPONSORIAL</p>
+
+  <p class="SalmoNum">Sal 62</p>
+
+  <p class="SalmoEstrib">R/. Señor, mi alma tiene sed de ti.</p>
+
+  <p class="SalmoTxt">Señor, tú eres mi Dios, a ti te busco;<br/> de ti sedienta está mi alma.<br/> Señor, todo mi ser te añora,<br/> como el suelo reseco añora el agua. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Para admirar tu gloria y tu poder,<br/> anhelo contemplarte en el santuario.<br/> Pues mejor es tu amor que la existencia,<br/> siempre, Señor, te alabarán mis labios. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Podré así bendecirte mientras viva<br/> y levantar en oración mis manos.<br/> De lo mejor se saciará mi alma;<br/> te alabaré con júbilo en los labios. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Fuiste mi auxilio<br/> y a tu sombra canté lleno de gozo.<br/> A ti se adhiere mi alma,<br/> y tu diestra me da seguro apoyo. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoEtc">ACLAMACIÓN ANTES DEL EVANGELIO</p>
+
+  <p class="SalmoNum">Mt 25, 34</p>
+
+<p class="Alleluia"><span class="Rosso">R/.</span> <b>Aleluya, aleluya</b>.<br/> Vengan, benditos de mi Padre, dice el Señor; <br/> tomen posesión del Reino preparado para ustedes<br/> desde la creación del mundo.<br/><b><span class="Rosso">R/.</span></b> <b>Aleluya</b>.</p>
+
+  <p class="SalmoEtc">EVANGELIO</p>
+
+  <p class="TestoItalic">Inclinando la cabeza, entregó el espíritu.</p>
+
+  <p class="Normale"></p>
+
+  <p class="LecturaCarta"><span class="Rosso">†</span> Lectura del santo Evangelio según san Juan</p>
+
+  <p class="SalmoNum">19, 17-18. 25-39,</p>
+
+  <p class="Normale">En aquel tiempo, Jesús, cargando con la cruz, se dirigió hacia el sitio llamado “la Calavera” (que en hebreo se dice Gólgota), donde lo crucificaron, y con él a otros dos, uno de cada lado, y en medio Jesús.</p>
+
+  <p class="Normale">Junto a la cruz de Jesús estaban su madre, la hermana de su madre, María la de Cleofás, y María Magdalena. Al ver a su madre y junto a ella al discípulo que tanto quería, Jesús dijo a su madre: “Mujer, ahí está tu hijo”. Luego dijo al discípulo: “Ahí está tu madre”. Y desde entonces el discípulo se la llevó a vivir con él.</p>
+
+  <p class="Normale">Después de esto, sabiendo Jesús que todo había llegado a su término, para que se cumpliera la Escritura dijo: “Tengo sed”. Había allí un jarro lleno de vinagre. Los soldados sujetaron una esponja empapada en vinagre a una caña de hisopo y se la acercaron a la boca. Jesús probó el vinagre y dijo: “Todo está cumplido”, e inclinando la cabeza, entregó el espíritu.</p>
+
+  <p class="PalabraDeDios">Palabra del Señor.</p>
+
+  <p class="SalmoEtc">ORACIÓN SOBRE LAS OFRENDAS</p>
+
+  <p class="Antifona">Muéstrate propicio, Señor, con tu hijo N.,<br/> por cuya salvación ofrecemos este sacrificio<br/> que por amor a Cristo siguió el camino de la caridad perfecta,<br/> resucite con tus servidores fieles para la gloria eterna.<br/> Por Jesucristo, nuestro Señor.</p>
+
+  <p class="SalmoEtc">PREFACIO</p>
+
+ 
+  <div class="divPrefac">
+    <p class="Prefac_V">V. El Señor esté con ustedes</p>
+
+    <p class="Prefac_R">R. Y con tu espíritu.</p>
+
+    <p class="Prefac_V">V. Levantemos el corazón.</p>
+
+    <p class="Prefac_R">R. Lo tenemos levantado hacia el Señor.</p>
+
+    <p class="Prefac_V">V. Demos gracias al Señor, nuestro Dios.</p>
+
+    <p class="Prefac_R">R. Es justo y necesario.</p>
+  </div>
+
+
+  <p class="Antifona">En verdad es justo y necesario,<br/> es nuestro deber y salvación<br/> darte gracias siempre y en todo lugar,<br/> Señor, Padre santo, Dios todopoderoso y eterno,<br/> por Cristo, Señor nuestro.</p>
+
+  <p class="SalmoTxt">Porque él quiso morir por nosotros<br/> para librarnos de la muerte eterna;<br/> más aún, solo él entregó su vida por todos,<br/> para que viviéramos eternamente para ti.</p>
+
+  <p class="SalmoTxt">Por eso, unidos a los ángeles,<br/> cantamos un himno a tu gloria,<br/> diciendo sin cesar:</p>
+
+  <p class="Sanctus">Santo, Santo, Santo es el Señor, Dios del Universo.<br/> Llenos están el cielo y la tierra de tu gloria.<br/> Hosanna en el cielo.</p>
+
+
+
+  <p class="AntSmall">Antífona de comunión</p>
+
+  <p class="AntSmallTxt">« Todo aquel que me da el Padre viene hacia mí; <br/> y al que viene a mí yo no lo echaré fuera », dice el Señor.</p>
+
+  <p class="SalmoEtc">ORACIÓN PARA DESPUÉS DE LA COMUNIÓN</p>
+
+  <p class="Antifona">Padre de bondad, saciados con tus dones sagrados,<br/> te rogamos humildemente, que, <br/> por este sacrificio, tu hijo N.,<br/> a quien llamaste a tu servicio en la Iglesia,<br/> liberado de las ataduras de su vida mortal, <br/> pueda entrar en tu gozo,<br/> para compartir la recompensa reservada <br/> a los buenos servidores.<br/> Por Jesucristo, nuestro Señor. </p>
+
+  <p class="SalmoEtc">ÚLTIMA RECOMENDACIÓN Y DESPEDIDA</p>
+
+  <p class="SalmoTxt">Nuestro hermano N . ha muerto en la paz de Cristo; <br/> con la fe y la esperanza puestas en la vida eterna, <br/> lo confiamos al amor de nuestro Padre.</p>
+
+  <p class="SalmoTxt">Fue adoptado entre los hijos de Dios en el Bautismo, <br/> y, unido a sus hermanos, participó en la mesa del Señor; <br/> pidamos ahora que sea admitido al banquete del Reino <br/> y herede, con los santos, los premios eternos.</p>
+
+  <p class="SalmoTxt">Y en este momento de la separación oremos al Señor por nosotros, <br/> para que podamos con nuestro hermano salir al encuentro de Cristo, <br/> cuando él mismo, vida nuestra, aparezca en gloria.</p>
+
+  <p class="Commento">Rezan todos algunos momentos en silencio. Después se bendice e inciensa el cuerpo.</p>
+
+  <p class="SalmoTxt">Vengan en su ayuda, santos de Dios; <br/> salgan a su encuentro, ángeles del Señor.</p>
+
+  <p class="SalmoTxt">Reciban su alma <br/> y preséntenla ante el Altísimo.</p>
+
+  <p class="SalmoTxt">Que te reciba Cristo, el mismo que te llamó; <br/> y que el coro de los ángeles <br/> te introduzca en el cielo.</p>
+
+  <p class="SalmoTxt">Reciban su alma <br/> y preséntenla ante el Altísimo.</p>
+
+  <p class="SalmoTxt">Dale, Señor, el descanso eterno <br/> y la Luz perpetua brille para él.</p>
+
+  <p class="SalmoTxt">Reciban su alma <br/> y preséntenla ante el Altísimo.</p>
+
+  <p class="SalmoEtc">OREMOS</p>
+
+  <p class="Antifona">A tus manos, Padre de bondad, encomendamos el alma de nuestro hermano <br/> con la firme esperanza de que resucitará en el último día,<br/> con todos los que han muerto en Cristo.<br/> Te damos gracias por todos los dones <br/> con que lo enriqueciste a lo largo de su vida; <br/> en ellos reconocemos un signo de tu amor y de la comunión de los santos.<br/> Dios de misericordia, en tu amor sin limites ábrele las puertas de tu mansión. <br/> Y a todos nosotros, los que hemos quedado en este mundo, <br/> concédenos saber consolarnos con palabras de fe, <br/> hasta que también nos llegue el momento de volver a reunirnos con él, <br/> junto a ti, en el gozo de tu reino eterno. <br/> Por Jesucristo nuestro Señor.</p>
+  <hr /><p class="Separa"></p>
+
+  <h1 class="pT1" title="MISA POR TODOS NUESTROS DIFUNTOS OMI" id="sigil_toc_id_11">MISA COMUNITARIA<br/> POR TODOS NUESTROS DIFUNTOS OMI</h1>
+
+  <p class="pT4">3 de noviembre (u otro día disponible)</p>
+
+  <p class="pT4"></p>
+
+  <p class="pT4"></p>
+
+  <p class="AntSmall">Antífona de entrada</p>
+
+  <p class="AntSmallTxt">«Cristo resucitó como la primicia de todos los muertos.<br/> Y como en Adán todos mueren, así en Cristo todos volverán a la vida.»</p>
+
+  <p class="SalmoEtc">ORACIÓN COLECTA</p>
+
+  <p class="Antifona">Dios nuestro, que hiciste entrar en el cielo<br/> a tu Hijo único, vencedor de la muerte,<br/> concede a nuestros hermanos Oblatos difuntos <br/> que con el nombre de Cristo en sus labios se despidieron de nosotros,<br/> que, superada su condición mortal,<br/> puedan contemplarte para siempre como creador y redentor.<br/> Por nuestro Señor Jesucristo, tu Hijo,<br/> que vive y reina contigo en la unidad del Espíritu Santo,<br/> y es Dios, por los siglos de los siglos.</p>
+
+  <p class="SalmoEtc">PRIMERA LECTURA</p>
+
+  <p class="TestoItalic">Dichosos los que mueren en el Señor.</p>
+
+  <p class="LecturaCarta">Lectura del libro del Apocalipsis del apóstol san Juan</p>
+
+  <p class="SalmoNum">14, 13</p>
+
+  <p class="Normale">Yo, Juan, oí una voz que venía del cielo y me decía: “Escribe: ‘Dichosos ya desde ahora los muertos que han muerto en el Señor. El Espíritu es quien lo dice: Que descansen ya de sus fatigas, pues sus obras los acompañan’</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+  <p class="SalmoEtc">SALMO RESPONSORIAL</p>
+
+  <p class="SalmoNum">Sal 62</p>
+
+  <p class="SalmoEstrib">R/. Señor, mi alma tiene sed de ti.</p>
+
+  <p class="SalmoTxt">Señor, tú eres mi Dios, a ti te busco;<br/> de ti sedienta está mi alma.<br/> Señor, todo mi ser te añora,<br/> como el suelo reseco añora el agua. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Para admirar tu gloria y tu poder,<br/> anhelo contemplarte en el santuario.<br/> Pues mejor es tu amor que la existencia,<br/> siempre, Señor, te alabarán mis labios. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Podré así bendecirte mientras viva<br/> y levantar en oración mis manos.<br/> De lo mejor se saciará mi alma;<br/> te alabaré con júbilo en los labios. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Fuiste mi auxilio<br/> y a tu sombra canté lleno de gozo.<br/> A ti se adhiere mi alma,<br/> y tu diestra me da seguro apoyo. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoEtc">ACLAMACIÓN ANTES DEL EVANGELIO</p>
+
+  <p class="SalmoNum">Mt 25, 34</p>
+
+<p class="Alleluia"><span class="Rosso">R/.</span> <b>Aleluya, aleluya</b>.<br/> Vengan, benditos de mi Padre, dice el Señor; <br/> tomen posesión del Reino preparado para ustedes<br/> desde la creación del mundo.<br/><b><span class="Rosso">R/.</span></b> <b>Aleluya</b>.</p>
+
+  <p class="SalmoEtc">EVANGELIO</p>
+
+  <p class="TestoItalic">Inclinando la cabeza, entregó el espíritu.</p>
+
+  <p class="Normale"></p>
+
+  <p class="LecturaCarta"><span class="Rosso">†</span> Lectura del santo Evangelio según san Juan</p>
+
+  <p class="SalmoNum">19, 17-18. 25-39,</p>
+
+  <p class="Normale">En aquel tiempo, Jesús, cargando con la cruz, se dirigió hacia el sitio llamado “la Calavera” (que en hebreo se dice Gólgota), donde lo crucificaron, y con él a otros dos, uno de cada lado, y en medio Jesús.</p>
+
+  <p class="Normale">Junto a la cruz de Jesús estaban su madre, la hermana de su madre, María la de Cleofás, y María Magdalena. Al ver a su madre y junto a ella al discípulo que tanto quería, Jesús dijo a su madre: “Mujer, ahí está tu hijo”. Luego dijo al discípulo: “Ahí está tu madre”. Y desde entonces el discípulo se la llevó a vivir con él.</p>
+
+  <p class="Normale">Después de esto, sabiendo Jesús que todo había llegado a su término, para que se cumpliera la Escritura dijo: “Tengo sed”. Había allí un jarro lleno de vinagre. Los soldados sujetaron una esponja empapada en vinagre a una caña de hisopo y se la acercaron a la boca. Jesús probó el vinagre y dijo: “Todo está cumplido”, e inclinando la cabeza, entregó el espíritu.</p>
+
+  <p class="PalabraDeDios">Palabra del Señor.</p>
+
+  <p class="SalmoEtc">ORACIÓN SOBRE LAS OFRENDAS</p>
+
+  <p class="Antifona">Señor y Dios nuestro, te rogamos<br/> que aceptes con bondad el sacrificio que te ofrecemos<br/> por nuestros hermanos Oblatos difuntos,<br/> y ya que les llamaste a tu servicio en la Iglesia<br/> otórgales también la recompensa eterna.<br/> Por Jesucristo, nuestro Señor.</p>
+
+  <p class="SalmoEtc">PREFACIO</p>
+
+
+  <div class="divPrefac">
+    <p class="Prefac_V">V. El Señor esté con ustedes</p>
+
+    <p class="Prefac_R">R. Y con tu espíritu.</p>
+
+    <p class="Prefac_V">V. Levantemos el corazón.</p>
+
+    <p class="Prefac_R">R. Lo tenemos levantado hacia el Señor.</p>
+
+    <p class="Prefac_V">V. Demos gracias al Señor, nuestro Dios.</p>
+
+    <p class="Prefac_R">R. Es justo y necesario.</p>
+  </div>
+
+
+  <p class="Antifona">En verdad es justo y necesario,<br/> es nuestro deber y salvación<br/> darte gracias siempre y en todo lugar,<br/> Señor, Padre santo,<br/> Dios todopoderoso y eterno,<br/> por Cristo, Señor nuestro.</p>
+
+  <p class="SalmoTxt">En él brilla la esperanza<br/> de nuestra feliz resurrección;<br/> y así, aunque la certeza de morir nos entristece,<br/> nos consuela la promesa de la futura inmortalidad.<br/> Porque para los que creemos en ti, Señor,<br/> la vida no termina, sino que se transforma,<br/> y al deshacerse esta morada terrenal,<br/> adquirimos una mansión eterna en el cielo.</p>
+
+  <p class="SalmoTxt">Por eso, con los ángeles y arcángeles,<br/> y con todos los coros celestiales<br/> cantamos un himno a tu gloria,<br/> diciendo sin cesar:</p>
+
+  <p class="Sanctus">Santo, Santo, Santo es el Señor,<br/> Dios del Universo.<br/> Llenos están el cielo y la tierra de tu gloria.<br/> Hosanna en el cielo.</p>
+
+  <p class="AntSmall">Antífona de comunión</p>
+
+  <p class="AntSmallTxt">Yo soy la resurrección y la vida, dice el Señor; <br/> el que cree en mí, no morirá para siempre.</p>
+
+  <p class="SalmoEtc">ORACIÓN PARA DESPUÉS DE LA COMUNIÓN</p>
+
+  <p class="Antifona">Dios todopoderoso, te pedimos<br/> que la participación en estos sagrados misterios<br/> nos aproveche para la salvación,<br/> y obtenga a nuestros hermanos difuntos<br/> la misericordia y el perdón.<br/> Por Jesucristo, nuestro Señor.</p>
+  <hr /><p class="Separa"></p>
+
+  <h1 class="pT1" id="sigil_toc_id_12">BENDICIONES SOLEMNES</h1>
+
+  <p class="Normale"></p>
+
+  <p class="Normale"></p>
+
+  <p class="SalmoEtc">EN LAS FIESTAS DE LA VIRGEN MARÍA</p>
+
+  <p class="SalmoNum"></p>
+
+  <p class="Prefac_V">V. El Señor esté con ustedes.</p>
+
+  <p class="Prefac_R">R. Y con tu espíritu.</p>
+
+  <p class="Normale"></p>
+
+  <p class="SalmoTxt">Dios, que por su bondad quiso redimir al género humano <br/> mediante la maternidad de la Virgen María, <br/> derrame sobre ustedes una abundante bendición.</p>
+
+  <p class="Prefac_R">R. Amen.</p>
+
+  <p class="Prefazio"></p>
+
+  <p class="SalmoTxt">Que experimenten siempre y en todas partes <br/> la protección de la Virgen María, <br/> por quien recibieron al autor de la vida.</p>
+
+  <p class="Prefac_R">R. Amen.</p>
+
+  <p class="Prefazio"></p>
+
+  <p class="SalmoTxt">Y todos ustedes, reunidos para celebrar con amor esta fiesta <br/> en su honor, reciban los dones de la alegría espiritual <br/> y los premios eternos.</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Prefazio"></p>
+
+  <p class="SalmoTxt">Y la bendición de Dios todopoderoso, del Padre, <br/> del Hijo y del Espíritu Santo, <br/> descienda sobre ustedes y permanezca para siempre.</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Normale"></p>
+
+  <p class="Normale"> </p>
+
+  <p class="SalmoEtc">SAN EUGENIO DE MAZENOD</p>
+  <p class="pT3"></p>
+
+  <p class="Prefac_V">V. El Señor esté con ustedes.</p>
+
+  <p class="Prefac_R">R. Y con tu espíritu.</p>
+
+  <p class="Prefazio"></p>
+
+  <p class="SalmoTxt">Dios, nuestro Padre, <br/> que nos ha congregado para celebrar hoy <br/> la fiesta de San Eugenio,<br/> les atraiga a una vida de santidad<br/> y puedan irradiarla a otros.</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Prefazio"></p>
+
+  <p class="SalmoTxt">Cristo Salvador <br/> permanezca con ustedes todos los días <br/> y les infunda el celo de San Eugenio de Mazenod, <br/> para ser servidores de la Iglesia y de los hermanos.</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Prefazio"></p>
+
+  <p class="SalmoTxt">Que el Espíritu Santo les ilumine, <br/> para que tengan alegría y paz en esta vida <br/> y alcancen, juntos con San Eugenio de Mazenod,<br/> la felicidad de la vida eterna.</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Normale"></p>
+
+  <p class="SalmoTxt">Y la bendición de Dios todopoderoso, del Padre, <br/> del Hijo y del Espíritu Santo, <br/> descienda sobre ustedes y permanezca para siempre.</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Normale"> </p>
+
+  <p class="SalmoEtc">17 FEBRERO</p>
+
+  <p class="pT3"></p>
+
+  <p class="Prefac_V">V. El Señor esté con ustedes.</p>
+
+  <p class="Prefac_R">R. Y con tu espíritu.</p>
+  <p class="Normale"></p>
+
+  <p class="SalmoTxt">Dios, Padre misericordioso,<br/> les ilumine siempre con las luz de la fe <br/> y les ayude a perseverar en la bondad.</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Normale"></p>
+
+  <p class="SalmoTxt">Jesucristo, fruto del vientre virginal de María, <br/> les conceda toda clase de virtudes y de dones <br/> para que sean más agradables a su corazón.</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Normale"></p>
+
+  <p class="SalmoTxt">Que el Espíritu Santo les ilumine y renueve, <br/> porque, estando vigilantes en la oración y exultante en la alabanza, <br/> puedan encontrarse con el Señor cuando venga en su gloria.</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Normale"></p>
+
+  <p class="SalmoTxt">Y la bendición de Dios todopoderoso, del Padre, <br/> del Hijo y del Espíritu Santo, <br/> descienda sobre ustedes y permanezca para siempre.</p>
+
+
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Normale"> </p>
+
+  <p class="SalmoEtc">BEATO JOSÉ GERARD</p>
+
+  <p class="Normale"></p>
+
+  <p class="pT3"></p>
+
+  <p class="Prefac_V">V. El Señor esté con ustedes.</p>
+
+  <p class="Prefac_R">R. Y con tu espíritu.</p>
+
+  <p class="Normale"></p>
+
+  <p class="SalmoTxt">Dios, nuestro Padre, que nos ha congregado <br/> para celebrar hoy la memoria del beato José Gerard,<br/> los bendiga y proteja, y les confirme en su paz.</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Normale"></p>
+
+  <p class="SalmoTxt">Cristo Señor,<br/> che ha manifestado en el beato José Gerard <br/> la fuerza renovadora de la Pascua,<br/> los haga verdaderos testigos de su Evangelio.</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Normale"></p>
+
+  <p class="SalmoTxt">El Espíritu Santo,<br/> que en el beato José Gerard<br/> nos ha dado un signo de solidaridad fraternal,<br/> los haga capaces de verdadera comunión<br/> de fe y amor en su Iglesia.</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Normale"></p>
+
+  <p class="SalmoTxt">Y la bendición de Dios todopoderoso, del Padre, <br/> del Hijo y del Espíritu Santo, <br/> descienda sobre ustedes y permanezca para siempre.</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Normale"></p>
+
+  <p class="Normale"></p>
+
+  <p class="Normale"> </p>
+
+  <p class="SalmoEtc">BEATO JOSÉ CEBULA</p>
+
+  <p class="pT3"></p>
+
+   <p class="Prefac_V">V. El Señor esté con ustedes.</p>
+
+  <p class="Prefac_R">R. Y con tu espíritu.</p>
+
+  <p class="Normale"></p>
+
+  <p class="SalmoTxt">Dios todopoderoso<br/> por intercesión del beato José Cebula<br/> los libre de toda perturbación<br/> y les conceda la abundancia de sus dones</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Normale"></p>
+
+  <p class="SalmoTxt">Cristo Señor <br/> haga que sus corazones sean atentos a su palabra,<br/> porque siguiendo el ejemplo del beato José Cebula,<br/> puedan siempre andar por el camino de sus preceptos.</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Normale"></p>
+
+  <p class="SalmoTxt">Que el Espíritu Santo les ayude <br/> a entender lo que es bueno y justo, <br/> porque junto con el Beato José Cebula<br/> puedan llegar a ser co-herederos de la ciudad eterna</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <p class="Normale"></p>
+
+  <p class="SalmoTxt">Y la bendición de Dios todopoderoso, del Padre, <br/> del Hijo y del Espíritu Santo, <br/> descienda sobre ustedes y permanezca para siempre.</p>
+
+  <p class="Prefac_R">R.  Amen.</p>
+
+  <hr /><p class="Separa"></p>
+
+  <h1 class="pT1" id="sigil_toc_id_13">CONSAGRACIÓN<br/> A MARÍA INMACULADA</h1>
+
+  <p class="Commento">(Para el 17 de febrero y el 8 de diciembre)</p>
+
+  <p class="SalmoTxt">Oh María Inmaculada, Madre de Dios y Madre nuestra, juntos venimos a renovarte nuestra consagración. Por tu intercesión queremos ofrecer a tu Hijo, nuestro Señor y nuestro Hermano, la vida y el trabajo de nuestra familia religiosa. Recordamos el espíritu de nuestros primeros misioneros, y su celo por llevar a los mas abandonados el conocimiento de Cristo y su Reino y por edificar la Iglesia. Recordamos también la confianza que ponían en tu protección, y, unidos a ellos, te pedimos que intercedas por nosotros ante Dios Padre.</p>
+
+  <p class="SalmoTxt">Somos tus Oblatos: el Señor nos ha distinguido con esta gracia, que ha unido a nuestra filas hombres de todo el mundo. Tenemos ante los ojos estas palabras de San Eugenio de Mazenod: "Todos los misioneros profesarán una tierna devoción a la Santísima Virgen y la tendrán siempre por Madre".</p>
+
+  <p class="SalmoTxt">María Inmaculada, modelo de nuestra fe, haz que, dóciles a la acción del Espíritu, nos consagremos del todo, como humildes servidores a la persona y a la obra del Salvador.</p>
+
+  <p class="SalmoTxt">María Inmaculada, Madre de Misericordia, protege y fortalece a nuestras familias, bendice nuestras tareas y trabajos, acude en ayuda de la gente a la que servimos.</p>
+
+  <p class="SalmoTxt">María Inmaculada, Madre del amor hermoso, haz que, por tu intercesión y por nuestros esfuerzos, toda la humanidad reconozca a Cristo como Señor y Salvador. Concédenos también que un día, junto a ti y junto a todos los oblatos que nos han precedido en la casa del Padre, cantemos eternamente la alabanza del Padre, del Hijo y del Espíritu Santo. Amén.</p>
+
+
+
+  <p class="piccolo">(Capitulo General de 1974)</p>
+
+  <hr /><p class="Separa"></p>
+
+  <h1 class="pT1" id="sigil_toc_id_14">FORMULA <br/> DE OBLACIÓN</h1>
+
+  <p class="SalmoTxt">En nombre de Nuestro Señor Jesucristo,<br/> en presencia de la Santísima Trinidad,<br/> de la bienaventurada Virgen María,<br/> de San Eugenio de Mazenod<br/> y de todos mis hermanos aquí reunidos, <br/> ante ti, Padre N. (delegado del) Superior general,<br/> yo, N. prometo a Dios,<br/> profeso y hago voto de castidad, pobreza<br/> y obediencia perpetuas (por un año).</p>
+
+  <p class="SalmoTxt">Igualmente hago voto <br/> de perseverar hasta la muerte<br/> (por un año)<br/> en el santo Instituto y Sociedad<br/> de los Misioneros Oblatos <br/> de la Santísima e Inmaculada Virgen María.</p>
+
+  <p class="SalmoTxt">Dios me ayude. Amén.</p>
+
+  <p class="Normale"></p>
+
+  <p class="Normale"></p>
+</body>
+</html>

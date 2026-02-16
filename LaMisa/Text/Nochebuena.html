@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+
+
+html {
+  font-family:Times, Times New Roman, serif;
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;
+}
+body {
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.2rem + 0.25vw, 1.5rem);
+	line-height: 120%;
+	padding-left: 2%;
+	padding-right: 2%;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+
+.IndOrd{
+    font-family:Times, Times New Roman, serif;
+    background-color:#F0F0F0;
+    line-height:1.5rem;
+    text-align:center;
+    font-size:1rem;
+    font-weight:bold;
+    color:#006622;
+    margin-top:0.2em;
+    margin-bottom:0.2em;
+    margin-left:2%;
+    margin-right:2%;
+    border-top: 1px solid red;
+    border-bottom: 1px dashed red;
+    padding:0.2em;
+    }
+
+h1{
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+
+
+/* linea */
+hr {
+	border:0;
+	border-top:2px dashed red; 
+	margin-right:0%;
+    }
+
+
+.pT1{
+    font-family:Times, Times New Roman, serif;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.3rem;
+    margin-bottom:0;
+    margin-top:0.3em;
+    color:green;
+    }
+
+.pT2{
+    font-family:Times, Times New Roman, serif;
+
+    text-align:center;
+    font-weight:bold;
+    font-size:1.1em;
+    margin-bottom:0em;
+    color:red;
+    }
+
+.pT3{
+    font-family:Times, Times New Roman, serif;
+    text-align:center;
+    font-size:1em;
+    font-weight:bold;
+    margin-bottom:0.2em;
+    color:red;
+    }
+
+.Sanctus {
+    color:black;
+    display:block;
+    font-size:0.8rem;
+    line-height:1rem;
+    font-style:italic;
+    margin-left:3em;
+    margin-top:0.5em;
+    margin-bottom:1em;
+    padding:0;
+    }
+
+
+
+.Normale{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-align:justify; 
+    text-indent:1em;
+    margin-top:0.3px; 
+    margin-bottom:0px; 
+    }
+
+
+
+.NormalParaFin{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-align:justify; 
+    text-indent:1em;
+    margin-top:0.3em; 
+    margin-bottom:0.4em; 
+    }
+
+.LecturaCarta{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    font-weight:bold;
+    margin-top:2px;
+    margin-bottom:2px;
+    }
+
+.SalmoEtc{
+    font-family:Times, Times New Roman, serif;
+    font-size:1.2rem;
+    font-weight:bold;
+    color:red;
+    margin-top:18px;
+    margin-bottom:0rem;
+    }
+
+
+.SalmoEtcSpacio{
+    font-family:Times, Times New Roman, serif;
+    font-size:small;
+    font-weight:bold;
+    color:red;
+    margin-top:18px;
+    margin-bottom:0px;
+    }
+
+
+.SalmoEstrib{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    font-weight:bold;
+    margin-left:0em;   
+    margin-top:1rem;
+    margin-bottom:0.5rem;
+    }
+
+
+
+.SalmoNum{
+    font-family:Times, Times New Roman, serif;
+    font-size:0.8em;
+    color:red;
+    margin-top:0px;
+    margin-bottom:8px;
+	line-height: 0.4rem
+    }
+
+.SalmoTxt{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-indent:-13px;
+    padding:0px 0px 0px 20px;
+    margin-top:0px;
+    margin-bottom:6px;
+    }
+
+.SalmoTxt::first-letter {
+    font-weight:bold;
+    color:red;
+	margin-right:0.05em;
+    }
+
+
+
+
+
+.TestoItalic{
+    font-family:Times, Times New Roman, serif;
+    color: red;
+    font-size:small;
+    font-style:italic;
+    margin-top:2px;
+    margin-bottom:12px;
+	line-height:0.6rem
+}
+
+.Alleluia{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-indent:-20px;
+    padding:0px 0px 0px 20px;
+    margin-top:4px;
+    margin-bottom:4px;
+    }
+
+.PalabraDeDios{
+    font-family:Times, Times New Roman, serif;
+    font-weight:bold;
+    font-size:0.9em;
+    font-style:normal;
+    margin-top:2px;
+    margin-bottom:4px;
+}
+
+.Rosso {
+    color:red;
+    font-weight:bold;
+    }
+
+
+
+
+.Antifona {
+ 
+	color:black;
+    margin-top:0.2em;
+    margin-bottom:0.5em;
+    margin-left:0em;
+    }
+
+
+.Monicion {
+    font-family:"Times New Roman", Times, serif;
+    line-height:1.1;
+    font-size:1em;
+    font-style:italic;
+    text-align:left;
+    padding-left:0.5em;
+    text-indent:0em;
+    margin-top:0.4em;
+    margin-left:0.7em;
+    margin-bottom:1em;
+    hyphens:none;
+    color:brown;
+    }
+.Monicion2 {
+    font-family:"Times New Roman", Times, serif;
+    line-height:1.1;
+    font-size:0.9em;
+    font-style:italic;
+    text-align:left;
+    padding-left:0.5em;
+    text-indent:0em;
+    margin-top:0.4em;
+    margin-left:0.7em;
+    margin-bottom:0.5em;
+    hyphens:none;
+
+    }
+
+.Firma1 {
+    font-family:"Times New Roman", Times, serif;
+    line-height:0.9em;
+    font-size:0.7em;
+    font-style:italic;
+    text-align:right;
+    padding-left:0.5em;
+    text-indent:-0.5em;
+    margin-top:0.4em;
+    margin-bottom:0.1em;
+    hyphens:none;
+    color:red;
+	}
+
+.Celebrante {
+    font-family:"Times New Roman", Times, serif;
+    l
+    font-size:1em;
+    text-align:left;
+    padding-left:0em;
+    text-indent:-1em;
+    margin-top:0.4em;
+    margin-left:1em;
+    margin-bottom:0.1em;
+    hyphens:none;
+    color:brown;
+    }
+
+
+
+.Intenciones {
+    font-family:"Times New Roman", Times, serif;
+    line-height:1.2;
+    font-size:1.1em;
+    text-align:left;
+    padding-left:1em;
+    text-indent:-1em;
+    margin-top:0.4em;
+    margin-bottom:0.1em;
+    hyphens:none;
+    color:black;
+    }
+
+.endPara{
+    display:block;
+    font-family:Times, Times New Roman, serif;
+    font-size:0.75em;
+    color:red;
+    font-style:italic;
+    text-align:right;
+    margin-bottom:0;
+    margin-top:5em;
+    }	
+.Inicio {
+    font-family:Times, Times New Roman, serif;
+
+    text-align:center;
+	font-size:0.9em;
+    border-top:solid 1px red;
+    border-bottom:solid 1px red;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    padding-left:1em;
+    padding-right:1em;
+ 	color: red;
+
+}
+.button {
+  font: bold 1em Times;
+  background-color: #00802b; /* Green */
+  border: none;
+  color: white;
+  padding: 0.2em 0.01em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  margin: 0.1em 0.1em;
+  cursor: pointer;
+}
+.button {
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
+}
+.button {width: 13%;}
+
+.Prefac_R {
+    color:black;
+    font-style:italic;
+    line-height:1rem;
+	font-size:0.8rem;
+    margin-left:1.5rem;
+    margin-top:0em;
+    margin-bottom:0.5em;
+    }
+    
+    .fixedButton {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  margin-bottom: 15px;
+     color:brown;
+    font-size: 1.2em;
+}
+
+</style>
+  <title></title>
+</head>
+
+<body>
+  <p class="Inicio">Misioneros OMI - Palo Gordo</p>
+
+<body id="Inizio"> 
+ 
+ <p class="pT3">NATIVIDAD 2024<br />Misa de la Noche</p>
+
+  
+ 
+
+  <p class="Monicion"><b>MONICIÓN DE ENTRADA</b>: Queridos hermanos, tengan todos muy buenas noches. Les damos la más cordial bienvenida a la casa de Dios para festejar, junto a la Iglesia y a todos los hombres de buena voluntad, esta gran noche, la «Noche Buena». Hoy nos ha nacido un Salvador, el Mesías, el Señor. En esta noche la oscuridad se ve iluminada por una luz que irrumpe en las tinieblas y parte la historia en dos, para dar paso a la gran salvación prometida desde el Antiguo Testamento. Todos nosotros, unidos en una sola asamblea, radiantes de gozo, abramos nuestro corazón a Cristo, que es «La luz verdadera que ilumina a todo hombre que viene a este mundo». Que la Paz que el niño que nace nos trae, reine en nuestros corazones hoy y siempre, y nos permita celebrar, radiantes, esta gran fiesta, que comenzamos con el canto de entrada. De pie, cantemos todos.</p>
+  
+  
+  
+
+  <p class="SalmoEtc">PRIMERA LECTURA</p>
+<p class="Monicion"><b>MONICIÓN</b>: Comencemos esta noche la liturgia de la Palabra escuchando la gran noticia que el profeta Isaías trae al pueblo de Israel y a nosotros ahora. Son palabras de alegría y júbilo que el profeta hace sonar en la noche del desencanto y del dolor de los hombres, anunciando que Dios va a encender la Luz de su esperanza y su alegría. Escuchemos atentos.</p>
+
+
+  <p class="LecturaCarta">Lectura del libro del profeta Isaías</p>
+
+  <p class="SalmoNum">9, 1-3. 5-6</p>
+
+  <p class="Normale">El pueblo que caminaba en tinieblas vio una gran luz; sobre los que vivían en tierra de sombras, una luz resplandeció. Engrandeciste a tu pueblo e hiciste grande su alegría. Se gozan en tu presencia como gozan al cosechar, como se alegran al repartirse el botín. Porque tú quebrantaste su pesado yugo, la barra que oprimía sus hombros y el cetro de su tirano, como en el día de Madián.</p>
+
+  <p class="NormalParaFin">Porque un niño nos ha nacido, un hijo se nos ha dado; lleva sobre sus hombros el signo del imperio y su nombre será: “Consejero admirable”, “Dios poderoso”, “Padre sempiterno”, “Príncipe de la paz”; para extender el principado con una paz sin límites sobre el trono de David y sobre su reino; para establecerlo y consolidarlo con la justicia y el derecho, desde ahora y para siempre. El celo del Señor lo realizará.</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+ 
+
+  <p class="SalmoEtc">SALMO RESPONSORIAL</p>
+
+  <p class="SalmoNum">Del salmo 95</p>
+
+  <p class="SalmoEstrib"><span class="Rosso">R/.</span> Hoy nos ha nacido el Salvador.</p>
+
+  <p class="SalmoTxt">Cantemos al Señor un canto nuevo,<br/> que le cante al Señor toda la tierra;<br/> cantemos al Señor y bendigámoslo. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Proclamemos su amor día tras día,<br/> su grandeza anunciemos a los pueblos;<br/> de nación en nación, sus maravillas. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Alégrense los cielos y la tierra,<br/> retumbe el mar y el mundo submarino.<br/> Salten de gozo el campo y cuanto encierra,<br/> manifiesten los bosques regocijo. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoTxt">Regocíjese todo ante el Señor,<br/> porque ya viene a gobernar el orbe.<br/> Justicia y rectitud serán las normas<br/> con las que rija a todas las naciones. <span class="Rosso">R/.</span></p>
+
+  <p class="SalmoEtc">SEGUNDA LECTURA</p>
+<p class="Monicion"><b>MONICIÓN</b>: San Pablo, en la carta a su discípulo Tito, a quien había encomendado la comunidad de Creta,  habla de dos «apariciones», la que ya sucedió, al encarnarse Cristo Jesús en nuestra historia, y la que esperamos al final de los tiempos. Para el tiempo intermedio entre esas dos apariciones, San Pablo nos da unas consignas para la conducta de los cristianos.</p>
+
+ 
+
+  <p class="LecturaCarta">Lectura de la carta del apóstol san Pablo a Tito</p>
+
+  <p class="SalmoNum">2,11-14</p>
+
+  <p class="NormalParaFin">Querido hermano: La gracia de Dios se ha manifestado para salvar a todos los hombres y nos ha enseñado a renunciar a la vida sin religión y a los deseos mundanos, para que vivamos, ya desde ahora, de una manera sobria, justa y fiel a Dios, en espera de la gloriosa venida del gran Dios y Salvador, Cristo Jesús, nuestra esperanza. Él se entregó por nosotros para redimirnos de todo pecado y purificarnos, a fin de convertirnos en pueblo suyo, fervorosamente entregado a practicar el bien.</p>
+
+  <p class="PalabraDeDios">Palabra de Dios.</p>
+
+  <p class="SalmoEtc">EVANGELIO</p>
+
+<p class="Monicion"><b>MONICIÓN</b>: El evangelio según san Lucas relata cómo se celebró la primera Navidad, pero, sobre todo, este evangelio expresa el profundo significado que tiene el nacimiento de Jesús para toda la humanidad; un gran acontecimiento por el que cielos y tierra bendicen y alaban a Dios, como nosotros lo hacemos esta noche. Dispongámonos a escuchar esta Buena Noticia, cantando y aclamando al Señor. De pie, por favor...</p>
+
+  <p class="SalmoEtc">ACLAMACIÓN ANTES DEL EVANGELIO</p>
+
+  <p class="SalmoNum">Cfr. Lc 2, 1 0-1 1</p>
+
+  <p class="Alleluia"><span class="Rosso">R/.</span><b> Aleluya, aleluya.</b><br/> Les anuncio una gran alegría:<br/> Hoy nos ha nacido el Salvador,<br/> que es Cristo, el Señor. <br/> <span class="Rosso">R/.</span><b> Aleluya</b>.</p>
+
+ 
+ 
+
+  <p class="LecturaCarta"><span class="Rosso">†</span> Lectura del santo Evangelio según san Lucas</p>
+
+  <p class="SalmoNum">2, 1-14</p>
+
+  <p class="Normale">Por aquellos días, se promulgó un edicto de César Augusto, que ordenaba un censo de todo el imperio. Este primer censo se hizo cuando Quirino era gobernador de Siria. Todos iban a empadronarse, cada uno en su propia ciudad; así es que también José, perteneciente a la casa y familia de David, se dirigió desde la ciudad de Nazaret, en Galilea, a la ciudad de David, llamada Belén, para empadronarse, juntamente con María, su esposa, que estaba encinta.</p>
+
+  <p class="Normale">Mientras estaban ahí, le llegó a María el tiempo de dar a luz y tuvo a su hijo primogénito; lo envolvió en pañales y lo recostó en un pesebre, porque no hubo lugar para ellos en la posada.</p>
+
+  <p class="NormalParaFin">En aquella región había unos pastores que pasaban la noche en el campo, vigilando por turno sus rebaños. Un ángel del Señor se les apareció y la gloria de Dios los envolvió con su luz y se llenaron de temor. El ángel les dijo: “No teman. Les traigo una buena noticia, que causará gran alegría a todo el pueblo: hoy les ha nacido, en la ciudad de David, un Salvador, que es el Mesías, el Señor. Esto les servirá de señal: encontrarán al niño envuelto en pañales y recostado en un pesebre”. De pronto se le unió al ángel una multitud del ejército celestial, que alababa a Dios, diciendo: “¡Gloria a Dios en el cielo, y en la tierra paz a los hombres de buena voluntad!”</p>
+
+  <p class="PalabraDeDios">Palabra del Señor.</p>
+  
+   <p class="SalmoEtc">ORACIÓN DE LOS FIELES</p>
+
+  <p class="Celebrante"><b>CELEBRANTE</b>: <i>Queridos hermanos, en esta Noche Santa en que se manifestó la bondad y el amor del Salvador a todos los hombres, oremos a Dios confiando plenamente en su misericordia. A cada intención respondemos:
+ </i></p>
+
+  <p class="SalmoEstrib"><span class="Rosso">R/.</span> Recuérdanos, Señor, tu gloriosa venida.</p>
+
+  <p class="SalmoTxt">1. Por la Iglesia, para que, contemplando cada día el misterio del Verbo presente en la historia, sea cada vez más el lugar donde el hombre pueda encontrar, como ante la gruta de Belén, la belleza de Dios.  <i>Oremos</i>.</p>
+  
+  <p class="SalmoTxt">2. Por el Papa, los obispos y los sacerdotes, para que la celebración del Misterio del Amor infinito de Dios, hecho cercanía en su Hijo que ha nacido, les haga renacer al Evangelio vivido, proclamado y compartido con todos los hombres de buena voluntad. <i>Oremos</i>.</p>
+
+  <p class="SalmoTxt">3. Por los que gobiernan el mundo y rigen los destinos de las naciones, especialmente por los de nuestro país, para que se dejen invadir por la paz del niño que nace y busquen restablecer la armonía y la paz en nuestra sociedad. <i>Oremos</i>.</p>
+  
+  <p class="SalmoTxt">4. Por todos los que en esta noche sufren por la ausencia de sus seres queridos, por la enfermedad o la angustia, para que sean consolados por la presencia salvadora del Señor.  <i>Oremos</i>.</p>
+
+  <p class="SalmoTxt">5. Por todos nosotros, para que recibamos con un corazón agradecido el inmenso amor de Dios manifestado en el Niño de Belén, y nos convirtamos en testigos de ese mismo amor. <i>Oremos</i>.</p>
+
+ 
+  <p class="Celebrante"><b>CELEBRANTE</b>: <i>Recibe, Señor, nuestras súplicas, y junto con ellas la ofrenda de nuestros corazones, para que los colmes de paz, alegría y santidad. Por Jesucristo nuestro Señor.</i></p>
+
+  </body>
+</html>

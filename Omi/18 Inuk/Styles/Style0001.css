@@ -1,0 +1,184 @@
+
+@font-face {
+font-family: "LibreBaskerville-Regular";
+font-style: normal;
+font-weight: normal;
+src : url("../Fonts/LibreBaskerville-Regular.ttf");
+}
+
+@font-face {
+font-family: "LibreBaskerville-Bold";
+font-style: normal;
+font-weight: normal;
+src : url("../Fonts/LibreBaskerville-Bold.ttf");
+}
+html {
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;;
+}
+body {
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+	font-family: "Times New Roman", serif;
+	padding-left: 1px;
+	padding-right: 1px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+
+
+h1{
+ font-family: "LibreBaskerville-Bold", Times, serif;
+	font-size:1.5em;
+	page-break-before:always;
+    margin-bottom: 2em;
+	page-break-after:avoid;
+	text-align:center;
+	color: brown;
+	text-indent:0;
+ }
+
+h2{
+    font-family: "LibreBaskerville-Bold", Times, serif;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+    page-break-before: always;
+    text-align: center;
+    color: brown;
+    text-indent: 0;
+    font-weight: normal;
+
+}
+
+p.pNormalFirst::first-letter{
+	font-family: "LibreBaskerville-Bold";
+	font-style: normal;
+	float:left;
+	font-size: 52px;
+	vertical-align: bottom;
+	Line-height: 58px;
+	padding-right: 4px;
+	padding-bottm: 0px;
+	color:brown;
+}
+h3{
+	font-family: "LibreBaskerville-Bold", Times, serif;
+	margin: 2em 0.84em 1em 0.84em;
+	page-break-after:avoid;
+	text-align:center;
+	color: brown;
+	text-indent:0; 
+ }
+.pNormal{
+ font-family: "LibreBaskerville-Regular", Times, serif;
+
+ text-indent: 30px;
+ text-align: justify;
+ font-weight: normal;
+ margin-bottom: 6px;
+ margin-top: 0px;
+
+}
+
+
+.pNormalFirst{
+ font-family: "LibreBaskerville-Regular", Times, serif;
+ text-indent: 0px;
+ text-align: justify;
+ font-weight: normal;
+ margin-bottom: 6px;
+ margin-top: 0px;
+
+}
+.pCommento{
+ font-family: "Times New Roman", Times, serif;
+ text-align: center;
+font-style:italic;
+ font-weight: normal;
+ font-size: 0.7em;
+ margin-bottom: 6px;
+ margin-top: 0px;
+
+}
+
+
+.pAsterisco{
+ font-family: "LibreBaskerville-Regular", Times, serif;
+ text-align: center;
+ font-weight: normal;
+ font-size: 1em;
+ margin-bottom: 1.5em;
+ margin-top: 1.5em;
+ color:brown;
+}
+
+.pFaja{
+ font-family: "Times New Roman", Times, serif;
+ text-align: left;
+ color: blue;
+ font-weight: normal;
+ font-size: 1em;
+ text-align: center;
+   padding:5px 5px 5px 15px;
+ margin-bottom: 1em;
+ margin-top: 5px;
+ border-top: 2px solid red;
+ border-bottom: 2px solid red;
+ background-color: beige;
+ 
+}
+
+
+.pT3but a:link {
+  color: white;
+}
+.pT3but a:visited {
+  color: white;
+}
+.pT3but {
+  font-family: "Times New Roman", serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 0.2rem;
+  margin-top: 0em;
+  color: brown;
+}
+
+
+.butXL {
+  font: normal 22px Times;
+  background-color: orange;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.butXL {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.butXL {
+  width: 40%;
+}
+
+ a { text-decoration: none }
+  a:hover { color: red }
+.perTabla {
+    font-family: "Times New Roman", Times, serif;
+    color: red;
+	font-size: 1.0rem;
+    align: center;
+	   }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align: center;
+}

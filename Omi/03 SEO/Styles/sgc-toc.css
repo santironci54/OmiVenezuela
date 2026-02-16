@@ -1,0 +1,98 @@
+div.sgc-toc-title {
+    font-family: "Times New Roman", Times, serif;
+	color: brown;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+div.sgc-toc-level-1 {
+    font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+    margin-left: 0em;
+    margin-top: 0.3em;
+}
+
+div.sgc-toc-level-2 {
+    font-weight: normal;
+    margin-left: 1em;
+}
+
+div.sgc-toc-level-3 {
+    margin-left: 1em;
+}
+
+div.sgc-toc-level-4 {
+    margin-left: 1em;
+}
+
+div.sgc-toc-level-5 {
+    margin-left: 1em;
+}
+
+div.sgc-toc-level-6 {
+    margin-left: 1em;
+}
+.Level1{
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.4em;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 0.3em;
+    padding-left: 2em;
+    margin-bottom: 0.2em;
+    }
+.Level2{
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.3em;
+    font-size: 1.1em;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 0.1em;
+    margin-bottom: 0em;
+    padding-left: 4em;
+    }
+.Sel {
+    font-family: "Times New Roman", Times, serif;
+    Color: GREEN;
+    line-height: 1.2;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+
+    }
+.pFaja{
+ font-family: verdana, Helvetica, sans-serif;
+ text-align: left;
+ color: blue;
+ font-weight: bold;
+ font-size: 12px;
+ text-align: center;
+ margin-bottom: 1em;
+ margin-top: 3em;
+ margin-left: 1em;
+ margin-right: 1em;
+ padding-top: 0.3em;
+ padding-bottom: 0.3em;
+ padding-left: 2em;
+ border-top: 2px solid red;
+ border-bottom: 2px solid red;
+ background-color: beige;
+ 
+}
+.nSeo {
+    font-family: "Times New Roman", Times, serif;
+    Color: green;
+    line-height: 1.2;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0em;
+    margin-bottom: 3em;
+    margin-left: 0em;
+    margin-right: 0em;
+    }

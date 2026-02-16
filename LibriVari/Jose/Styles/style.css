@@ -1,0 +1,398 @@
+/* Font */
+@font-face {
+	font-family:"Calibri Light";
+	font-style:normal;
+	font-weight:normal;
+	src : url("font/Calibril.ttf");
+}
+
+
+html {
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;
+}
+
+body {
+  font-family: Times, Times New Roman, serif;
+  font-size: 1.1rem;
+  font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+  font-family: "Times New Roman", serif;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+.center {
+ 
+  text-align: center;
+  text-indent: 0;
+ margin-top: 0.4em;
+  margin-bottom: 0.4em;
+
+}
+.indice1 {
+  font-family: "Times New Roman", serif;
+  font-size: 1.2em;
+  display: block;
+  text-align: left;
+  margin-left: 1em;
+  margin-top: 0em;
+  margin-bottom: 0.1em;
+ }
+
+.indice2 {
+  font-family: "Times New Roman", serif;
+  font-size: 0.9em;
+  display: block;
+  text-align: left;
+  margin-left: 2em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+ }
+
+.indice3 {
+  font-family: "Times New Roman", serif;
+  font-size: 0.8em;
+  display: block;
+  text-align: left;
+  margin-left: 2.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+ }
+
+h1 {
+  font-family: "Calibri", sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  margin-bottom: 0em;
+  padding: 0;
+  color: mediumblue;
+}
+
+h2 {
+  display: block;
+  font-family: "Calibri", sans-serif;
+  font-size: 1.2em;
+  font-weight: lighter;
+  line-height: 1.2;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding: 0;
+  color: mediumblue;
+}
+
+h3 {
+  display: block;
+  font-family: "Calibri Light", sans-serif;
+  font-size: 1.2em;
+  font-weight: lighter;
+  line-height: 1.2;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  margin: 18pt 0 6pt;
+  padding: 0;
+  color: mediumblue;
+}
+
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  font-size: 1.3em;
+}
+
+.refnota {
+  font-weight: normal;
+  color: red;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.escalar { text-align: center; text-indent: 0; margin: 1em 0; }
+div#svg img { max-width: 18em; width: 100%; }
+div#svg1 img { max-width: 15em; width: 100%; }
+div#svg2 img { max-width: 15em; width: 100%; }
+div#svg3 img { max-width: 15em; width: 100%; }
+sup {
+  vertical-align: top;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+.subcap { text-indent:0; font-size:1em; margin:1em 0; font-weight:bold; font-style:normal; }
+
+li {
+  vertical-align: top;
+  font-size: 1em;
+  font-weight: normal;
+  margin-bottom: 0.4em;
+}
+
+.italic {
+  font-family: "Times New Roman", serif;
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+.normal {
+  font-family: "Times New Roman", serif;
+  font-size: 1.2em;
+  display: block;
+  text-align: justify;
+  text-indent: 2em;
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+  padding: 0;
+}
+
+/* -------- ESTILOS PERSONALES -------- */
+/* para letra capital metida en el párrafo */
+.inicio { margin-top:5em; text-indent:0; }
+span.letrak { float:left; font-size:3em; margin:0.3em 0.1em 0 0; }
+
+.letrak {
+  font-family: "Times New Roman", serif;
+  font-size: 1em;
+  display: block;
+  text-align: justify;
+  text-indent: 0em;
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+  padding: 0;
+  
+
+}
+
+.letrak::first-letter
+{ 
+text-transform: uppercase;
+font-size: 1em;
+color: mediumblue;
+
+}
+
+.tsubtitulo {
+  display: block;
+  font-family: "Calibri Light", sans-serif;
+  font-size: 1.2em;
+  font-weight: lighter;
+  line-height: 1.2;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  margin-top: 0pt;
+
+
+  padding: 0;
+  color: mediumblue;
+}
+ol {
+  font-family: "Times New Roman", serif;
+  font-size: 1.2em;
+  display: block;
+  text-align: justify;
+  text-indent: 0em;
+  margin-top: 0em;
+  margin-bottom: 1.5em;
+  padding: 0;
+}
+
+
+.quote {
+  display: block;
+  font-size: 1.1em;
+  font-style: italic;
+  text-align: left;
+  text-indent: 0;
+  margin: 6pt 19.9pt;
+  padding: 0;
+}
+
+.txtNote {
+  font-family: Times, Times New Roman, serif;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin-left: 2.4rem;
+  text-indent: -2.4rem;
+  margin-bottom: 0.3rem;
+  margin-top: 0;
+}
+
+.footnote {
+  display: block;
+  margin: 0.6em 0;
+}
+
+.img_para {
+  display: block;
+  text-align: center;
+  text-indent: 0;
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+.didasc {
+  display: block;
+  font-size: 0.75em;
+  text-align: center;
+  text-indent: 0;
+  margin: 0 56.7pt 6pt;
+  padding: 0;
+}
+
+.chapt {
+  display: block;
+  font-family: "Calibri", sans-serif;
+  font-size: 1.1em;
+  letter-spacing: 2pt;
+  page-break-after: avoid;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+
+.dramatis {
+  display: block;
+  text-align: left;
+  text-indent: -22.7pt;
+  margin: 0 0 6pt 22.7pt;
+  padding: 0;
+}
+
+.txtsmall {
+  display: block;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+.footnote1 {
+  display: block;
+  page-break-after: avoid;
+  margin: 1em 0;
+}
+
+.list_ {
+  display: block;
+  list-style-type: decimal;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+.derecha {
+	  align: right;
+}
+	
+.tab {
+  white-space: pre-wrap;
+}
+
+.refnota {
+  font-size: 1em;
+  font-weight: bold;
+  line-height: normal;
+  color: red;
+}
+
+
+.pT3but a:link {
+  color: white;
+}
+.pT3but a:visited {
+  color: white;
+}
+.pT3but {
+  font-family: "Times New Roman", serif;
+  letter-spacing: 3px;
+  text-align: center;
+  text-indent: 0em;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+  margin-top: 0em;
+  color: brown;
+}
+
+
+.butXL {
+  font: normal 22px Times;
+  background-color: orange;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.butXL {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.butXL {
+  width: 40%;
+}
+
+.fixedButton {
+  position: fixed;
+  bottom: 15px;
+  right: 2px;
+  margin-bottom: 30px;
+}
+
+.subtit {
+  display: block;
+  font-family: "Calibri Light", sans-serif;
+  font-size: 1.4em;
+  font-weight: lighter;
+  line-height: 1.2;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  margin-top: 0pt;
+  margin-left: 3.5em;
+  margin-right: 3.5em;
+
+  padding: 0;
+  color: mediumblue;
+}
+
+.cursiva {
+  display: block;
+  font-style: italic;
+  font-family: "Times New Roman", serif;
+  font-size: 1.2em;
+  display: block;
+  text-align: justify;
+  text-indent: 2em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding: 0;
+  
+}

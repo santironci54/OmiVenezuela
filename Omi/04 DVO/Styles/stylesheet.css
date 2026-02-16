@@ -1,0 +1,328 @@
+.OmiVenez {
+    display: block;
+    text-align: justify;
+    font-size: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0
+    }
+	
+	body {
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+	font-family: "Times New Roman", serif;
+	padding-left: 1px;
+	padding-right: 1px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+
+
+
+p {
+    margin-top: 2;
+    margin-bottom: 2px;
+    line-height: 1.2
+    }
+
+img {
+   margin-left: auto;
+  margin-right: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align: center;
+}
+
+table, th, td {
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid black;
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    vertical-align: top;
+}
+th {
+  padding: 2px;
+  text-align: center;
+}
+th {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 14px;
+}
+
+td {
+   width: 25%;
+   padding: 10px;
+   text-align: left;
+   font-size: 12px;
+}
+
+.OmiVenezDivIni {
+    background: #E6E6E6;
+    display: block;
+    border-top: blue solid 2pt;
+    border-bottom: blue solid 1pt
+    }
+.Titulo1 {
+    font-family: "Times New Roman", Times, serif;
+    color: brown;
+    text-align: center;
+    font-size: 1,2em;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    }
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: brown;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    }
+
+.Titulo2 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 1.2em;
+    color:brown;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 0.2em;
+    }
+.Titulo3 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    font-size: 1.1em;
+    color:brown;
+    font-weight: bold;
+    margin-top: 0.9em;
+    padding-left: 0.6em;
+    }
+
+.Titulo4 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    font-size: 1em;
+    color:brown;
+    font-weight: bold;
+    margin-top: 0.8em;
+    padding-left: 2.5em;
+    }
+.Titulo5 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 12px;
+    padding-left: 36pt;
+    }
+.Titulo6 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-top: 12px;
+    padding-left: 56pt;
+    }
+
+.OmiVenezTitAnno {
+    font-family: "Times New Roman", Times, serif;
+    color: brown;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 6px;
+
+
+    }
+.OmiVenezTit1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    font-size: 0.9em;
+    color:blue;
+    font-weight: bold;
+    padding-left: 1em;
+    text-indent: -1em;
+    margin-top: 3px
+    }
+.OmiVenezVol {
+    font-family: "Times New Roman", Times, serif;
+    color: brown;
+    padding-left: 1em;
+    font-size: 0.9em;
+    
+    }
+
+.OmiVenezLinks {
+    color: maroon;
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 10pt;
+    font-size: 0.75em;
+    }
+
+.Normal {
+    color: #000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 1.3em;
+    margin: 0.5em 0;
+    }
+
+.Toc1 {
+    color: #000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+    text-align: left;
+    text-indent: 45px;
+    margin: 0.2em 0;
+    }
+.Sumario {
+    font-family: "Times New Roman", Times, serif;
+    text-align: justify;
+    font-size: 1em;
+    font-style: italic;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: blue;
+    margin-bottom: 1.5em;
+    }
+
+.OmiVenezLJC {
+    text-align: left;
+    margin: 0.80em;
+    color: brown;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.80em;
+    }
+
+
+
+.OmiVenezData {
+    text-align: right;
+    margin: 1em 0;
+    color: brown;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.90em;
+    }
+.OmiVenezLineaNote {
+     background: #E6E6E6;
+     font-size: 1em;
+     text-align: center;
+     color: red;
+     border-top: blue solid 1pt;
+     border-bottom: blue solid 2pt;
+     padding-top: 4px;
+     padding-bottom: 4px;
+    }   
+.OmiVenezNota {
+    color: red;
+    font-weight: normal;
+    font-size: normal;
+    }
+.Bibliografia{
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+    line-height: normal;
+    padding-left: 1em;
+    color:brown;
+
+    }
+
+
+.OmiVenezTxtNota {
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    font-size: 0.70em;
+    line-height: normal;
+    text-indent: -2em;
+    padding-left: 2em;
+    color:brown;
+
+    }
+.Firma1 {
+    text-align: right;
+    color: brown;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+    font-style: italic;
+    }
+
+.OmiVenezBR {
+    line-height: 80%;
+    }
+.OmiVenezIndex {
+    font-family: "Times New Roman", Times, serif;
+    color: brown;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    }
+
+.OmiVenezIndex1 {
+    font-family: "Times New Roman", Times, serif;
+    color: brown;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 3px;
+   }
+.OmiVenezIndex2 {
+
+     font-size: 1em;
+     text-align: left;
+     color: red;
+     padding-top: 2px;
+     padding-bottom: 2px;
+    padding-left: 14pt;
+    text-indent: -14pt;
+
+   }
+
+.OmiVenezIndexFin {
+     background: #E6E6E6;
+     font-size: 1em;
+     text-align: center;
+     color: red;
+     border-top: blue solid 1pt;
+     border-bottom: blue solid 2pt;
+     padding-top: 4px;
+     padding-bottom: 4px;
+   }
+
+
+.Lista {
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+    line-height: 1.3em;
+    padding-left: 14pt;
+    text-indent: -7pt;
+    }
+.Lista1 {
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+    line-height: 1.3em;
+    padding-left: 34pt;
+
+    }

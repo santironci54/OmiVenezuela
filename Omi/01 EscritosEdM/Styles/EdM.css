@@ -1,0 +1,434 @@
+/* css Ronchi Sante
+----------------------------------------------- */
+html {
+  max-width: 80ch;
+  padding: 0.5ch;
+  margin: auto;
+  font-size: 1em;
+  hyphens: auto;
+}
+body {
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+	font-family: "Times New Roman", serif;
+	padding-left: 1px;
+	padding-right: 1px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+h4{
+ font-family: "Times New Roman", Times, serif;
+ text-align: left;
+ color: blue;
+ font-weight: bold;
+ font-size: 1em;
+ margin-bottom: 0px;
+ margin-top: 1em;
+}
+
+h5{
+ font-family: "Times New Roman", Times, serif;
+ text-align: left;
+ color: blue;
+ font-weight: normal;
+ font-size: 0.9em;
+ margin-bottom: 1em;
+ margin-top: 0px;
+}
+h6{
+ font-family: "Times New Roman", Times, serif;
+ text-align: left;
+ color: crimson;
+ font-weight: bold;
+ font-size: 1em;
+ margin-bottom: 6px;
+ margin-top: 15px;
+}
+
+.pFaja{
+ font-family: "Times New Roman", Times, serif;
+ text-align: left;
+ color: blue;
+ font-weight: normal;
+ font-size: 1em;
+ text-align: center;
+   padding:5px 5px 5px 15px;
+ margin-bottom: 1em;
+ margin-top: 5px;
+ border-top: 2px solid red;
+ border-bottom: 2px solid red;
+ background-color: beige;
+ 
+}
+
+#pIntro{
+ padding:0px 0px 0px 0px;
+ text-indent: 25px;
+ font-family: "Times New Roman", Times, serif;
+ text-align: justify;
+ font-weight: normal;
+ font-size: 1em;
+ font-style: italic;
+ margin-bottom: 3px;
+ margin-top: 0px;
+}
+
+
+#pIntro1{
+font-family: "Times New Roman", Times, serif;
+ text-align: left;
+ font-weight: bold;
+ font-size: 1.1em;
+ margin-bottom: 4px;
+ margin-top: 1em;
+}
+
+#pIntro2{
+ font-family: "Times New Roman", Times, serif;
+ text-align: left;
+ font-weight: bold;
+ font-size: 1em;
+ margin-bottom: 0px;
+ margin-top: 1em;
+}
+
+
+#pIntro3{
+ font-family: "Times New Roman", Times, serif;
+ text-align: left:
+ font-weight: bold;
+ font-size: 0.9em;
+ margin-bottom: 0px;
+ margin-top: 0px;
+ padding:0px 0px 0px 45px;
+}
+
+#pIndex{
+ font-family: "Times New Roman", Times, serif;
+ text-align: left:
+ font-weight: normal;
+ font-size: 1.1em;
+ margin-bottom: 3px;
+ margin-top: 0px;
+ padding:0px 0px 0px 60px;
+}
+
+
+
+.pT1{
+ font-family: "Times New Roman", Times, serif;
+ 
+ text-align: left;
+ color: blue;
+ font-weight: bold;
+ font-size: 1.2em;
+    text-indent: -30px;
+    padding:5px 5px 5px 35px;
+ margin-bottom: 0px;
+  margin-top: 24px;
+    border-left: 0px solid red;
+    border-top: 2px solid red;
+    border-bottom: 1px solid red;
+    background-color: beige;
+ 
+}
+.pTit2{
+ font-family: "Times New Roman", Times, serif;
+ 
+ text-align: left;
+ color: blue;
+ font-weight: bold;
+ font-size: 1.2em;
+    text-indent: -30px;
+    padding:5px 5px 5px 35px;
+ margin-bottom: 0px;
+  margin-top: 24px;
+    border-left: 0px solid red;
+    border-top: 2px solid red;
+    border-bottom: 1px solid red;
+    background-color: beige;
+ 
+}
+h2{
+ font-family: "Times New Roman", Times, serif;
+ 
+ text-align: left;
+ color: blue;
+ font-weight: bold;
+ font-size: 1.2em;
+    text-indent: -30px;
+    padding:5px 5px 5px 35px;
+ margin-bottom: 0px;
+  margin-top: 24px;
+    border-left: 0px solid red;
+    border-top: 2px solid red;
+    border-bottom: 1px solid red;
+    background-color: beige;
+ 
+}
+
+.pFaja{
+ font-family: "Times New Roman", Times, serif;
+ 
+ text-align: left;
+ color: blue;
+ font-weight: normal;
+ font-size: 1em;
+  text-align: center;
+    padding:5px 5px 5px 15px;
+ margin-bottom: 1em;
+ margin-top: 5px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    background-color: beige;
+ 
+}
+
+.pT1Diario{
+ font-family: "Times New Roman", Times, serif;
+ 
+ text-align: left;
+ color: red;
+ font-weight: normal;
+ font-size: 1.2em;
+ 
+ margin-top: 24px;
+ margin-bottom: 3px;
+ 
+}
+
+
+.pT2{
+ font-family: "Times New Roman", Times, serif;
+ font-style: italic; 
+ text-align: left;
+ color: green;
+ font-weight: normal;
+ font-size: 1em;
+    text-indent: 0px;
+    padding:0px 0px 0px 0px;
+ margin-bottom: 1em;
+ margin-top: 0px;
+   
+
+}
+
+
+
+
+.pT2Diario{
+ font-family: "Times New Roman", Times, serif;
+ text-align: left;
+  color: red;
+ font-weight: normal;
+ font-size: 1.2em;
+
+ margin-bottom: 3px;
+ margin-top: 18px;
+
+}
+
+
+.pT3{
+ font-family: "Times New Roman", Times, serif;
+ text-align: right;
+ font-weight: bold;
+ font-size: 1em;
+ color: crimson;
+ margin-bottom: 4px;
+ margin-top: 0px;
+
+}
+
+h3{
+ font-family: "Times New Roman", Times, serif;
+ text-align: right;
+ font-weight: bold;
+ font-size: 1em;
+ color: crimson;
+ margin-bottom: 4px;
+ margin-top: 0px;
+
+}
+
+.pData{
+ font-family: "Times New Roman", Times, serif;
+ text-align: right;
+ font-weight: bold;
+ font-size: 1em;
+ color: crimson;
+ margin-bottom: 4px;
+ margin-top: 0px;
+
+}
+.pljc{
+ font-family: "Times New Roman", Times, serif;
+ 
+ text-align: left;
+ font-weight: normal;
+ font-size: 1em;
+ 
+ margin-bottom: 0px;
+ margin-top: 1em;
+
+}
+
+.pNormal{
+ font-family: "Times New Roman", Times, serif;
+ text-indent: 30px;
+ text-align: justify;
+ font-weight: normal;
+ font-size: 1.1em;
+ margin-bottom: 6px;
+ margin-top: 0px;
+
+}
+
+
+#pAnno{
+ font-family: "Times New Roman", Times, serif;
+ text-align: center;
+ font-weight: bold;
+ font-size: 1.3em;
+ margin-bottom: 3px;
+ margin-top: 24px;
+
+}
+
+h1{
+ font-family: "Times New Roman", Times, serif;
+ text-align: center;
+ font-weight: bold;
+ font-size: 18px;
+ margin-bottom: 3px;
+ margin-top: 24px;
+
+}
+.Tit1{
+ font-family: "Times New Roman", Times, serif;
+ text-align: center;
+ font-weight: bold;
+ font-size: 1.3em;
+ margin-bottom: 3px;
+ margin-top: 24px;
+
+}
+
+.pFirmaEug{
+ font-family: "Times New Roman", Times, serif;
+ color: blue;
+ text-align: right;
+ font-weight: normal;
+ font-style: italic;
+ font-size: 1em;
+ margin-bottom: 24px;
+ margin-top: 4px;
+
+}
+
+
+#pCabo1{
+ font-family: "Times New Roman", Times, serif;
+ text-align: center;
+ font-weight: bold;
+ font-size: 1.2em;
+ margin-bottom: 1em;
+ margin-top: 1em;
+
+}
+
+
+
+#pCabo2{
+ font-family: "Times New Roman", Times, serif;
+ text-align: center;
+ font-weight: normal;
+ font-size: 10px;
+ margin-bottom: 1em;
+ margin-top: 0px;
+
+}
+
+.pNotas{
+ font-family: "Times New Roman", Times, serif;
+ text-align: left;
+ color: darkblue;
+    text-indent: -25px;
+    padding:0px 0px 0px 25px;
+ font-weight: normal;
+ font-size: 0.9em;
+ margin-bottom: 4px;
+ margin-top: 0px;
+
+}
+
+#mese, #mese a {
+    font-family:  Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+    color: inherit;
+
+}
+
+#mese td {
+    border: 1px solid #4CAF50;
+    padding-top: 1px;
+    padding-bottom: 1px;
+     text-align: left;
+    font-weight: small;
+}
+
+#mese td:hover {
+          background-color: #ddd;
+    }
+
+
+
+
+!#mese tr:nth-child(even){background-color: Wheat;}
+
+!#mese tr:hover {background-color: Wheat;}
+
+#mese th {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    background-color: Silver;
+    color: white;
+    font-weight: bold;
+}
+
+
+.tab1 {
+font-family: arial, verdana, sans-serif; 
+font-size: 1em;
+background-color:CadetBlue;
+text-align: center;
+color: White;
+}
+
+.tab2 {
+font-family: arial, verdana, sans-serif; 
+font-size: 1em;
+text-align: center;
+color: red;
+}
+  
+caption { 
+    font-size: small;
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    color: blue
+}
+

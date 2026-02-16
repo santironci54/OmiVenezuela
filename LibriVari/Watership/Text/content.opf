@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="bookid" xmlns="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Watership Down</dc:title>
+    <dc:creator>Richard Adams</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:description>The timeless classic novel of exile, courage and survival. Richard Adams  is the author of many bestselling novels, including Watership Down  (1974), Shardik  (1976), The Plague Dogs  (1978), The Girl in a Swing  (1980), Maia  (1985), and Traveller  (1988), as well as several works of nonfiction, including his autobiographical The Day Gone By  (1991). He and his wife live in the south of England.</dc:description>
+    <meta name="FB2.book-info.date" content=""/>
+    <meta name="cover" content="cover"/>
+    <meta name="FB2.document-info.program-used" content="Fiction Book Designer, FB Editor v2.0"/>
+    <meta name="FB2.document-info.src-ocr" content="File creating, notes, slight correcting — Talisto"/>
+    <meta name="FB2.document-info.history" content="version 1.0 — File creating, notes, slight correcting&amp;#160;— Talisto "/>
+    <meta name="FB2.document-info.id" content="90908B-E2E3-5047-C99A-2584-AB74-4C83E2"/>
+    <meta name="FB2.document-info.version" content="1.0"/>
+    <meta name="FB2.document-info.date" content=""/>
+    <dc:identifier id="bookid">urn:uuid:1503515f-4cd6-4125-a3ab-de9fdd5d87ce</dc:identifier>
+    <dc:identifier id="bookid1">90908B-E2E3-5047-C99A-2584-AB74-4C83E2</dc:identifier>
+    <dc:publisher>AVON BOOKS, INC.</dc:publisher>
+    <meta name="FB2.publish-info.book-name" content="Watership Down"/>
+    <meta name="FB2.publish-info.city" content="New York"/>
+    <meta name="FB2.publish-info.year" content="1996"/>
+    <dc:date>1996</dc:date>
+    <dc:identifier id="bookid2">isbn:0-380-00293-0</dc:identifier>
+    <meta name="FB2EPUB.version" content="0.5.0"/>
+    <meta name="FB2EPUB.conversionDate" content="2017-12-27T23:59:22+07:00"/>
+    <meta name="Sigil version" content="2.1.0"/>
+    <dc:date opf:event="modification" xmlns:opf="http://www.idpf.org/2007/opf">2024-05-11</dc:date>
+  </metadata>
+  <manifest>
+    <item id="Cap43.html" href="Cap43.html" media-type="application/xhtml+xml"/>
+    <item id="Cap40.html" href="Cap40.html" media-type="application/xhtml+xml"/>
+    <item id="Cap38.html" href="Cap38.html" media-type="application/xhtml+xml"/>
+    <item id="Cap42.html" href="Cap42.html" media-type="application/xhtml+xml"/>
+    <item id="Cap47.html" href="Cap47.html" media-type="application/xhtml+xml"/>
+    <item id="Cap44.html" href="Cap44.html" media-type="application/xhtml+xml"/>
+    <item id="Epilogue.html" href="Epilogue.html" media-type="application/xhtml+xml"/>
+    <item id="Cap46.html" href="Cap46.html" media-type="application/xhtml+xml"/>
+    <item id="Cap50.html" href="Cap50.html" media-type="application/xhtml+xml"/>
+    <item id="Cap45.html" href="Cap45.html" media-type="application/xhtml+xml"/>
+    <item id="Glossary.html" href="Glossary.html" media-type="application/xhtml+xml"/>
+    <item id="id13" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="Note.html" href="Note.html" media-type="application/xhtml+xml"/>
+    <item id="cover.html" href="cover.html" media-type="application/xhtml+xml"/>
+    <item id="id17" href="style.css" media-type="text/css"/>
+    <item id="cover" href="images/cover.jpg" media-type="image/jpeg"/>
+    <item id="Cap18.html" href="Cap18.html" media-type="application/xhtml+xml"/>
+    <item id="Cap15.html" href="Cap15.html" media-type="application/xhtml+xml"/>
+    <item id="Cap20.html" href="Cap20.html" media-type="application/xhtml+xml"/>
+    <item id="Cap14.html" href="Cap14.html" media-type="application/xhtml+xml"/>
+    <item id="Cap23.html" href="Cap23.html" media-type="application/xhtml+xml"/>
+    <item id="Cap19.html" href="Cap19.html" media-type="application/xhtml+xml"/>
+    <item id="Cap17.html" href="Cap17.html" media-type="application/xhtml+xml"/>
+    <item id="Cap22.html" href="Cap22.html" media-type="application/xhtml+xml"/>
+    <item id="Cap21.html" href="Cap21.html" media-type="application/xhtml+xml"/>
+    <item id="Cap27.html" href="Cap27.html" media-type="application/xhtml+xml"/>
+    <item id="Cap29.html" href="Cap29.html" media-type="application/xhtml+xml"/>
+    <item id="Cap25.html" href="Cap25.html" media-type="application/xhtml+xml"/>
+    <item id="Cap31.html" href="Cap31.html" media-type="application/xhtml+xml"/>
+    <item id="Cap33.html" href="Cap33.html" media-type="application/xhtml+xml"/>
+    <item id="Cap28.html" href="Cap28.html" media-type="application/xhtml+xml"/>
+    <item id="Cap24.html" href="Cap24.html" media-type="application/xhtml+xml"/>
+    <item id="Cap30.html" href="Cap30.html" media-type="application/xhtml+xml"/>
+    <item id="Cap32.html" href="Cap32.html" media-type="application/xhtml+xml"/>
+    <item id="Intro.html" href="Intro.html" media-type="application/xhtml+xml"/>
+    <item id="Cap01.html" href="Cap01.html" media-type="application/xhtml+xml"/>
+    <item id="Cap34.html" href="Cap34.html" media-type="application/xhtml+xml"/>
+    <item id="Cap12.html" href="Cap12.html" media-type="application/xhtml+xml"/>
+    <item id="Cap08.html" href="Cap08.html" media-type="application/xhtml+xml"/>
+    <item id="Cap39.html" href="Cap39.html" media-type="application/xhtml+xml"/>
+    <item id="Cap37.html" href="Cap37.html" media-type="application/xhtml+xml"/>
+    <item id="Cap10.html" href="Cap10.html" media-type="application/xhtml+xml"/>
+    <item id="Cap04.html" href="Cap04.html" media-type="application/xhtml+xml"/>
+    <item id="Cap41.html" href="Cap41.html" media-type="application/xhtml+xml"/>
+    <item id="Cap35.html" href="Cap35.html" media-type="application/xhtml+xml"/>
+    <item id="Cap09.html" href="Cap09.html" media-type="application/xhtml+xml"/>
+    <item id="Cap13.html" href="Cap13.html" media-type="application/xhtml+xml"/>
+    <item id="Cap02.html" href="Cap02.html" media-type="application/xhtml+xml"/>
+    <item id="Cap03.html" href="Cap03.html" media-type="application/xhtml+xml"/>
+    <item id="Cap05.html" href="Cap05.html" media-type="application/xhtml+xml"/>
+    <item id="Cap07.html" href="Cap07.html" media-type="application/xhtml+xml"/>
+    <item id="Cap06.html" href="Cap06.html" media-type="application/xhtml+xml"/>
+    <item id="Cap11.html" href="Cap11.html" media-type="application/xhtml+xml"/>
+    <item id="Cap16.html" href="Cap16.html" media-type="application/xhtml+xml"/>
+    <item id="Cap26.html" href="Cap26.html" media-type="application/xhtml+xml"/>
+    <item id="Cap36.html" href="Cap36.html" media-type="application/xhtml+xml"/>
+    <item id="Cap48.html" href="Cap48.html" media-type="application/xhtml+xml"/>
+    <item id="Cap49.html" href="Cap49.html" media-type="application/xhtml+xml"/>
+    <item id="WaterShip.jpg" href="images/WaterShip.jpg" media-type="image/jpeg"/>
+    <item id="index.html" href="index.html" media-type="application/xhtml+xml"/>
+    <item id="Flecha.png" href="images/Flecha.png" media-type="image/png"/>
+  </manifest>
+  <spine toc="id13">
+    <itemref idref="cover.html"/>
+    <itemref idref="index.html"/>
+    <itemref idref="Intro.html"/>
+    <itemref idref="Cap01.html"/>
+    <itemref idref="Cap02.html"/>
+    <itemref idref="Cap03.html"/>
+    <itemref idref="Cap04.html"/>
+    <itemref idref="Cap05.html"/>
+    <itemref idref="Cap06.html"/>
+    <itemref idref="Cap07.html"/>
+    <itemref idref="Cap08.html"/>
+    <itemref idref="Cap09.html"/>
+    <itemref idref="Cap10.html"/>
+    <itemref idref="Cap11.html"/>
+    <itemref idref="Cap12.html"/>
+    <itemref idref="Cap13.html"/>
+    <itemref idref="Cap14.html"/>
+    <itemref idref="Cap15.html"/>
+    <itemref idref="Cap16.html"/>
+    <itemref idref="Cap17.html"/>
+    <itemref idref="Cap18.html"/>
+    <itemref idref="Cap19.html"/>
+    <itemref idref="Cap20.html"/>
+    <itemref idref="Cap21.html"/>
+    <itemref idref="Cap22.html"/>
+    <itemref idref="Cap23.html"/>
+    <itemref idref="Cap24.html"/>
+    <itemref idref="Cap25.html"/>
+    <itemref idref="Cap26.html"/>
+    <itemref idref="Cap27.html"/>
+    <itemref idref="Cap28.html"/>
+    <itemref idref="Cap29.html"/>
+    <itemref idref="Cap30.html"/>
+    <itemref idref="Cap31.html"/>
+    <itemref idref="Cap32.html"/>
+    <itemref idref="Cap33.html"/>
+    <itemref idref="Cap34.html"/>
+    <itemref idref="Cap35.html"/>
+    <itemref idref="Cap36.html"/>
+    <itemref idref="Cap37.html"/>
+    <itemref idref="Cap38.html"/>
+    <itemref idref="Cap39.html"/>
+    <itemref idref="Cap40.html"/>
+    <itemref idref="Cap41.html"/>
+    <itemref idref="Cap42.html"/>
+    <itemref idref="Cap43.html"/>
+    <itemref idref="Cap44.html"/>
+    <itemref idref="Cap45.html"/>
+    <itemref idref="Cap46.html"/>
+    <itemref idref="Cap47.html"/>
+    <itemref idref="Cap48.html"/>
+    <itemref idref="Cap49.html"/>
+    <itemref idref="Cap50.html"/>
+    <itemref idref="Epilogue.html"/>
+    <itemref idref="Glossary.html"/>
+    <itemref idref="Note.html"/>
+  </spine>
+  <guide>
+    <reference type="toc" title="Table of Contents" href="index.html"/>
+  </guide>
+</package>

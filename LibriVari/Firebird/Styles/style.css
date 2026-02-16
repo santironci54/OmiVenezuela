@@ -1,0 +1,363 @@
+body.cover {
+	margin: 0px;
+	oeb-column-number: 1;
+	padding: 0px;
+}
+
+
+@font-face {
+  font-family: "Calibri Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("font/Calibril.ttf");
+}
+
+html {
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;
+}
+
+body {
+  font-family: Times, Times New Roman, serif;
+  font-size: 1.1rem;
+  font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+  font-family: "Times New Roman", serif;
+  padding-left: 5px;
+  padding-right: 5px;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+p.cover {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quote {
+  display: block;
+  font-size: 1em;
+  font-style: italic;
+  text-align: left;
+  text-indent: 0;
+  margin: 6pt 10pt;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Calibri", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-left: 0em;
+  padding: 0;
+  color: mediumblue;
+}
+
+h2 {
+  display: block;
+  font-family: "Calibri", sans-serif;
+  font-size: 1.6em;
+  font-weight: lighter;
+  line-height: 1.2;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0;
+  color: mediumblue;
+}
+
+h3 {
+  display: block;
+  font-family: "Calibri Light", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  margin: 18pt 0 0pt;
+  padding: 0;
+  color: mediumblue;
+}
+
+
+.center {
+  display: block;
+  margin-top:0em;
+  margin-bottom:1em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+ } 
+
+
+
+.Indice1 {
+  font-family: "Times New Roman", serif;
+  font-size: 1.1em;
+  text-align: left;
+  text-indent: 0em;
+  margin-left: 4%;
+}
+
+
+.normal {
+  display: block;
+  font-size: 1.1em;
+  font-weight: normal;
+  line-height: 1.2;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: justify;
+  text-indent: 1.5em;
+  margin-top: 0.3em;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  padding: 0;
+    }
+
+    
+
+
+
+
+
+.pT3but a:link {
+  color: white;
+}
+.pT3but a:visited {
+  color: white;
+}
+
+.pT3but {
+  font-family: "Times New Roman", serif;
+  letter-spacing: 3px;
+  text-align: center;
+    text-indent: 0em;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+  margin-top: 0em;
+  margin-left: 0em;
+   margin-right: 0em;
+  color: brown;
+}
+
+
+.butXL {
+  font: normal 20px Times;
+  background-color: orange;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding-bottom: 0.2em;
+    padding-left: 0em;
+  padding-top: 0.2em;
+  text-align: center;
+    text-indent: 0em;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.butXL {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.butXL {
+  width: 40%;
+}
+
+.fixedButton {
+  position: fixed;
+  bottom: 15px;
+  right: 2px;
+  margin-bottom: 30px;
+}
+
+.sigue {
+  font-size: 1.6em;
+  padding-bottom: 0em;
+  padding-top: 2em;
+  text-align: right;
+
+}
+svg.cover-svg {
+	height: 100%;
+	width: 100%;
+}
+
+.z {
+	font-family: 'Times New Roman', serif;
+	margin-right: 8pt;
+}
+
+.p {
+	margin: 0px;
+	text-align: justify;
+	text-indent: 1.5em;
+}
+
+
+
+.empty-line {
+	height: 2em;
+	margin: 0px;
+}
+
+.title {
+	font-size: 2.2em;
+	font-weight: bold;
+	margin: 1em 0px 0.5em 0px;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	text-align: center;
+}
+
+.p1 {
+	margin: 0px 0px 0.5em 0px;
+	text-align: inherit;
+	text-indent: 0px;
+}
+
+.epigraph {
+	font-style: italic;
+	margin: 1em 1em 2em 5%;
+	text-align: left;
+}
+
+.subtitle {
+  display: block;
+  font-family: "Calibri Light", sans-serif;
+  font-size: 1.1em;
+  font-weight: lighter;
+  line-height: 1;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  margin: 18pt 0 6pt;
+  padding: 0;
+  color: mediumblue;
+}
+
+.title1 {
+  font-family: "Calibri", sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-left: 0em;
+  padding: 0;
+  color: mediumblue;
+}
+
+.title2 {
+	 display: block;
+  font-family: "Calibri", sans-serif;
+  font-size: 1.6em;
+  font-weight: lighter;
+  line-height: 1.2;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0;
+  color: mediumblue;
+}
+
+.text-author {
+	margin: 0.2em 0px 0px 3em;
+	text-indent: 0px;
+  text-align: right;
+}
+
+.poem {
+	margin: 0.5em 0px 0.5em 2em;
+}
+
+.stanza {
+	margin: 0.5em 0px;
+	page-break-inside: avoid;
+}
+
+.v {
+	margin: 0px;
+	padding-left: 2em;
+	text-indent: 0em;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.title3 {
+	font-size: 1.3em;
+	font-weight: bold;
+	margin: 1em 0px 0.5em 1.923em;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	text-align: left;
+}
+
+.title4 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 1em 0px 0.5em 2.083em;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	text-align: left;
+}
+
+.title5 {
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 1em 0px 0.5em 2.272em;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	text-align: left;
+}
+
+.toc-level-1 {
+  display: block;
+  font-family: "Calibri Light", sans-serif;
+	font-size: 1.2em;
+font-weight: bold;
+    margin-left: 0.2em;
+   margin-top: 0.5em;
+margin-bottom: 0em;
+}
+
+.toc-level-2 {
+	  display: block;
+   font-family: "Calibri Light", sans-serif;
+   font-size: 1.1em;
+    margin-left: 2em;
+   margin-top: 0em;
+   margin-bottom: 0.4em;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  font-size: 1.3em;
+}

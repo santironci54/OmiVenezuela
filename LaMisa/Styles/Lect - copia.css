@@ -1,0 +1,908 @@
+/* Imposta body */
+
+html {
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;
+}
+body {
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.2rem + 0.25vw, 1.5rem);
+	line-height: 120%;
+	padding-left: 2%;
+	padding-right: 2%;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+
+.butXL {
+  font: normal 1em Times;
+  background-color: orange;
+
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding-bottom: 0.4em;
+  padding-top: 0.4em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0.2em 0.2em;
+  cursor: pointer;
+}
+.butXL {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.butXL {
+  width: 80%;
+}
+.pT3but {
+  font-family: Times, Times New Roman, serif;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+  color: brown;
+}
+
+.pT3but a:link {
+  color: white;
+}
+.pT3but a:visited {
+  color: white;
+}
+
+h1{
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+h4 {
+    break-before: always;
+  }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+
+.pLinkIni{
+    font-family:serif;
+    text-align:right;
+    margin-right:1em;  
+    }
+
+
+
+.oBienDiv {
+    opacity:0.6;
+    font-size:70%;
+    margin-left:8%;
+    border-top:solid 1px;
+    border-bottom:solid 1px;
+    border-left:solid 1px;
+    border-right:solid 1px;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    padding-left:0.8em;
+    padding-right:0.3em;
+    padding-bottom:0.8em;
+    }
+
+.oBienDiv_Visib {
+    opacity:0.8;
+    font-size:85%;
+    margin-left:8%;
+    border-top:solid 1px;
+    border-bottom:solid 1px;
+    border-left:solid 1px;
+    border-right:solid 1px;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    padding-left:0.8em;
+    padding-right:0.3em;
+    padding-bottom:0.8em;
+    }
+/*Indici settimana e santi*/
+
+.toc3 {
+    color:red;
+    text-indent:-1em;
+    padding:0px 0px 0px 1em;
+    text-align:center;
+    margin-right: 0em;
+    margin-bottom:0.3em;
+    margin-top:0.3em;
+    }
+.tocSan {
+    color:red;
+    text-indent:-1.5em;
+    padding:0px 0px 0px 1.5em;
+    text-align:left;
+    margin-right: 0em;
+    margin-left:1em;
+    margin-bottom:0.4em;
+    margin-top:0.3em;
+    }
+.DivIndTO {
+	width:95%;
+	box-align:center;
+	padding-bottom:0.8em;
+	padding-top:0.02em;
+	margin: 0 auto;
+	color:#006622;
+	box-shadow: 3px 8px 28px #888888;
+	margin-bottom:1.3em;
+    }
+
+.IndOrd{
+    font-family:Times, Times New Roman, serif;
+    background-color:#F0F0F0;
+    line-height:1.5rem;
+    text-align:center;
+    font-size:1rem;
+    font-weight:bold;
+    color:#006622;
+    margin-top:0.2em;
+    margin-bottom:0.2em;
+    margin-left:2%;
+    margin-right:2%;
+    border-top: 1px solid red;
+    border-bottom: 1px dashed red;
+    padding:0.2em;
+    }
+
+.IndOrdH2{
+    font-family:Times, Times New Roman, serif;
+    line-height:2.2em;
+    text-align:center;
+    font-weight:bold;
+    color:#006622;
+    margin-top:0em;
+    margin-bottom:0.3em;
+    padding-top:1em;
+    }
+
+/* linea */
+hr {
+	border:0;
+	border-top:1px dashed red; 
+	margin-right:70%;
+    }
+
+
+/* class per titoli es.:<h1 class"pT1"> */
+.pT1{
+    font-family:Times, Times New Roman, serif;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.5rem;
+    margin-bottom:0.3;
+    margin-top:0.3em;
+    color:red;
+    }
+
+.pT2{
+    font-family:Times, Times New Roman, serif;
+
+    text-align:center;
+    font-weight:bold;
+    font-size:1.2em;
+    margin-bottom:0em;
+    color:red;
+    }
+
+.pT3{
+    font-family:Times, Times New Roman, serif;
+    text-align:center;
+    font-size:1em;
+    font-weight:bold;
+    margin-bottom:0.2em;
+    color:red;
+    }
+.pT3ord{
+    font-family:Times, Times New Roman, serif;
+    page-break-before: always;
+    text-align:center;
+    /*text-transform: lowercase;*/
+    font-size:1em;
+    font-weight:bold;
+    margin-top:0px;
+    margin-bottom:0.2em;
+    color:red;
+    }
+
+.pT4{
+    font-family:Times, Times New Roman, serif;
+    font-size:0.8em;
+    color:red;
+    text-transform: capitalize;
+    text-align:center;
+    font-style:normal;
+	font-weight:bold;
+    margin-top:1em;
+    margin-bottom:0px;
+    }
+
+.pT4ord{
+    font-family:Times, Times New Roman, serif;
+    font-size:0.8em;
+    color:red;
+    text-align:center;
+    font-style:normal;
+	font-weight:bold;
+    margin-top:0em;
+    margin-bottom:0px;
+    }
+
+.pT5{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    color:red;
+    text-align:left;
+    font-style:normal;
+	font-weight:normal;
+    margin-top:0.2em;
+    margin-bottom:0.1em;
+    margin-left:1em;
+    }
+
+
+/* Prefacio */
+/* El primer parrafo utiliza estilo Antifona */
+
+.divPrefac {/* Blocco introduzione Prefazio */
+    font-size:70%;
+    margin-top:0.5em;
+    margin-left:1.5em;
+    margin-bottom:0.3em;
+    opacity:0.7;
+    }
+
+.PrefazTit{
+    font-family:Times, Times New Roman, serif;
+    font-size:small;
+    font-weight:bold;
+    color:red;
+    margin-top:1.5em;
+    margin-bottom:0px;
+    }
+
+.PrefazComm{
+    font-family:Times, Times New Roman, serif;
+    color:red;
+    font-size:0.7em;
+	text-transform:lowercase;
+ 	font-variant:small-caps;
+	letter-spacing:0.05rem;
+    margin-top:0px;
+    margin-bottom:0.3rem;
+    }
+
+.Prefac_V {
+    color:black;
+	font-size:1rem;
+    line-height:1rem;
+    margin-top:0em;
+    margin-bottom:0em;
+    margin-left:0em;
+    }
+
+.Prefac_R {
+    color:black;
+    font-style:italic;
+    line-height:1rem;
+	font-size:0.8rem;
+    margin-left:1.5rem;
+    margin-top:0em;
+    margin-bottom:0.5em;
+    }
+
+.Prefac::first-letter {
+    font-weight:bold;
+    color:red;
+    margin-right:0.05em;
+    }
+.Prefac_V::first-letter {
+    font-weight:bold;
+    color:red;
+	margin-right:0.3em;
+    }
+
+.Prefac_R::first-letter {
+    font-style:normal;
+    font-weight:bold;
+    color:red;
+	margin-right:0.1em;
+    }
+.Sanctus {
+    color:black;
+    display:block;
+    font-size:0.8rem;
+    line-height:1rem;
+    font-style:italic;
+    margin-left:3em;
+    margin-top:0.5em;
+    margin-bottom:1em;
+    padding:0;
+    }
+
+
+/* LETTURE */
+
+.Normale{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-align:justify; 
+    text-indent:1em;
+    margin-top:0.3px; 
+    margin-bottom:0px; 
+    }
+
+.NormalParaFin{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-align:justify; 
+    text-indent:1em;
+    margin-top:0.3em; 
+    margin-bottom:0.4em; 
+    }
+.Commento {
+    font-size:0.8em;
+    line-height:1em;
+    color:red;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    margin-left:0em;
+    }
+	
+.CommentoVisib {
+    font-size:0.8em;
+    line-height:1em;
+    color:red;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    margin-left:0em;
+    }
+
+.oBienDiv_Visib {
+    opacity:0.6;
+    font-size:70%;
+    margin-left:8%;
+    border-top:solid 1px;
+    border-bottom:solid 1px;
+    border-left:solid 1px;
+    border-right:solid 1px;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    padding-left:0.8em;
+    padding-right:0.3em;
+    padding-bottom:0.8em;
+    }
+.LecturaCarta{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    font-weight:bold;
+    margin-top:2px;
+    margin-bottom:2px;
+    }
+
+.SalmoEtc{
+    font-family:Times, Times New Roman, serif;
+    font-size:1rem;
+    font-weight:bold;
+    color:red;
+    margin-top:18px;
+    margin-bottom:0rem;
+    }
+
+/* Si no hai la cita del Salmo ----*/
+.SalmoEtcSpacio{
+    font-family:Times, Times New Roman, serif;
+    font-size:small;
+    font-weight:bold;
+    color:red;
+    margin-top:18px;
+    margin-bottom:0px;
+    }
+/* ----   */
+
+.SalmoEstrib{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    font-weight:bold;
+    text-indent:-25px;
+    padding-left:25px;
+    margin-top:0px;
+    margin-bottom:0.5rem;
+    }
+
+.SalmoEstrib::first-letter {
+    font-style:normal;
+    font-weight:bold;
+    color:red;
+	margin-right:0.1em;
+    }
+
+.SalmoNum{
+    font-family:Times, Times New Roman, serif;
+    font-size:small;
+    color:red;
+    margin-top:0px;
+    margin-bottom:8px;
+	line-height: 0.4rem
+    }
+
+.SalmoTxt{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-indent:-13px;
+    padding:0px 0px 0px 20px;
+    margin-top:0px;
+    margin-bottom:6px;
+    }
+
+.SalmoTxt::first-letter {
+    font-weight:bold;
+    color:red;
+	margin-right:0.05em;
+    }
+
+.SalmoTxtPleg{
+    font-family:Times, Times New Roman, serif;
+    font-size:1.1em;
+    text-indent:-0.8em;
+    padding:0px 0px 0px 0.5em;
+    margin-top:0px;
+    margin-bottom:6px;
+    margin-left:5px;
+    }
+
+.SalmoTxtPleg::first-letter {
+    font-weight:bold;
+    color:red;
+	margin-right:0.05em;
+    }
+
+
+
+
+
+.TestoItalic{
+    font-family:Times, Times New Roman, serif;
+    color: red;
+    font-size:small;
+    font-style:italic;
+    margin-top:2px;
+    margin-bottom:12px;
+	line-height:0.6rem
+}
+
+/* oBienDiv es para <div class"oBien"> - oBienPara es para O bien*/
+.oBienPara{
+    font-family:Times, Times New Roman, serif;
+	color:red;
+	font-weight:bold;
+    font-size:0.8em;
+    font-style:italic;
+    margin-top:1em;
+    margin-bottom:0.5em;
+    }
+
+.Alleluia{
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-indent:-20px;
+    padding:0px 0px 0px 20px;
+    margin-top:4px;
+    margin-bottom:4px;
+    }
+
+.PalabraDeDios{
+    font-family:Times, Times New Roman, serif;
+    font-weight:bold;
+    font-size:0.9em;
+    font-style:normal;
+    margin-top:2px;
+    margin-bottom:4px;
+}
+
+.Rosso {
+    color:red;
+    font-weight:bold;
+    }
+/*Nero*/
+.Bold {
+    color:#000;
+    font-weight:bold;
+    }
+
+.BoldO {
+    color:brown;
+    font-weight:bold;
+    }
+
+.BoldJ {
+    color:red;
+    font-weight:bold;
+    }
+
+
+
+
+
+.Antifona {
+ 
+	color:black;
+    margin-top:0.2em;
+    margin-bottom:0.5em;
+    margin-left:0em;
+    }
+.AntifonaALT::first-letter {
+	position:relative;
+    line-height:0em;
+	float:left;
+	margin-top:0.65em;
+	margin-bottom:0em;
+    padding-right: 0.05em;
+    padding-left: 0em;
+    font-size:2.1rem;
+    font-weight:bold;
+    color:red;
+
+    }
+
+.Antifona::first-letter {
+	position:relative;
+
+    line-height:0em;
+	float:left;
+	margin-top:0.48em;
+	margin-bottom:0rem;
+    padding-right: 0.05em;
+    padding-left: 0em;
+    font-size:3.6rem;
+    font-weight:bold;
+    color:red;
+    }
+
+.AntSmall {
+    color:red;
+    line-height:0.9rem;
+    font-size:0.9rem;
+    margin-left:3rem;
+    margin-bottom:0em;
+    margin-top:1.5em;
+    }
+
+.Citaz1 {
+    color:red;
+    font-size:0.8rem;
+    line-height:0.9rem;
+    margin-left:3rem;
+    margin-bottom:0.3em;
+    margin-top:0em;
+    }
+
+.AntSmallTxt {
+    color:black;
+    display:block;
+    line-height:1rem;
+    font-size: 1rem;
+    margin-left:3rem;
+    margin-top:0em;
+    margin-right:7em;
+    }
+.Oracion {
+    color:red;
+    display:block;
+    margin-left:0em;
+    margin-bottom:0em;
+    padding:0;
+    }
+
+.OracionTxt {
+    font-size:1em;
+    color:black;
+    margin-top:0em;
+    margin-bottom:0.2em;
+    }
+
+/*Santos*/
+.SanFecha{
+	/*background-color:red;*/
+    page-break-before: always;
+	font-size:1.2em;
+	font-weight:bold;
+	text-transform:lowercase;
+ 	font-variant:small-caps;
+    text-align:center;
+	color:red;
+	margin-top:1em;
+	margin-bottom:0.3em;
+	margin-left:4em;
+	margin-right:4em;
+	border-top:solid 1px;
+	border-bottom:dotted 1px;
+	padding-top:0.2em;
+	padding-bottom:0.2em;
+
+}
+
+
+.SanTipo{
+	font-size:0.9em;
+	color:red;
+	text-transform:lowercase;
+ 	font-variant:small-caps;
+	line-height:0.9;
+    text-align:center;
+    margin-top:0em;
+    margin-bottom:0.3em;
+    }
+
+/*Per Plegarias*/
+.Canone {
+    color:black;
+    display:block;
+    font-size:1.1em;
+    line-height:1.2;
+    margin-top:0em;
+    margin-bottom:0.2em;
+    margin-left:5px;
+    text-indent:-10px;
+    padding-left:5px;
+    }
+
+.Canone::first-letter {
+    font-weight:bold;
+    color:red;
+	margin-right:0em;
+    }
+
+.CC {
+    display:block;
+    font-size:1em;
+    font-weight:bold;
+    margin-left:0px;
+    margin-bottom:0px;
+    margin-top:5px;
+    text-indent:0px; 
+    }
+
+.Monicion {
+    font-family:"Times New Roman", Times, serif;
+    line-height:1.1;
+    font-size:1em;
+    font-style:italic;
+    text-align:left;
+    padding-left:0.5em;
+    text-indent:0em;
+    margin-top:0.4em;
+    marginleft:0.7em;
+    margin-bottom:0.1em;
+    hyphens:none;
+    color:brown;
+    }
+
+.Firma1 {
+    font-family:"Times New Roman", Times, serif;
+    line-height:0.9em;
+    font-size:0.7em;
+    font-style:italic;
+    text-align:right;
+    padding-left:0.5em;
+    text-indent:-0.5em;
+    margin-top:0.4em;
+    margin-bottom:0.1em;
+    hyphens:none;
+    color:red;
+	}
+
+.Celebrante {
+    font-family:"Times New Roman", Times, serif;
+    line-height:1.1;
+    font-size:1.1em;
+    text-align:left;
+    padding-left:0em;
+    text-indent:-1em;
+    margin-top:0.4em;
+    margin-left:1em;
+    margin-bottom:0.1em;
+    hyphens:none;
+    color:black;
+    }
+
+.Celebrante::first-letter {
+    font-weight:bold;
+    color:red;
+    }
+
+.Intenciones {
+    font-family:"Times New Roman", Times, serif;
+    line-height:1.2;
+    font-size:1.1em;
+    text-align:left;
+    padding-left:1em;
+    text-indent:-1em;
+    margin-top:0.4em;
+    margin-bottom:0.1em;
+    hyphens:none;
+    color:black;
+    }
+
+.pPassioCronista {
+    display:block;
+	color:black;
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-indent:-30px;
+    padding:0 0 0 30px;
+    margin:10px 0 0
+    }
+.pPassioGente {
+    color:brown;
+    display:block;
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-indent:-30px;
+    padding:0 0 0 30px;
+    margin:4px 0 6px
+    }
+.pPassioJesús {
+    color:red;
+    display:block;
+    font-family:Times, Times New Roman, serif;
+    font-size:1em;
+    text-indent:-30px;
+    padding:0 0 0 30px;
+    margin:4px 0 6px
+    }
+
+.TestoItalicPassio{
+    display:block;
+    font-family:Times, Times New Roman, serif;
+    font-size:0.75em;
+    color:red;
+    font-style:italic;
+    text-align:center;
+    margin-bottom:0;
+    margin-top:0.3;
+    }
+	
+.endPara{
+    display:block;
+    font-family:Times, Times New Roman, serif;
+    font-size:0.75em;
+    color:red;
+    font-style:italic;
+    text-align:right;
+    margin-bottom:0;
+    margin-top:5em;
+    }	
+	
+.button {
+  font: bold 1em Times;
+  background-color: #00802b; /* Green */
+  border: none;
+  color: white;
+  padding: 0.2em 0.01em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  margin: 0.1em 0.1em;
+  cursor: pointer;
+}
+.button {
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
+}
+.button {width: 13%;}
+
+button {
+  font-family:"Times New Roman", serif;
+  letter-spacing:1px;
+  background-color: #00802b; /* Green */
+  border: 1px dotted red;
+  color: white;
+  padding: 0.4em 0.4em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+button {
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
+}
+button {width: 25%;}
+
+button[disabled]{
+  border: 1px dotted white;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: default;
+}
+
+.button3 {
+  font: bold 1em Times;
+  background-color: #00802b; /* Green */
+  border: none;
+  color: white;
+  padding: 0.2em 0.01em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  margin: 0.1em 0.1em;
+  cursor: pointer;
+}
+.button3 {
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
+}
+.button3 {width:48%;}
+
+.buttonXL {
+  text-align: center;
+  letter-spacing:0.05rem;
+  background-color: #00802b; /* Green */
+  border: none;
+  color: white;
+  padding: 0.2em 0.2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.2em 0.2em;
+  cursor: pointer;
+}
+.buttonXL {
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
+}
+.buttonXL {width: 70%;}
+
+
+
+.button_c {
+	color: white !important;
+	letter-spacing:1px;
+	text-decoration: none;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+	background: brown;
+	padding: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+	}
+
+.button_c {width: 80%;}
+
+.button_c {
+  box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.29);
+}
+.button_c:hover {
+	background: #434343;
+	letter-spacing: 3px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+.fixedButton {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 0;
+}

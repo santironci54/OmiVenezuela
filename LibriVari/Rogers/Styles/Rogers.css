@@ -1,0 +1,500 @@
+/* omi-biblio base v1 omibiblio */
+@font-face {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../Fonts/Philosopher.ttf);
+}
+
+@font-face {
+  font-family: "Calibri Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("font/Calibril.ttf");
+}
+
+/* ----- ESTILOS GLOBALES Y DE SECCIONES FIJAS (NO MODIFICABLES) ----- */
+html {
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;
+}
+
+body {
+  font-family: Times, Times New Roman, serif;
+  font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  font-size: 1.3em;
+}
+
+sup {
+  font-size: 0.85em;
+  line-height: normal;
+}
+
+hr {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+p {
+  font-family: Times, Times New Roman, serif;
+  font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.salto10 {
+  font-family: "Times New Roman", serif;
+  font-size: 1.2em;
+  display: block;
+  text-align: justify;
+  text-indent: 1em;
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+  padding-top: 0.2em;
+}
+
+.cubierta {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 0;
+  text-align: center;
+  text-indent: 0;
+  page-break-before: always;
+  page-break-after: always;
+}
+
+. cubierta img {
+  height: 100%;
+  max-height: 100%;
+}
+
+.normal {
+  font-family: "Times New Roman", serif;
+  font-size: 1.1em;
+  display: block;
+  text-align: justify;
+  text-indent: 1em;
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+  padding: 0;
+}
+
+. tlogo span {
+  margin: 3em 0 2.5em;
+  display: inline-block;
+  width: 8em;
+}
+
+. tautor {
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #595959;
+}
+
+. ttitulo {
+  padding: 0;
+  border: 0;
+  font-size: 1.8em;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  visibility: visible;
+}
+
+. tsubtitulo {
+  margin-top: 0.3em;
+}
+
+. trevision {
+  margin-top: 2.5em;
+  font-size: 0.8em;
+  color: #595959;
+}
+
+. tfirma {
+  margin-top: 0.25em;
+  font-size: 0.65em;
+}
+
+. tfecha {
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #595959;
+}
+
+.sinopsis,.sinopsis p,.autor,.autor p,.nota p {
+  margin-top: 0.5em;
+  text-indent: 0;
+}
+
+. sinopsis p {
+  font-family: sans-serif;
+}
+
+.info {
+  margin: 3.5em 1.5em 2.5em;
+  font-size: 0.8em;
+  width: 90%;
+}
+
+. info p {
+  text-align: center;
+  text-indent: 0;
+}
+
+.vineta {
+  padding: 1em 0;
+  text-align: center;
+  text-indent: 0;
+  display: block;
+}
+
+.nota {
+  padding-top: 0;
+
+}
+
+/* ----- ESTILOS GENERALES (ADAPTABLES) ----- */
+/* encabezados */
+h1,h2 {
+  margin-top: 1em;
+  margin-bottom: 0em;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  text-indent: 0;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  adobe-hyphenate: none;
+  hyphenate: none;
+  hyphens: none;
+  -moz-hyphens: none;
+  -webkit-hyphens: none;
+  color: brown;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+/* sólo cambios aprobados, puede afectar páginas globales */
+h2 {
+  font-size: 1.4em;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h3 {
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 0.2em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+/* dedicatoria */
+. dedicatoria p {
+  text-align: right;
+  text-indent: 0;
+}
+
+/* tipografía */
+.cursiva {
+ font-family: "Times New Roman", serif;
+  font-size: 1.2em;
+  display: block;
+  text-align: left;
+  font-style: italic;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+b,.negrita {
+  font-weight: bold;
+}
+
+.oculto {
+  display: none;
+  visibility: hidden;
+}
+
+small,.versalita {
+  font-size: 0.8em;
+}
+
+/* para texto en mayúsculas, de tamaño similar al de las minúsculas */
+/* alineación */
+.derecha,.derecha p {
+  text-align: right;
+  text-indent: 0;
+}
+
+.centrado {
+  text-align: center;
+  text-indent: 0;
+}
+
+.asangre {
+  text-indent: 0;
+}
+
+/* saltos */
+.salto25 {
+  padding-top: 2.5em;
+}
+
+/* bloques */
+.sinmargen {
+  margin: 0;
+}
+
+/* evita dividir un elemento entre páginas */
+.nosep {
+  text-indent: 0;
+  display: inline-block;
+}
+
+/* evita dividir una palabra entre líneas */
+/* evita división aleatoria de párrafos muy extensos (bug ADE) */
+. banner p {
+  text-align: center;
+  text-indent: 0;
+}
+
+/* listas */
+li {
+  margin: 0;
+  text-align: justify;
+  text-indent: 0;
+  line-height: 1.3em;
+}
+
+/* imágenes simples */
+/* para láminas verticales (página completa), usar el estilo fijo «cubierta» */
+. ilustra img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* ----- ESTILOS PERSONALES ----- */
+h1.BASE {
+  font-family: "Philosopher", Philosopher;
+  font-size: 2em;
+  line-height: 1.2em;
+  margin-bottom: 0;
+}
+
+h2.BASE {
+  font-family: "Philosopher", Philosopher;
+  font-size: 3em;
+  line-height: 1.2em;
+  margin-top: 3em;
+  margin-bottom: 0em;
+}
+
+.cita3 {
+  font-family: "Times New Roman", serif;
+  font-size: 1em;
+  font-style: italic;
+  display: block;
+  text-align: justify;
+  text-indent: 2em;
+  margin-top: 0.5em;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+  margin-right: 1em;
+  padding: 0;
+}
+
+.dialo {
+  margin: 1em;
+  font-size: 0.9em;
+  text-indent: 0;
+}
+
+. dialo p {
+  text-indent: 0;
+  padding-top: 0.5em;
+}
+
+.banner2 {
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0.5em;
+  text-align: center;
+  text-indent: 0;
+  border: 2px solid black;
+  border-left: none;
+  border-right: none;
+}
+
+. banner2 p {
+  text-align: center;
+  text-indent: 0;
+}
+
+.rotulo1 {
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1em;
+  text-align: center;
+  text-indent: 0;
+  font-style: italic;
+}
+
+. capistop {
+  text-align: center;
+  text-indent: 0;
+  font-size: 1.2em;
+  border-bottom: 2px solid black;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: .7em;
+}
+
+.listin1 {
+  margin: 1em;
+  text-indent: 0;
+}
+
+. listin1 p {
+  text-indent: 0;
+}
+
+.ejemp {
+  margin: 1.5em;
+  font-size: 1em;
+  text-indent: 0;
+  margin-top: 0em;
+  margin-bottom: 0.2em;
+}
+
+. ejemp p {
+  text-indent: 0;
+}
+
+.citacuadro {
+  margin: 1em;
+  font-size: 1.1em;
+  font-style: italic;
+  text-indent: 0;
+  padding: .5em;
+  border: 2px solid black;
+}
+
+. citacuadro p {
+  text-indent: 0;
+}
+
+.versalita2 {
+  font-size: 0.9em;
+}
+
+. versalita2 p {
+  padding-top: 0.5em;
+}
+
+.biblio {
+  margin: 1.5em;
+  font-size: 0.80em;
+  text-indent: -1.5em;
+}
+
+. biblio p {
+  text-indent: -1.5em;
+  padding-top: 0.5em;
+}
+
+
+.pT3but {
+  font-family: Times, Times New Roman, serif;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+  color: brown;
+}
+
+.pT3but a:link {
+  color: white;
+}
+.pT3but a:visited {
+  color: white;
+}
+
+.butXL {
+  font: normal 1em Times;
+  background-color: orange;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding-bottom: 0.4em;
+  padding-top: 0.4em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 0.2em 0.2em;
+  cursor: pointer;
+}
+
+.butXL {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.butXL {
+  width: 80%;
+}
+.fixedButton {
+  position: fixed;
+  bottom: 15px;
+  right: 2px;
+  margin-bottom: 30px;
+}
+
+.sigue {
+  font-size: 1.6em;
+  padding-bottom: 0em;
+  padding-top: 2em;
+  text-align: right;
+
+}
