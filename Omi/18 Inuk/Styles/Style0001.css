@@ -142,7 +142,7 @@ font-style:italic;
   letter-spacing: 3px;
   text-align: center;
   font-weight: normal;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.2em;
   margin-top: 0em;
   color: brown;
 }
@@ -165,20 +165,5 @@ font-style:italic;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .butXL {
-  width: 40%;
-}
-
- a { text-decoration: none }
-  a:hover { color: red }
-.perTabla {
-    font-family: "Times New Roman", Times, serif;
-    color: red;
-	font-size: 1.0rem;
-    align: center;
-	   }
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  align: center;
+  width: 60%;
 }

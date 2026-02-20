@@ -7,22 +7,6 @@
     margin: 0 0 2pt;
     padding: 0
     }
-html {
-  margin: auto;
-  hyphens: auto;
-  max-width: 80ch;
-}
-body {
-	font-size: 1.1rem;
-	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
-	font-family: "Times New Roman", serif;
-	padding-left: 1px;
-	padding-right: 1px;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-	hyphens: auto;
-}
-
 .block_1 {
     color: black;
     display: block;
@@ -308,7 +292,7 @@ body {
 
 
 .butXL {
-  font: normal 18px Times;
+  font: normal 22px Times;
   background-color: orange;
   border: none;
   border-radius: 8px;
@@ -324,5 +308,5 @@ body {
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .butXL {
-  width: 40%;
+  width: 60%;
 }

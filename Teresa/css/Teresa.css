@@ -1,0 +1,427 @@
+@font-face {
+font-family: "Times New Roman", serif;
+font-style: normal;
+font-weight: normal;
+src : url("../Fonts/LibreBaskerville-Regular.ttf");
+}
+
+@font-face {
+font-family: "LibreBaskerville-Bold";
+font-style: normal;
+font-weight: normal;
+src : url("../Fonts/LibreBaskerville-Bold.ttf");
+}
+
+html {
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;
+}
+
+body {
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+	line-height: 160%;
+	padding-left: 2%;
+	padding-right: 2%;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+	
+a:hover {
+	color: red;
+}
+
+
+hr {
+	border-top: 1px solid red;
+	margin-top: 2em;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 3em;
+}
+hr.Carta {
+	border-top: 1px solid red;
+	margin-top: 0em;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 0.5em;
+}
+
+
+h2 {
+	font-family: "Times New Roman", serif;
+	font-size: 1.2rem;
+    text-align: left;
+    color: blue;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+	margin-top: 1em;
+}
+
+.sigue {
+	font-family: "Times New Roman", serif;
+    text-align: right;
+	font-size: 1.1rem;
+    margin-right: 18px;
+    margin-top: 0em;
+    color: red;
+}
+
+.Poesia {
+	font-family: "Times New Roman", serif;
+    text-align: left;
+		line-height: 130%;
+    margin-left: 1.8em;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+    text-indent: -1.8em;
+}
+
+.Poesia2 {
+  font-family: "Times New Roman", serif;
+  font-size: 1.2rem;
+  text-align: left;
+  font-style: italic;
+  margin-left: 0.5em;
+}
+
+.TitNormal {
+	font-family: "Times New Roman", serif;
+    text-align: justify;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+
+}
+
+.Nota {
+	font-family: "Times New Roman", serif;
+	font-size: 1rem;
+    text-align: left;
+    margin-left: 1.5em;
+    margin-top: 0.5em;
+	text-indent: -1.5em;
+
+}
+
+.NotaCarta {
+	font-family: "Times New Roman", serif;
+	font-size: 1.1rem;
+	line-height: 130%;
+	font-style: italic;
+    text-align: justify;
+    margin-left: 2.5em;
+    margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	text-indent: -1.8em;
+	color: brown;
+
+
+}
+
+
+.num {
+	font-weight: bold;
+    color: brown;
+}
+
+.Normal {
+	font-family: "Times New Roman", serif;
+    text-align: justify;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+	text-indent: 1.5em;
+
+}
+
+.Normal_a {
+	font-family: "Times New Roman", serif;
+    text-align: justify;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+    margin-left: 0;
+}
+
+.indice{
+	font-family: "Times New Roman", serif;
+    text-align: left;
+	line-height: 140%;
+    font-style: italic;
+    margin-bottom: 1em;
+    margin-top: 0.3em;
+    margin-left: 1.8em;
+    font-size: 1rem;
+color: brown;
+}
+
+
+.indice_a{
+	font-family: "Times New Roman", serif;
+    text-align: left;
+	text-indent: -4em;
+    margin-bottom: 0em;
+    margin-top: 0.5em;
+	margin-left: 4em;
+	color: brown;
+}
+
+.pTit {
+	font-family: "Times New Roman", serif;
+    text-align: center;
+    color: blue;
+    font-size: 1.2rem;
+	font-variant: small-caps;
+    font-weight: normal;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+
+.pT1 {
+	font-family: "Times New Roman", serif;
+    text-align: center;
+    color: red;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-bottom:1.5em;
+    margin-top: 0em;
+}
+
+.pT2 {
+	font-family: "Times New Roman", serif;
+    text-align: left;
+	letter-spacing: .1rem;
+    color: blue;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+	margin-top: 1em;
+}
+
+.pT3 {
+	font-family: "Times New Roman", serif;
+    text-align: center;
+    font-style: italic;
+    color: blue;
+    font-weight: normal;
+    margin-bottom: 15px;
+    margin-top: 0.5em;
+    margin-left: 1.8em;
+}
+
+.pT4 {
+	font-family: "Times New Roman", serif;
+    text-align: center;
+    color: green;
+	font-size: 0.9rem;
+	font-weight: bold;
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+
+.pT5 {
+	font-family: "Times New Roman", serif;
+    text-align: left;
+    color: brown;
+    font-weight: normal;
+    margin-bottom: 1px;
+    margin-top: 1em;
+}
+
+.CartaPor {
+	font-family: "Times New Roman", serif;
+    text-align: left;
+    margin-left: 1.8em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    text-indent: -1.8em;
+	color: blue;
+}
+
+.Final {
+	font-family: "Times New Roman", serif;
+    text-align: right;
+    font-style: italic;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    font-size: 0.8rem;
+    color: blue
+}
+
+.Subtítulo {
+	font-family: "Times New Roman", serif;
+    text-align: justify;
+	line-height: 140%;
+    font-style: italic;
+    margin-bottom: 1em;
+    margin-top: 0em;
+    font-size: 1rem;
+    color: blue
+}
+
+.red {
+    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+	color: red;
+	border-top: 1px solid red;
+}
+	
+.fixedButton {
+  position: fixed;
+  bottom: 15px;
+  right: 2px;
+  margin-bottom: 30px;
+}
+
+
+.perTabla {
+    font-family: "Times New Roman", Times, serif;
+    color: red;
+    align: center;
+	   }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align: center;
+}
+
+.butXL {
+  font: normal 22px Times;
+  background-color: orange;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.butXL {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.butXL {
+  width: 60%;
+}
+
+.pT3but a:link {
+  color: white;
+}
+.pT3but a:visited {
+  color: white;
+}
+.pT3but {
+  font-family: "Times New Roman", serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+  margin-top: 0em;
+  color: brown;
+}
+
+.TeresaData {
+	font-style: italic;
+	line-height: 130%;
+	font-size: 1.15rem;
+    text-align: left;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+.TeresaDest {
+	font-style: italic;
+	line-height: 130%;
+	font-size: 1.15rem;
+    text-align: left;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+.TeresaFirma {
+  font-family: "Times New Roman", serif;
+	line-height: 130%;
+	font-size: 1.15rem;
+	font-style: italic;
+    text-align: left;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+.intro {
+	font-family: "Times New Roman", serif;
+	font-style: italic;
+	line-height: 130%;
+    text-align: justify;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+	color: brown;
+	font-size: 1.1rem;
+}
+
+.CartaIntro {
+	font-family: "Times New Roman", serif;
+	font-style: italic;
+	line-height: 130%;
+    text-align: justify;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+	color: brown;
+	font-size: 1.1rem;
+}
+
+.Sigla {
+	font-family: "Times New Roman", serif;
+    text-align: right;
+	font-size: 1.1rem;
+    margin-bottom: 0.2em;
+    margin-top: 1em;
+	color: brown;
+}
+
+.rif_nota {
+    font-size: 0.7em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    padding-left: 4px;
+    padding-right: 2px;
+	color: red;
+	vertical-align: top;
+
+}
+
+.pT1Carta {
+	font-family: "Times New Roman", serif;
+    text-align: center;
+    color: red;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom:1.2em;
+    margin-top: 2em;
+}
+.redCarta {
+	color: red;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.NormalCarta {
+	font-family: "Merriweather-Regular";
+    text-align: justify;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+}
