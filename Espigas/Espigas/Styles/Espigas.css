@@ -1,0 +1,287 @@
+html {
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;;
+}
+body {
+    font-family: Times, Times New Roman, serif;
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+	font-family: "Times New Roman", serif;
+	padding-left: 1px;
+	padding-right: 1px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+	
+a:hover {
+	color: red;
+}
+
+hr {
+  border-bottom: 1px solid red;
+  margin-top: 0;
+}
+
+table, th, td {
+  border: 1px solid;
+  font-size: 0.9rem;
+}
+
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 3px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+.Indice {
+  font-family: Times, Times New Roman, serif;
+  font-size: 1.15rem;
+  font-style: normal;
+  text-align: left;
+  text-indent: 0rem;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  margin-top: 0.2rem;
+  margin-bottom: 0.3rem;
+  margin-left: 3em;
+}
+
+.SezInd {
+  font-family: Times, Times New Roman, serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  text-align: left;
+  text-indent: 0rem;
+  font-weight: bold;
+  font-variant: normal;
+  text-transform: none;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 2em;
+}
+
+
+.Heading0{
+  font-family: Times, Times New Roman, serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2.5rem;
+  margin-bottom: 1em;
+  margin-top: 0;
+  margin-left: 2em;
+  margin-right: 2em;
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+  padding: 0.5rem;
+  color:red;
+
+}
+h1 {
+  font-family: Times, Times New Roman, serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2rem;
+  margin-bottom: 1em;
+  margin-top: 0;
+
+}
+h2 {
+  font-family: Times, Times New Roman, serif;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: normal;
+  font-variant: small-caps;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+h3 {
+  font-family: Times, Times New Roman, serif;
+  padding-top: 0;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: italic;
+  margin-right: 10%;
+  margin-left: 2rem;
+  margin-top: 0.8em;
+  margin-bottom: 0.3em;
+  color: brown;
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 0.5em;
+  margin-top: 0em;
+}
+
+
+.Normal {
+  font-family: Times, Times New Roman, serif;
+  font-style: normal;
+  text-align: justify;
+  text-indent: 2rem;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  margin-top: 0.4rem;
+  margin-bottom: 0rem;
+}
+
+.Poesia {
+  font-family: Times, Times New Roman, serif;
+  font-style: normal;
+  text-align: left;
+  text-indent: 0rem;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+  margin-left: 2em;
+}
+
+
+
+.Cita {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.95em;
+    font-style: normal;
+    margin-top: 0.2rem;
+    margin-right:0rem;
+	margin-bottom: 0.2em;
+    margin-left: 4em;
+    text-align: justify;
+    text-indent: 1em;
+    line-height: 1.1em;	
+ }
+
+.CitaFirst {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.95em;
+    font-style: normal;
+    margin-top: 0.5em;
+    margin-right: 0em;
+	margin-bottom: 0em;
+    margin-left: 4rem;
+    text-align: justify;
+    text-indent: 1em;
+    line-height: 1.1em;	
+ }
+
+.CitaMiddle {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.95em;
+    font-style: normal;
+    margin-top: 0;
+    margin-right: 0rem;
+	margin-bottom: 0;
+    margin-left: 4rem;
+    text-align: justify;
+    text-indent: 1em;
+    line-height: 1.1em;	
+ }
+
+.CitaLast {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.95em;
+    font-style: normal;
+    margin-top: 0em;
+    margin-right: 0rem;
+	margin-bottom: 0.3em;
+    margin-left: 4rem;
+    text-align: justify;
+    text-indent: 1em;
+    line-height: 1.1em;	
+ }
+
+.TitNotas{
+  font-family: Times, Times New Roman, serif;
+  text-align: left;
+  font-weight: normal;
+  font-size: 1rem;
+  margin-bottom: 0em;
+  margin-top: 0;
+color:red;
+}
+.txtNote {
+  font-family: Times, Times New Roman, serif;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-left: 2.9rem;
+  text-indent: -2.6rem;
+  margin-bottom: 0.3rem;
+  margin-top: 0;
+  line-height: 1.1em;
+  color: black;
+}
+
+.nextPag {
+  font-family: Times, Times New Roman, serif;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-right: 0rem;
+  margin-top: 0em;
+  margin-bottom: 0.2em;
+  color: blue;
+}
+
+.fixedButton {
+  position: fixed;
+  bottom: 15px;
+  right: 2px;
+  margin-bottom: 30px;
+}
+
+.pFaja{
+ font-family: "Times New Roman", Times, serif;
+ text-align: left;
+ color: blue;
+ font-weight: normal;
+ font-size: 0.95em;
+ text-align: center;
+   padding:5px 5px 5px 15px;
+ margin-bottom: 1em;
+ margin-top: 5px;
+ border-top: 2px solid red;
+ border-bottom: 2px solid red;
+ background-color: beige;
+ 
+}
