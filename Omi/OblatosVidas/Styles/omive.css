@@ -1,0 +1,426 @@
+@font-face {
+  font-family: "LibreBaskerville-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../Fonts/LibreBaskerville-Regular.ttf");
+}
+
+@font-face {
+  font-family: "LibreBaskerville-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../Fonts/LibreBaskerville-Bold.ttf");
+}
+
+html {
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;
+}
+
+body {
+  font-family: Times, Times New Roman, serif;
+  font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+  padding-left: 2%;
+  padding-right: 2%;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  line-height: 130%;
+}
+
+hr {
+  color: red;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-top: 1px solid red;
+}
+
+img {
+  font-size: 0.9rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+dl {
+  margin-left: 0.5rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0rem;
+  line-height: 110%;
+}
+
+dd {
+  font-size: 1rem;
+  margin-left: 2rem;
+  line-height: 110%;
+  text-align: left;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+dt {
+  font-size: 1rem;
+  margin-left: 0.4rem;
+  line-height: 110%;
+  text-align: left;
+  margin-bottom: 0rem;
+}
+
+.tab {
+  font-size: 0.9rem;
+  margin-left: 0rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  line-height: 1;
+}
+
+.tab1 {
+  text-align: right;
+  font-size: 0.9rem;
+  margin-left: 0rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  line-height: 1;
+}
+
+li {
+  margin-bottom: 0.3rem;
+  line-height: 1.3;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+ol {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: 0.3rem;
+  margin-top: 0.2em;
+  text-indent: 0em;
+}
+
+ul {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  margin-top: 0.2em;
+  text-indent: 0em;
+}
+
+.center {
+  display: block;
+  font-family: "LibreBaskerville-Regular";
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Normal {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  font-size: 1.1rem;
+  line-height: 130%;
+  text-align: justify;
+  margin-bottom: 0.5rem;
+  margin-top: 0.2em;
+  text-indent: 1.5em;
+  color: black;
+  display: block;
+  padding: 0;
+}
+
+.Normal2 {
+  font-size: 1rem;
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  font-style: italic;
+  line-height: 130%;
+  text-align: justify;
+  margin-bottom: 0.2rem;
+  margin-left: 2rem;
+  margin-top: 0.2em;
+  text-indent: 0em;
+  color: black;
+  display: block;
+  padding: 0;
+}
+
+.Cita {
+  font-size: 1rem;
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  line-height: 120%;
+  text-align: justify;
+  margin-bottom: 0.5rem;
+  margin-top: 0.2em;
+  margin-left: 2em;
+  text-indent: 1.5em;
+  color: black;
+  display: block;
+  padding: 0;
+}
+
+.Biblio {
+  font-size: 1rem;
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  line-height: 130%;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  margin-top: 0.2em;
+  color: black;
+  display: block;
+  padding: 0;
+}
+
+h1 {
+  display: block;
+  font-family: "LibreBaskerville-Bold", Times, serif;
+  font-size: 1.3rem;
+  line-height: 130%;
+  text-align: center;
+  text-indent: 0;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 0;
+  color: brown;
+}
+
+h2 {
+  display: block;
+  font-family: "LibreBaskerville-Bold", Times, serif;
+  font-size: 1.2rem;
+  text-align: center;
+  text-indent: 0;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  color: brown;
+}
+
+h3 {
+  display: block;
+  font-family: "LibreBaskerville-Bold", Times, serif;
+  font-size: 1.05rem;
+  font-style: normal;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+  margin-left: 1.5em;
+  color: brown;
+  font-variant: small-caps;
+}
+
+h4 {
+  display: block;
+  font-family: "LibreBaskerville-Bold", Times, serif;
+  font-size: 0.9rem;
+  font-style: normal;
+  text-align: left;
+  margin-top: 0.7rem;
+  margin-left: 1.5em;
+  margin-bottom: 0rem;
+  font-variant: small-caps;
+  color: brown;
+}
+
+h5 {
+  display: block;
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-style: italic;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-left: 1.5em;
+  margin-bottom: 0rem;
+  color: brown;
+}
+
+.Colophon {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  display: block;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 0.7rem;
+  line-height: 1.2;
+}
+
+.pT3but a:link,.pT3but a:visited {
+  color: white;
+}
+
+.pT3but {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+  margin-top: 0;
+  color: brown;
+}
+
+.butXL {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  background-color: orange;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+  width: 60%;
+}
+
+.Lista {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  color: black;
+  display: list-item;
+  font-size: 0.9rem;
+  margin-bottom: 2pt;
+  margin-left: 2rem;
+  margin-top: 2pt;
+  padding-bottom: 0;
+  padding-top: 0;
+  text-align: left;
+}
+
+.txtFoto {
+  background-color: #FFF;
+  color: black;
+  display: block;
+  font-size: 0.75rem;
+  font-style: italic;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  text-indent: 0;
+  margin-top: 0pt;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+div.sgc-toc-level-1 {
+  font-size: 1.2rem;
+  margin-left: 0;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.Ljc {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  color: black;
+  font-size: 0.8rem;
+  display: block;
+  text-align: justify;
+  text-indent: 0;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.Fecha {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  color: #C00000;
+  display: block;
+  font-size: 1rem;
+  text-align: right;
+  text-indent: 0;
+  margin: 4pt 0;
+  padding: 0;
+}
+
+.Sunto {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  display: block;
+  font-size: 0.9rem;
+  font-style: italic;
+  line-height: 120%;
+  text-align: justify;
+  text-indent: 0;
+  margin-left: 2.6rem;
+  margin-top: 0.1rem;
+  margin-right: 2rem;
+  padding: 0;
+}
+
+.Firma {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  font-style: italic;
+  display: block;
+  font-size: 1.1rem;
+  text-align: left;
+  margin: 1em 0 6pt 1em;
+  padding: 0;
+  margin-top: 0em;
+  margin-bottom: 0;
+  text-indent: 0;
+}
+
+.Destin {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: left;
+  text-indent: -2.3rem;
+  margin-left: 2.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0;
+}
+
+sup {
+  vertical-align: text-top;
+  font-size: smaller;
+}
+
+.Lista1 {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+  font-size: 1rem;
+  line-height: 130%;
+  margin-bottom: 0.4rem;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+.fixedButton {
+  position: fixed;
+  bottom: 15px;
+  right: 2px;
+  margin-bottom: 30px;
+}
+
+.perLista {
+  font-family: "LibreBaskerville-Bold", Times, serif;
+  display: list-item;
+  font-size: 1.3rem;
+  text-align: left;
+  text-indent: 0rem;
+  margin-top: 1rem;
+  margin-left: 8rem;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  color: brown;
+}

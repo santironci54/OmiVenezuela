@@ -1,0 +1,44 @@
+div.sgc-toc-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+div.sgc-toc-level-1 {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+    margin-left: 0em;
+}
+
+div.sgc-toc-level-2 {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+    margin-left: 2em;
+}
+
+div.sgc-toc-level-3 {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+    margin-left: 2em;
+}
+
+div.sgc-toc-level-4 {
+  font-family: "LibreBaskerville-Regular", Times, serif;
+    margin-left: 2em;
+}
+
+div.sgc-toc-level-5 {
+    margin-left: 2em;
+}
+
+div.sgc-toc-level-6 {
+    margin-left: 2em;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+a.pointer {
+        cursor: pointer;
+      }

@@ -1,0 +1,61 @@
+html {
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;
+}
+
+body {
+
+	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+	line-height: 110%;
+	padding-left: 2%;
+	padding-right: 2%;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+
+
+div.sgc-toc-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+	color:red;
+}
+
+div.sgc-toc-level-1 {
+    margin-left: 0em;
+    margin-top: 1em;
+    margin-bottom: 0.6em;
+}
+
+div.sgc-toc-level-2 {
+    margin-left: 2em;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+
+div.sgc-toc-level-3 {
+    margin-left: 2em;
+}
+
+div.sgc-toc-level-4 {
+    margin-left: 2em;
+}
+
+div.sgc-toc-level-5 {
+    margin-left: 2em;
+}
+
+div.sgc-toc-level-6 {
+    margin-left: 2em;
+}
+.sigue {
+	font-family: "Times New Roman", serif;
+    text-align: right;
+	font-size: 1.1rem;
+    margin-right: 18px;
+    margin-top: 0em;
+    color: red;
+}
