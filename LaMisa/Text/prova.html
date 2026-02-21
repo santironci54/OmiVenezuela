@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+  <style>
+    /* Basic Styling (Add more as needed) */
+    body { font-family: sans-serif; }
+    input[type="text"], input[type="date"], textarea {
+      width: 95%;
+      margin-bottom: 5px;
+      padding: 4px;
+      box-sizing: border-box; /* Include padding in width */
+    }
+    button { margin-bottom: 10px; padding: 5px 10px; cursor: pointer; }
+    #searchResults { margin-top: 10px; }
+    .record { border-bottom: 1px solid #ccc; padding: 5px 0; }
+     /* Style for error messages */
+    .error { color: red; }
+  </style>
+</head>
+<body>
+  <h1>Gestione Record</h1>
+
+  <!-- Input Fields -->
+  <div>
+    <label for="num">Num:</label><br>
+    <input type="text" id="num"><br>
+
+    <label for="libro">Libro:</label><br>
+    <input type="text" id="libro"><br>
+    
+    <label for="folio">Folio:</label><br>
+    <input type="text" id="folio"><br>
+    
+    <label for="apellido">Apellido:</label><br>
+    <input type="text" id="apellido"><br>
+
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre"><br>
+
+    <label for="fechaBaut">Fecha Baut:</label><br>
+    <input type="date" id="fechaBaut"><br>
+
+    <label for="nacidoEl">Nacido El:</label><br>
+    <input type="date" id="nacidoEl"><br>
+
+    <label for="nacidoEn">Nacido En:</label><br>
+    <input type="text" id="nacidoEn"><br>
+
+    <label for="padre">Padre:</label><br>
+    <input type="text" id="padre"><br>
+
+    <label for="madre">Madre:</label><br>
+    <input type="text" id="madre"><br>
+
+    <label for="padrino1">Padrino 1:</label><br>
+    <input type="text" id="padrino1"><br>
+
+    <label for="padrino2">Padrino 2:</label><br>
+    <input type="text" id="padrino2"><br>
+
+    <label for="cel">Cel:</label><br>
+    <input type="text" id="cel"><br>
+
+    <label for="civil">Civil:</label><br>
+    <input type="text" id="civil"><br>
+
+    <label for="nota">Nota:</label><br>
+    <textarea id="nota"></textarea><br>
+
+    <button id="addBtn">Aggiungi Record</button>
+    <button id="clearBtn">Cancella Campi</button> <!-- Clear fields button -->
+  </div>
+
+  <!-- Search -->
+  <div>
+    <h2>Cerca Record</h2>
+    <input type="text" id="searchText" placeholder="Testo di ricerca...">
+    <button id="searchBtn">Cerca</button>
+    <div id="searchResults"></div>
+  </div>
+
+  <!-- Hidden field to store the currently edited record ID -->
+    <input type="hidden" id="editRecordId" value="">
+
+  <script>
+    // Add Record Button Click Handler
+    document.getElementById('addBtn').addEventListener('click', function() {
+      // Disable the button to prevent multiple submissions
+      this.disabled = true;
+      const recordData = getFormData(); // Helper function (defined below)
+       // Check if we're editing or adding
+      const recordId = document.getElementById('editRecordId').value;
+
+        if (recordId) {
+            // Update existing record
+            google.script.run.withSuccessHandler(onUpdateSuccess).withFailureHandler(onFailure).updateRecord(recordId, recordData);
+        } else {
+           // Add new record
+           google.script.run.withSuccessHandler(onAddSuccess).withFailureHandler(onFailure).addRecord(recordData);
+        }     
+    });
+    
+    function onAddSuccess(response) {
+      document.getElementById('addBtn').disabled = false; // Re-enable the button
+      if (response.success) {
+        alert('Record added successfully! ID: ' + response.id);
+          clearForm(); // Clear the form after successful addition
+      } else {
+        alert('Error adding record: ' + response.message); // Show the error message
+      }
+    }
+
+    function onUpdateSuccess(response) {
+      document.getElementById('addBtn').disabled = false;  //Re-enable button
+        if (response.success) {
+            alert("Record updated successfully!");
+             clearForm(); // Clear form after update
+             document.getElementById('editRecordId').value = ''; // Reset edit mode
+             document.getElementById('addBtn').textContent = 'Aggiungi Record'; // Restore button text
+        } else {
+          alert('Error updating record: ' + response.message);
+        }
+    }
+
+    function onFailure(error) {
+       document.getElementById('addBtn').disabled = false; // Re-enable button
+       alert("An error occurred: " + error.message); //Display a user-friendly error
+    }
+
+     // Search Button Click Handler
+    document.getElementById('searchBtn').addEventListener('click', function() {
+      const searchText = document.getElementById('searchText').value;
+      google.script.run.withSuccessHandler(displaySearchResults).searchRecords(searchText);
+    });
+
+    function displaySearchResults(results) {
+        const resultsDiv = document.getElementById('searchResults');
+        resultsDiv.innerHTML = ''; // Clear previous results
+
+        if (results.length === 0) {
+            resultsDiv.innerHTML = '<p>Nessun record trovato.</p>';
+            return;
+        }
+
+        results.forEach(function(record) {
+            const recordDiv = document.createElement('div');
+            recordDiv.classList.add('record');
+            // Build the HTML to display the record.  Customize this as needed.
+            let recordHtml = `<p><strong>ID:</strong> ${record.Id}, <strong>Num:</strong> ${record.Num || ''}, <strong>Apellido:</strong> ${record.Apellido || ''}, <strong>Nombre:</strong> ${record.Nombre || ''}</p>`;
+             recordHtml += `<p><strong>Fecha Baut:</strong> ${record.FechaBaut || ''}, <strong>Nacido El:</strong> ${record.NacidoEl || ''}</p>`;
+            // Add more fields as needed...
+
+            // Add Edit button
+            const editButton = document.createElement('button');
+            editButton.textContent = 'Modifica';
+           editButton.addEventListener('click', function() {
+     console.log("Edit button clicked. Record:", record); // Debugging line!
+     loadRecordForEdit(record.Id);
+ });
+           recordDiv.innerHTML = recordHtml;
+           recordDiv.appendChild(editButton);
+           resultsDiv.appendChild(recordDiv);
+        });
+    }
+
+    function loadRecordForEdit(recordId) {
+ console.log("loadRecordForEdit called with ID:", recordId); // Existing log
+ console.log("About to call getRecordById with ID:", recordId); // NEW LOG
+   try {
+     google.script.run.withSuccessHandler(populateForm).withFailureHandler(onFailure).getRecordById_UNIQUE123(recordId); // Or original name
+   } catch (error) {
+     console.error("Error calling getRecordById:", error);
+   }
+}
+
+   function populateForm(record) {
+    if (!record) {
+        alert('Record not found!');
+        return;
+    }
+     // Populate the form fields
+    document.getElementById('num').value = record.Num || '';
+    document.getElementById('libro').value = record.Libro || '';
+    document.getElementById('folio').value = record.Folio || '';
+    document.getElementById('apellido').value = record.Apellido || '';
+    document.getElementById('nombre').value = record.Nombre || '';
+    document.getElementById('fechaBaut').value = record.FechaBaut ? formatDateForInput(record.FechaBaut) : '';
+    document.getElementById('nacidoEl').value = record.NacidoEl ? formatDateForInput(record.NacidoEl) : '';
+    document.getElementById('nacidoEn').value = record.NacidoEn || '';
+    document.getElementById('padre').value = record.Padre || '';
+    document.getElementById('madre').value = record.Madre || '';
+    document.getElementById('padrino1').value = record.Padrino1 || '';
+    document.getElementById('padrino2').value = record.Padrino2 || '';
+    document.getElementById('cel').value = record.Cel || '';
+    document.getElementById('civil').value = record.Civil || '';
+    document.getElementById('nota').value = record.Nota || '';
+
+     // Set the hidden field with the record ID
+     document.getElementById('editRecordId').value = record.Id;
+      // Change button text to indicate update mode
+     document.getElementById('addBtn').textContent = 'Aggiorna Record';
+
+}
+
+    // Helper function to format date for input[type=date]
+    function formatDateForInput(dateString) {
+       try {
+           const date = new Date(dateString);
+           if (isNaN(date)) { // Check if the date is valid.
+              return '';  // Return an empty string if not a valid date
+           }
+           const year = date.getFullYear();
+           const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
+           const day = String(date.getDate()).padStart(2, '0');
+           return `${year}-${month}-${day}`; // YYYY-MM-DD format
+       }
+       catch (error){
+          return '';
+       }
+    }
+
+    // Helper function to get form data
+    function getFormData() {
+      return {
+        num: document.getElementById('num').value,
+        libro: document.getElementById('libro').value,
+        folio: document.getElementById('folio').value,
+        apellido: document.getElementById('apellido').value,
+        nombre: document.getElementById('nombre').value,
+        fechaBaut: document.getElementById('fechaBaut').value,
+        nacidoEl: document.getElementById('nacidoEl').value,
+        nacidoEn: document.getElementById('nacidoEn').value,
+        padre: document.getElementById('padre').value,
+        madre: document.getElementById('madre').value,
+        padrino1: document.getElementById('padrino1').value,
+        padrino2: document.getElementById('padrino2').value,
+        cel: document.getElementById('cel').value,
+        civil: document.getElementById('civil').value,
+        nota: document.getElementById('nota').value,
+      };
+    }
+
+    // Clear form fields
+    document.getElementById('clearBtn').addEventListener('click', clearForm);
+
+    function clearForm() {
+        const fields = ['num', 'libro', 'folio', 'apellido', 'nombre', 'fechaBaut', 'nacidoEl', 'nacidoEn', 'padre', 'madre', 'padrino1', 'padrino2', 'cel', 'civil', 'nota'];
+        fields.forEach(field => {
+            document.getElementById(field).value = '';
+        });
+         // Reset the hidden field and button text for adding a new record
+        document.getElementById('editRecordId').value = '';
+        document.getElementById('addBtn').textContent = 'Aggiungi Record';
+    }
+
+
+    // Initial setup (if any)
+    document.addEventListener('DOMContentLoaded', function() {
+      // Add any initialization code here (e.g., setting default values)
+    });
+  </script>
+</body>
+</html>

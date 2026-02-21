@@ -1,0 +1,302 @@
+/* ==========================================================================
+   1. IMPOSTAZIONI GLOBALI E VARIABILI (CSS Custom Properties)
+   ========================================================================== */
+
+/* :root permette di definire variabili globali riutilizzabili */
+:root {
+  /* Palette Colori */
+  --color-testo-principale: #333; /* Un nero più morbido per la leggibilità */
+  --color-primario: #bb1919; /* Il tuo rosso principale */
+  --color-secondario: brown;
+  --color-accento: green;
+  --color-blu: blue;
+  --color-arancione: orange;
+  --color-sfondo: white;
+  --color-testo-bottone: white;
+  --color-ombra: rgba(0, 0, 0, 0.2);
+
+  /* Tipografia */
+  --font-principale: "Times New Roman", Times, serif; /* Definito una sola volta */
+  --font-size-base: 1.1rem; /* Dimensione base del testo */
+
+  /* Layout */
+  --larghezza-massima-testo: 65ch; /* Leggermente più largo per un buon flusso */
+  --spaziatura-base: 1rem; /* Unità di misura base per margini/padding */
+}
+
+/* Reset base e stili di default per il box model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  /* Centra il contenuto e imposta la larghezza massima per la leggibilità */
+  max-width: var(--larghezza-massima-testo);
+  padding: 0.5rem; /* Usa rem per coerenza */
+  margin: auto;
+  font-size: 100%; /* Lascia che sia il browser a decidere la base, 1rem = 16px di default */
+  color: var(--color-testo-principale);
+  background-color: var(--color-sfondo);
+}
+
+body {
+  font-family: var(--font-principale);
+  font-size: var(--font-size-base);
+  /* clamp() è ottimo, lo manteniamo */
+  font-size: clamp(var(--font-size-base), 1.1rem + 0.25vw, 1.35rem);
+  line-height: 1.6; /* Aggiunto per migliore leggibilità */
+  hyphens: auto; /* Non servono più i prefissi */
+}
+
+/* Rimuove la sottolineatura da tutti i link di default */
+a {
+  text-decoration: none;
+  color: var(--color-primario); /* Dai un colore di default ai link */
+}
+
+a:hover {
+  text-decoration: underline; /* Aggiungi un feedback all'hover */
+}
+
+
+/* ==========================================================================
+   2. INTESTAZIONI (h1, h2, h3) E LINEE ORIZZONTALI (hr)
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-principale);
+  text-align: center;
+  font-weight: bold;
+  margin-top: calc(var(--spaziatura-base) * 1.5);
+  margin-bottom: var(--spaziatura-base);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: var(--color-testo-principale);
+}
+
+h2 {
+  font-size: 1.2em;
+  color: var(--color-accento);
+}
+
+/* Modificatore per h2 (come il tuo h2.pT2) */
+h2.alternativo {
+  font-size: 1.1em;
+  color: var(--color-secondario);
+  margin-top: var(--spaziatura-base);
+  margin-bottom: calc(var(--spaziatura-base) / 2);
+}
+/* Esempio HTML: <h2 class="alternativo">...</h2> */
+
+h3 {
+  font-size: 1.1em; /* Un h3 dovrebbe essere più piccolo di h2 */
+  color: var(--color-secondario);
+  border-top: 2px solid var(--color-blu);
+  padding-top: 0.5em;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+
+hr {
+  border: none; /* Rimuovi il bordo di default */
+  border-top: 1px solid #ccc; /* Usa un bordo superiore per una linea sottile */
+  margin: calc(var(--spaziatura-base) * 1.5) 4em; /* Sintassi abbreviata per margine */
+}
+
+/* Modificatore per hr (come il tuo hr.Invit) */
+hr.invitatorio {
+  border-top: 1px solid var(--color-primario);
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 0;
+  margin-left: 0;
+}
+/* Esempio HTML: <hr class="invitatorio"> */
+
+
+/* ==========================================================================
+   3. PARAGRAFI E BLOCCHI DI TESTO
+   ========================================================================== */
+
+p {
+  /* Le impostazioni di default del body sono già buone, non serve ridefinire font-family */
+  font-size: 1.05em;
+  margin-top: 0;
+  margin-bottom: var(--spaziatura-base);
+}
+
+.centro {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.destra {
+  text-align: right;
+}
+
+.giustificato {
+  text-align: justify;
+}
+
+/* Testo con rientro negativo (Ant, respR, respV, V_R) */
+.rientro-negativo {
+  text-indent: -1.5em;
+  margin-left: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+/* Esempio HTML: <p class="rientro-negativo">Testo...</p> */
+
+.rientro-negativo.grande { /* Per .Normal */
+  text-indent: -3.5em;
+  padding-left: 4em; /* Usa padding per evitare overflow */
+}
+
+/* Stili specifici */
+.antifona { /* Il tuo .Ant */
+  color: maroon;
+}
+
+.prece { /* Il tuo .Prece */
+  font-style: italic;
+  margin-left: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+
+.salmo-testo { /* Il tuo .SalmoTxt */
+  text-indent: -11px;
+  padding-left: 11px;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  hyphens: none;
+}
+
+.salmo-testo.latino { /* Il tuo .SalmoTxtLat */
+  font-style: italic;
+  margin-top: 0.5em;
+}
+
+
+/* ==========================================================================
+   4. BOTTONI (Unificato e con modificatori)
+   ========================================================================== */
+
+.bottone {
+  /* Stili base comuni a tutti i bottoni */
+  display: inline-block;
+  padding: 0.4em 0.8em;
+  margin: 0.2em;
+  font-family: var(--font-principale);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px 0 var(--color-ombra), 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s, box-shadow 0.2s; /* Aggiunge transizione per interazione */
+}
+
+.bottone:hover {
+  transform: translateY(-2px); /* Effetto al passaggio del mouse */
+  box-shadow: 0 6px 8px 0 var(--color-ombra), 0 10px 22px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* Stile primario (il tuo .button e .buttonL) */
+.bottone.primario {
+  background-color: var(--color-primario);
+  color: var(--color-testo-bottone);
+}
+.bottone.primario a:visited { color: var(--color-testo-bottone); }
+
+
+/* Modificatore di dimensione */
+.bottone.piccolo { /* tuo .button */
+  font-size: 1em;
+  width: 15%;
+}
+
+.bottone.grande { /* tuo .buttonL */
+  font-size: 0.9em;
+  width: 45%;
+}
+
+.bottone.extra-grande { /* tuo .butXL */
+  background-color: var(--color-arancione);
+  color: var(--color-testo-bottone);
+  width: 80%;
+  font-size: 1em;
+}
+.bottone.extra-grande a:visited { color: var(--color-testo-bottone); }
+
+
+/* Bottone Inverso */
+.bottone.inverso { /* tuo .buttonInv */
+  background-color: var(--color-sfondo);
+  border: 2px solid var(--color-primario);
+  color: var(--color-primario);
+  font-weight: bold;
+  font-size: 0.8em;
+  width: 25px; /* Larghezza fissa per cerchio */
+  height: 25px; /* Altezza fissa per cerchio */
+  padding: 0.3em;
+  border-radius: 50%; /* Per renderlo un cerchio */
+  line-height: 1; /* Per centrare il testo verticalmente */
+}
+.bottone.inverso a:visited { color: var(--color-primario); }
+
+/* Esempio HTML:
+   <button class="bottone primario piccolo">Ok</button>
+   <button class="bottone primario grande">Lungo</button>
+   <button class="bottone extra-grande">Extra</button>
+   <button class="bottone inverso">i</button>
+*/
+
+
+/* ==========================================================================
+   5. ELEMENTI POSIZIONATI E SPECIALI
+   ========================================================================== */
+
+/* Contenitore box con ombra */
+.box-ombreggiato { /* tuo .divTO */
+  width: 85%;
+  padding: 2em; /* Usa em per padding proporzionale */
+  margin: 1.5em auto; /* Centra orizzontalmente */
+  color: #062;
+  box-shadow: 3px 8px 28px #888;
+  background: linear-gradient(to bottom right, white 50%, var(--color-arancione));
+  border: solid 5px var(--color-arancione);
+}
+
+/* Elementi con posizione fissa */
+.posizione-fissa {
+  position: fixed;
+}
+
+.posizione-fissa.in-alto-a-destra { /* tuo .fixedButtonBack */
+  top: 10px;
+  right: 10px; /* Aggiunto un po' di spazio dal bordo */
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.posizione-fissa.in-basso-a-destra { /* tuo .fixedButton */
+  bottom: 10px; /* Aggiunto un po' di spazio dal bordo */
+  right: 10px;
+}
+
+/* Stili specifici per testi colorati */
+.testo-rosso { color: red; }
+.testo-rosso.corsivo { font-style: italic; }
+
+/* Pseudoelemento per la prima lettera */
+.prima-lettera-evidenziata::first-letter {
+  font-weight: bold;
+  color: red;
+  margin-right: 0.05em;
+}
