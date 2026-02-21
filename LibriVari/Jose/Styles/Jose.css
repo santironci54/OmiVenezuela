@@ -1,0 +1,144 @@
+/* ePub base r1.0 ePubLibre */
+
+/* -------- ESTILOS GLOBALES Y DE SECCIONES FIJAS (NO MODIFICABLES) -------- */
+body { margin:1em; }
+p { margin:0; text-align:justify; text-indent:1.5em; line-height:1.3em; }
+a { font-style:normal; font-weight:normal; text-decoration:none; }
+sup, sub { font-size:0.75em; line-height:normal; }
+
+/* -------- CUBIERTA -------- */
+.cubierta { margin:0; padding:0; border:0; font-size:0; text-align:center; text-indent:0; }
+	.cubierta img { height:100%; max-height:100%; }
+
+/* -------- SINOPSIS -------- */
+.sinopsis, .sinopsis p, .sinopsis em, .sinopsis strong, .sinopsis span { margin-top:0.5em; text-indent:0; font-family:sans-serif; }
+
+/* -------- TITULO -------- */
+.tlogo, .tautor, .ttitulo, .tsubtitulo, .trevision, .tfirma { text-align:center; text-indent:0; adobe-hyphenate:none; hyphenate:none; hyphens:none; -moz-hyphens:none; -webkit-hyphens:none; }
+	.tlogo span { margin:3em 0 2.5em; padding:0; border:0; display:inline-block; width:8em; }
+	.tautor { margin-bottom:0.5em; font-size:1.2em; color:#595959; }
+	.ttitulo { margin:0; font-size:1.8em; }
+	.tsubtitulo { margin:0.3em 0 0; }
+	.trevision { margin:2.5em 0 0; font-size:0.8em; color:#595959; }
+	.tfirma, .tfirma strong, .tfirma code { font-size:0.8em; }
+	.tfecha { color:#595959; }
+
+/* -------- INFO -------- */
+.info { margin:3.5em 1.5em; font-size:0.8em; width:90%; }
+	.info p { text-align:left; text-indent:0; }
+
+/* -------- DEDICATORIA -------- */
+.dedicatoria { margin:5em 1em 1.5em; text-align:right; text-indent:0; }
+	.dedicatoria p { text-align:right; text-indent:0; }
+
+/* -------- AUTOR -------- */
+.autorimg { margin:1.5em; padding:0; border:0; text-align:center; text-indent:0; display:block; height:40%; }
+
+/* -------- NOTAS -------- */
+.nota { padding-top:10%; text-indent:0; page-break-before:always; }
+	.nota p { text-indent:0; }
+
+
+/* -------- ESTILOS GENERALES (ADAPTABLES EN CASOS ESPECIALES) -------- */
+
+/* encabezados */
+h1, h2, h3, h4, h5, h6 { margin-top:25%; text-align:center; text-indent:0; page-break-after:avoid; page-break-inside:avoid; adobe-hyphenate:none; hyphenate:none; hyphens:none; -moz-hyphens:none; -webkit-hyphens:none; }
+	h1 { font-size:1.5em; }	/* sólo cambios aprobados, puede afectar páginas globales */
+	
+	h3 { font-size:1.4em; }
+	h4 { font-size:1.3em; }
+	h5 { font-size:1.2em; }
+	h6 { font-size:1.1em; }
+
+/* tipografía */
+.sans, .sans p, .sans em, .sans strong, .sans span { font-family:sans-serif; }
+.serif, .serif p, .serif em, .serif strong, .serif span { font-family:serif; }
+.mono, .mono p, .mono em, .mono strong, .mono span { font-family:monospace; }
+
+.cursiva, em { font-style:italic; }
+.negrita, strong { font-weight:bold; }
+.subrayado, ins { text-decoration:underline; }
+.tachado, del { text-decoration:line-through; }
+.oculto { display:none; visibility:hidden; }
+.normal { font-style:normal; font-weight:normal; text-decoration:none; }
+
+.versalita { font-size:0.8em; } /* para texto en mayúsculas, de tamaño similar al de las minúsculas */
+
+/* alineación */
+.izquierda, .izquierda p { text-align:left; }
+.derecha, .derecha p { text-align:right; text-indent:0; }
+.centrado, .centrado p { text-align:center; text-indent:0; }
+.justificado, .justificado p { text-align:justify; }
+.asangre, .asangre p { text-indent:0;   font-size: 1.2em;}
+
+/* saltos */
+.sintop { margin-top:0; }
+.saltoinicio { margin-top:33%; }
+.salto05 { padding-top:0.5em; }
+.salto10 { padding-top:1em; }
+.salto25 { padding-top:2.5em; }
+
+/* bloques */
+.sinmargen { margin:0; }
+.cita { margin:1.5em; }
+.bloque { page-break-inside:avoid; } /* en algunos lectores, evita dividir un elemento entre dos páginas */
+.extenso { orphans:0; widows:0; } /* evita la división aleatoria de párrafos muy extensos */
+.banner { margin:1.5em 12%; padding:0.5em 1em; text-align:center; text-indent:0; border:2px solid black; border-left:none; border-right:none; }
+	.banner p { text-align:center; text-indent:0; }
+
+/* listas */
+li { margin:0; text-align:justify; line-height:1.3em; }
+
+/* imágenes simples */ /* para láminas verticales (página completa), usar el estilo fijo «cubierta» */
+.ilustra { margin:1em 0; padding:0; border:0; text-align:center; text-indent:0; display:block; }
+	.ilustra img { max-height:100%; max-width:100%; }
+
+
+/* -------- ESTILOS PERSONALES -------- */
+/* para letra capital metida en el párrafo */
+.inicio { margin-top:5em; text-indent:0; }
+span.letrak { float:left; font-size:5em; margin:0.3em 0.1em 0 0; }
+
+/* para epigrafes cargados a la derecha y justificados en una sola página sin más texto*/
+.epi { padding:7em 0 0 6em; }
+  .epi p { text-indent:0; }
+
+/* combinado de asangre y salto10 (no usar con la clase "asteriscos" ni con "subtit" ni con los encabezados "h" porque dupica el salto; usar solo)*/
+.asan10 { text-indent:0; padding-top:1em; }
+
+/* combinado de asangre y salto25 (no usar con la clase "asteriscos" ni con "subtit" ni con los encabezados "h" porque dupica el salto; usar solo)*/
+.asan25 { text-indent:0; padding-top:2.5em; }
+
+/* subtítulos de capítulos cuando sólo hay un subtítulo por fichero*/
+.subtit { text-align:center; text-indent:0em; font-size:1.3em; margin-bottom:2.36em; }
+
+/* subtítulos de capítulos cuando sólo hay varios subtítulos por fichero*/
+.subtitulo { text-align:center; text-indent:0em; font-size:1.3em; padding-top :1.5em; padding-bottom :1em; font-weight:bold; }
+
+/* para separar párrafos con tres asteriscos */
+.asteriscos { text-align :center; text-indent :0em; font-size :1.2em; padding-top :1.5em; padding-bottom :1em; }
+
+/* para sangrías francesas útil en bibliografías, definiciones */
+blockquote.francesa {margin:0 0 0 4em;}
+blockquote.francesa p {text-align:justify; text-indent:-2.5em;}
+
+/* para epígrafes al inicio de cada capítulo */
+.epigram { margin-left:7em; margin-right:0; font-size:1em; text-align:justify; }
+
+/* Para títulos semejantes a h1 pero que no se reflejen en la TOC. Útil cuando el primer capítulo se llama igual que el título del libro (se repetiría la misma línea dos veces en la TOC) */
+.titul { text-align:center; text-indent:0em; font-size:1.5em; font-weight:bold; margin-top:33%; margin-bottom:3% }
+
+/* Para intercalar una línea de separación entre los encabezados y el subtit */
+.separasubtit	{text-align:center; text-indent:0em; font-weight:bold; margin:35% 20% 5%; padding-bottom:5%; border-bottom:1px solid; }
+
+/* Para versos sin sangrar; el poema da sus propios saltos antes y después*/
+.poemita { font-size:1em; text-align:center; margin: 0em 0em 0em 3em; text-indent: 0em; padding-top:1em; padding-bottom:1em;}
+
+/* Para versos sin sangrar en cursiva, útil en poemas en lengua ajena al español; el poema da sus propios saltos antes y después*/
+.poemitacursi { font-size:1em; font-style:italic; text-align:center; margin: 0em 0em 0em 3em; text-indent: 0em; padding-top:1em; padding-bottom:1em;}
+
+/* Combinado de asangre y párrafo de cita. Para uno y sólo un párrafo de cita sin sangría. El párrafo da sus propios saltos antes y despues. Se recomienda usar en el siguiente párrafo solamente el estilo asangre */
+.asancita { margin:1.5em; text-indent:0; }
+
+/* Para dar color gris a la letra de textos, notas, números que no corresponden al texto, pero son necesarios. Por ejemplo los números de verso el las obras poéticas al lado de cada verso */
+.versis { color:#595959; }

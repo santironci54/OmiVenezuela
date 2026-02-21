@@ -1,0 +1,106 @@
+html {
+  font-family: "Times New Roman", serif;
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;
+}
+body {
+  font-size: 1.1rem;
+  line-height: 130%;
+  padding-left: 2%;
+  padding-right: 2%;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+.notas {
+  font-size: 1.1rem;
+  line-height: 130%;
+  font-style: italic;
+  text-align: justify;
+  margin-left: 0.5em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  color: brown;
+}
+em {
+  font-size: 1.1rem;
+  color: brown;
+}
+hr {
+  border-top: 1px solid red;
+  margin-top: 1em;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 1em;
+}
+.pT5a {
+  font-family: Times, Times New Roman, serif;
+  text-align: left;
+  color: red;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+}
+.Poesia2 {
+  font-family: "Times New Roman", serif;
+  	line-height: 130%;
+  font-size: 1.2rem;
+  text-align: left;
+  font-style: italic;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+.pT1 {
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  color: red;
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 1.5em;
+  margin-top: 0;
+}
+
+.butXL {
+  font: normal 22px Times;
+  background-color: orange;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.butXL {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.butXL {
+  width: 60%;
+}
+
+.pT3but a:link {
+  color: white;
+}
+.pT3but a:visited {
+  color: white;
+}
+.pT3but {
+  font-family: "Times New Roman", serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+  margin-top: 0em;
+  color: brown;
+}
+
+.fixedButton {
+  position: fixed;
+  bottom: 15px;
+  right: 2px;
+  margin-bottom: 30px;
+}

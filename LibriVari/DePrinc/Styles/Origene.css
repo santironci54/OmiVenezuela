@@ -1,0 +1,278 @@
+html {
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;;
+}
+body {
+    font-family: Times, Times New Roman, serif;
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+	font-family: "Times New Roman", serif;
+	padding-left: 1px;
+	padding-right: 1px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 0.5em;
+  margin-top: 0em;
+}
+
+.cover {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  font-size: 1.3em;
+}
+
+
+hr {
+  border: 1.3px solid ;
+  border-radius: 5px;
+  margin-right: 6em;
+
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+h1{
+ font-family: "Times New Roman", Times, serif;
+ text-align: center;
+ font-weight: bold;
+ font-size: 18px;
+ margin-bottom: 3px;
+ margin-top: 24px;
+
+
+}
+
+h2{
+ font-family: "Times New Roman", Times, serif;
+  text-align: center;
+ font-weight: normal;
+ text-transform: lowercase;
+ font-variant: small-caps;
+ font-size: 1.2em;
+ margin-bottom: 1em;
+ margin-top: 2em;
+}
+
+h3 {
+ font-family: "Times New Roman", Times, serif;
+ text-align: center;
+ font-weight: normal;
+ text-transform: lowercase;
+ font-variant: small-caps;
+ font-size: 1em;
+ margin-bottom: 0.6em;
+ margin-top: 1em;
+ color: green;
+}
+h4{
+ font-family: "Times New Roman", Times, serif;
+ text-align: left;
+ font-weight: normal;
+ font-style:italic;
+ font-size: 1.1em;
+ margin-bottom: 0.5em;
+ margin-top: 1em;
+
+}
+
+
+.Vers{
+ 	color: crimson;
+	font-variant: small-caps;
+}
+
+.Normal{
+ font-family: "Times New Roman", Times, serif;
+ text-indent: 30px;
+ text-align: justify;
+ font-weight: normal;
+ font-size: 1.1em;
+ margin-bottom: 6px;
+ margin-top: 0px;
+ hyphens: auto;
+}
+.Normal{:lang(it);}
+
+.Bibliolist{
+ font-family: "Times New Roman", Times, serif;
+ text-align: left;
+ text-indent: -30px;
+ padding:0px 0px 0px 30px;
+ font-weight: normal;
+ font-size: 1em;
+ margin-bottom: 4px;
+ margin-top: 0px;
+ hyphens: auto;
+}
+
+.NotaPie{
+ font-family: "Times New Roman", Times, serif;
+ text-align: justify;
+ text-indent: -35px;
+ padding:0px 0px 0px 35px;
+ font-weight: normal;
+ font-size: 0.95em;
+ margin-bottom: 0px;
+ margin-top: 0px;
+ hyphens: auto;
+}
+
+table {
+  font-family: "Times New Roman", Times, serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+ vertical-align:top;
+  text-align: left;
+  padding: 8px;
+}
+
+.fixedButton {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 0;
+}
+
+.roundedFixedBtn {
+  height: 36px;
+  line-height: 30px;
+  width: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 15%;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.Up_but {
+  font-family: Arial;
+  margin-bottom: 0;
+}
+
+.roundedFixedBtn a:link {
+  color: white;
+}
+
+.Up_but a:visited {
+  color: white;
+}
+
+.pT3but {
+  font-family: Times, Times New Roman, serif;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+  color: white;
+}
+.butXL {
+  font: normal 1em Times;
+  background-color: orange;
+  /* Green */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 0.2em 0.2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 0.2em 0.2em;
+  cursor: pointer;
+}
+.butXL {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.butXL {
+  width: 50%;
+}
+
+
+.butXL a:link {
+ font-size: 0.8em;
+  text-decoration: none;
+  color:white;
+  vertical-align:normal;
+}
+
+.butXL a:visited {
+  color: white;
+    text-decoration: none;
+}
+
+.pT3but a:link {
+ font-size: 0.8em;
+  text-decoration: none;
+  color:white;
+  vertical-align:normal;
+}
+
+
+.pT3but a:visited {
+  color: white;
+    text-decoration: none;
+}
+
+
+.level-1 {
+ font-family: "Times New Roman", Times, serif;
+ text-align: left;
+ font-weight: normal;
+ font-size: 0.9em;
+ margin-bottom: 0.3em;
+ margin-top: 0.2em;
+ margin-left: 1em;
+
+}
+.level-2{
+ font-family: "Times New Roman", Times, serif;
+ text-align: left;
+ text-indent: -1em;
+ font-weight: normal;
+ font-style:normal;
+ font-size: 0.8em;
+ margin-bottom: 0.2em;
+ margin-top: 0em;
+ margin-left: 2em;
+
+}
+

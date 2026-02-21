@@ -1,0 +1,457 @@
+@charset "UTF-8";
+/* CSS Document */
+/* ---------------------------------------------------------- */
+/* Pagina */
+@page {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+html {
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;
+}
+
+body {
+  font-family: Times, Times New Roman, serif;
+  font-size: 1.1rem;
+  font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+  font-family: "Times New Roman", serif;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+tbody,tr,td,th {
+  border-style: inherit;
+  border-width: inherit;
+  border-color: inherit;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  font-size: 1.3em;
+}
+
+table.TABELLA {
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  border-collapse: collapse;
+  margin-bottom: 3px;
+  margin-top: 6px;
+  vertical-align: top;
+}
+
+td.cella {
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  vertical-align: top;
+}
+
+th.testatina {
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 7px;
+  vertical-align: top;
+}
+
+.normal {
+  font-family: "Times New Roman", serif;
+  font-size: 1.2em;
+  display: block;
+  text-align: justify;
+  text-indent: 2em;
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+  padding: 0;
+}
+
+.Note {
+  font-family: "Times New Roman", serif;
+  font-size: 0.9em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: justify;
+  text-decoration: none;
+  text-indent: 0px;
+}
+
+.quote {
+  display: block;
+  font-size: 1.1em;
+  font-style: italic;
+  text-align: left;
+  text-indent: 0;
+  margin: 6pt 19.9pt;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Times New Roman", serif;
+  font-size: 2em;
+  font-variant: small-caps;
+  font-weight: normal;
+  line-height: 1.1;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  margin-bottom: 1em;
+  padding: 0;
+  color: #0039a6;
+}
+
+h2 {
+  display: block;
+  font-family: "Times New Roman", serif;
+  font-size: 1.3em;
+  font-variant: small-caps;
+  font-weight: normal;
+  line-height: 1.2;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  padding: 0;
+  color: #0039a6;
+}
+
+h3 {
+  display: block;
+  font-family: "Times New Roman", serif;
+  font-size: 1.3em;
+  font-weight: normal;
+  line-height: 1.2;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  margin: 18pt 0 6pt;
+  padding: 0;
+  color: #0039a6;
+}
+
+.dramatis {
+  display: block;
+  font-size: 1.1em;
+  text-align: left;
+  text-indent: -22.7pt;
+  margin-left: 22.7pt;
+  margin-top: 0;
+  margin-bottom: 0.3em;
+  padding: 0;
+}
+
+.Epigrafe {
+  font-family: "Times New Roman", serif;
+  font-size: 0.9em;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  margin-left: 8em;
+  margin-right: 8em;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0px;
+}
+
+.Sommario-tit-libro {
+  font-family: "Times New Roman", serif;
+  font-size: 1.5em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.077;
+  margin-bottom: 3px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0px;
+}
+
+p.Sommario-cap {
+  font-family: "Times New Roman", serif;
+  font-size: 1.3em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-top: 0px;
+  margin-bottom: 0.2em;
+  margin-right: 0px;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 2.4rem;
+  text-indent: -2.4rem;
+}
+
+.Sommario-par {
+  font-family: "Times New Roman", serif;
+  font-size: 1.2em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  margin-left: 2em;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0em;
+}
+
+p.index-alfa {
+  font-family: "Times New Roman", serif;
+  font-size: 1.2em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 0px;
+  margin-left: 0.6em;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #0039a6;
+  text-indent: -0.5em;
+}
+
+.illustrazione {
+  font-family: "Times New Roman", serif;
+  font-size: 1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0px;
+}
+
+p.illustrazione-dida {
+  font-family: "Times New Roman", serif;
+  font-size: 0.9em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0px;
+}
+
+p.Tabelle-testatina {
+  font-family: "Times New Roman", serif;
+  font-size: 0.75em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0px;
+}
+
+p.Tabelle-testo {
+  font-family: "Times New Roman", serif;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0px;
+}
+
+p.tabella-dida {
+  font-family: "Times New Roman", serif;
+  font-size: 0.667em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0px;
+}
+
+p.Biblio-txt-liv2 {
+  font-family: "Times New Roman", serif;
+  font-size: 0.9em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 0px;
+  margin-left: 12px;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: justify;
+  text-decoration: none;
+  text-indent: -12px;
+}
+
+/* ---------------------------------------------------------- */
+/* Stili */
+span.regular {
+  font-style: normal;
+  font-weight: normal;
+}
+
+span.website-nel-testo {
+  color: #0000ff;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+sup.rimando_nota {
+  font-size: 0.6em;
+  vertical-align: super;
+}
+
+span.maiuscoletto {
+  font-size: 0.75em;
+}
+
+span.m-tto {
+  font-size: 0.75em;
+}
+
+sup.apice {
+  vertical-align: sub;
+  font-size: 0.6em;
+}
+
+sup.maiuscoletto-apice {
+  font-size: 0.55em;
+  vertical-align: super;
+}
+
+sup.apice-italic {
+  font-size: 0.6em;
+  font-style: italic;
+  font-weight: normal;
+  vertical-align: super;
+}
+
+/* ---------------------------------------------------------- */
+/* Immagini */
+img.figure {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* ---------------------------------------------------------- */
+/* Cover */
+p.cover {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+img.cover {
+  height: 100%;
+  max-width: 100%;
+}
+
+/* ---------------------------------------------------------- */
+/* Title page */
+p.tp {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.pT3but a:link {
+  color: white;
+}
+.pT3but a:visited {
+  color: white;
+}
+.pT3but {
+  font-family: "Times New Roman", serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+  margin-top: 0em;
+  color: brown;
+}
+
+
+.butXL {
+  font: normal 22px Times;
+  background-color: orange;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.butXL {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.butXL {
+  width: 40%;
+}
+
+.fixedButton {
+  position: fixed;
+  bottom: 15px;
+  right: 2px;
+  margin-bottom: 30px;
+}

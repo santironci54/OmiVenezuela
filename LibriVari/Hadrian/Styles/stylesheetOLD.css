@@ -1,0 +1,284 @@
+.MsoNormal {
+    display: block;
+    font-family: "Times New Roman";
+    font-size: 0.875em;
+    line-height: 1.2;
+    margin-bottom: 0.0001pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: center;
+    text-autospace: none
+    }
+.MsoNormal1 {
+    display: block;
+    font-family: "Times New Roman";
+    font-size: 0.875em;
+    line-height: 1.2;
+    margin-bottom: 0.0001pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    text-autospace: none
+    }
+.MsoNormal2 {
+    display: block;
+    font-family: "Times New Roman";
+    font-size: 0.875em;
+    line-height: 1.2;
+    margin-bottom: 0.0001pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 6pt;
+    text-align: center;
+    text-autospace: none
+    }
+.MsoNormal3 {
+    display: block;
+    font-family: "Times New Roman";
+    font-size: 0.875em;
+    line-height: 1.2;
+    margin-bottom: 0.0001pt;
+    margin-left: 2in;
+    margin-right: 2in;
+    margin-top: 0;
+    text-autospace: none
+    }
+.MsoNormal4 {
+    display: block;
+    font-family: "Times New Roman";
+    font-size: 0.875em;
+    line-height: 1.2;
+    margin-bottom: 0.0001pt;
+    margin-left: 2in;
+    margin-right: 2in;
+    margin-top: 0;
+    text-align: right;
+    text-autospace: none
+    }
+.MsoNormal5 {
+    display: block;
+    font-family: "Times New Roman";
+    font-size: 0.875em;
+    line-height: 1.2;
+    margin-bottom: 0.0001pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 6pt;
+    text-autospace: none
+    }
+.MsoNormal6 {
+    display: block;
+    font-family: "Times New Roman";
+    font-size: 0.875em;
+    line-height: 1.2;
+    margin-bottom: 0.0001pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 6pt;
+    text-autospace: none;
+    text-indent: 0.25in
+    }
+.MsoNormal7 {
+    display: block;
+    font-family: "Times New Roman";
+    font-size: 0.875em;
+    line-height: 1.2;
+    margin-bottom: 0.0001pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    text-autospace: none;
+    text-indent: 0.25in
+    }
+.MsoNormal8 {
+    display: block;
+    font-family: "Times New Roman";
+    font-size: 0.875em;
+    line-height: 1.2;
+    margin-bottom: 0.0001pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: right;
+    text-autospace: none
+    }
+.Section {
+    display: block;
+    page: Section1
+    }
+.Section1 {
+    display: block;
+    page: Section2
+    }
+.calibre {
+    display: block;
+    font-size: 1em;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-justify-trim: punctuation
+    }
+.calibre1 {
+    color: black
+    }
+.calibre10 {
+    font-size: 0.85714em
+    }
+.calibre11 {
+    font-family: "Times New Roman";
+    font-size: 0.75em
+    }
+.calibre12 {
+    display: block
+    }
+.calibre13 {
+    display: block;
+    font-family: Arial;
+    font-size: 1.125em;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 3pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 6pt;
+    page-break-after: avoid;
+    text-align: center;
+    text-autospace: none
+    }
+.calibre14 {
+    color: black;
+    font-size: 1em;
+    line-height: 1.2
+    }
+.calibre15 {
+    display: block;
+    font-family: Arial;
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 3pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 12pt;
+    page-break-after: avoid;
+    text-autospace: none
+    }
+.calibre16 {
+    color: inherit;
+    cursor: inherit;
+    line-height: 1.2;
+    text-decoration: inherit
+    }
+.calibre17 {
+    color: black;
+    font-family: "Bookman Old Style";
+    font-size: 1.14286em;
+    line-height: 1.2
+    }
+.calibre18 {
+    color: black;
+    font-family: "Bookman Old Style"
+    }
+.calibre19 {
+    font-family: "Bookman Old Style";
+    font-size: 1.14286em;
+    line-height: 1.2
+    }
+.calibre2 {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline
+    }
+.calibre20 {
+    font-family: "Bookman Old Style"
+    }
+.calibre21 {
+    display: block;
+    font-family: Arial;
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 3pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 6pt;
+    page-break-after: avoid;
+    text-autospace: none
+    }
+.calibre22 {
+    color: inherit;
+    cursor: inherit;
+    text-decoration: inherit
+    }
+.calibre23 {
+    font-size: 0.75em;
+    line-height: 1.2;
+    vertical-align: super
+    }
+.calibre24 {
+    font-size: 0.85714em;
+    line-height: 1.2;
+    vertical-align: super
+    }
+.calibre25 {
+    text-transform: uppercase
+    }
+.calibre26 {
+    color: black;
+    font-size: 1.14286em;
+    line-height: 1.2
+    }
+.calibre27 {
+    color: black;
+    font-family: Arial;
+    font-size: 0.85714em
+    }
+.calibre28 {
+    color: black;
+    font-size: 1.28571em;
+    line-height: 1.2
+    }
+.calibre3 {
+    font-weight: bolder
+    }
+.calibre4 {
+    color: black;
+    font-size: 0.85714em
+    }
+.calibre5 {
+    font-style: italic
+    }
+.calibre6 {
+    display: block;
+    font-family: Arial;
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 3pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 12pt;
+    page-break-after: avoid;
+    text-align: center;
+    text-autospace: none
+    }
+.calibre7 {
+    font-size: 1.2em;
+    line-height: 1.2
+    }
+.calibre8 {
+    color: black;
+    font-size: 1.71429em;
+    line-height: 1.2
+    }
+.calibre9 {
+    color: black;
+    font-size: 0.85714em;
+    text-transform: uppercase
+    }
