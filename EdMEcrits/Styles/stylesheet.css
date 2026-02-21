@@ -1,0 +1,412 @@
+.OmiVenez {
+    display: block;
+    text-align: justify;
+    font-size: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0
+    }
+p {
+    margin-top: 0;
+    margin-bottom: 3px;
+    line-height: 1.2
+    }
+	
+html {
+  margin: auto;
+  hyphens: auto;
+  max-width: 80ch;
+}
+
+body {
+  font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+  font-family: Times, Times New Roman, serif;
+  padding-left: 2%;
+  padding-right: 2%;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  line-height: normal;
+}
+
+table {
+  border-collapse: collapse;
+}
+ th {
+  background: #ccc;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background: #efefef;
+}
+
+tr:hover {
+  background: #d1d1d1;
+}
+
+td, td a {     font-size:0.8em }
+.OmiVenezDivIni {
+    background: #E6E6E6;
+    display: block;
+    border-top: blue solid 2pt;
+    border-bottom: blue solid 1pt
+    }
+.OmiVenezTit1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    font-size: 0.84em;
+    color:blue;
+    font-weight: bold;
+    padding-left: 14pt;
+    text-indent: -12pt;
+    margin-top: 3px
+    }
+
+.OmiVenezTit2 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    font-size: 1.1em;
+    color:blue;
+    font-weight: Normal;
+    margin-top: 12px
+    }
+.OmiVenezTitAnno {
+    font-family: "Times New Roman", Times, serif;
+    color: brown;
+    text-align: center;
+    font-size: 1,2em;
+    font-weight: bold;
+    margin-top: 6px;
+
+    }
+.OmiVenezTit1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    font-size: 0.84em;
+    color:blue;
+    font-weight: bold;
+    padding-left: 14pt;
+    text-indent: -12pt;
+    margin-top: 3px
+    }
+.OmiVenezVol {
+    font-family: "Times New Roman", Times, serif;
+    color: brown;
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 10pt;
+    font-size: 0.80em
+    }
+
+.OmiVenezLinks {
+    color: maroon;
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 10pt;
+    font-size: 0.75em;
+    }
+
+.OmiVenezNormal {
+    color: #000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.8em;
+    text-align: justify;
+    text-indent: 15px;
+    margin: 0.5em 0
+    }
+.OmiVenezSunto {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.75em;
+    font-style: italic;
+    padding-top: 6px;
+    color: blue
+    }
+
+.OmiVenezLJC {
+    text-align: left;
+    margin: 1em 0;
+    color: red;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.95em
+    }
+
+
+
+.OmiVenezData {
+    text-align: right;
+    margin: 1em 0;
+    color: #800000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.75em
+    }
+.OmiVenezLineaNote {
+     color: brown
+    }   
+.OmiVenezNota {
+    color: red;
+    font-weight: normal;
+    font-size: normal
+    }
+.OmiVenezTxtNota {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.70em;
+    line-height: normal;
+    text-indent: -12pt;
+    padding-left: 12pt;
+    color:brown;
+
+    }
+.OmiVenezFirma {
+    text-align: right;
+    color: #36F;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.75em;
+    font-style: italic
+    }
+
+.OmiVenezBR {
+    line-height: 80%;
+    }
+
+.calibre1 {
+    border-collapse: separate;
+    border-spacing: 2px;
+    display: table;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-indent: 0
+    }
+.calibre2 {
+    display: table-row-group;
+    vertical-align: middle
+    }
+.calibre3 {
+    display: table-row;
+    vertical-align: inherit
+    }
+.calibre4 {
+    background-color: #E1AA01;
+    display: table-cell;
+    font-weight: bold;
+    vertical-align: inherit;
+    padding: 1px
+    }
+.calibre5 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.75em;
+ 
+    }
+
+.calibre7 {
+    display: table-cell;
+    text-align: LEFT;
+    vertical-align: inherit;
+    line-height: 0.8;
+    padding: 1px
+    }
+.calibre8 {
+    display: table-cell;
+    text-align: inherit;
+    vertical-align: inherit;
+    padding: 1px
+    }
+.calibre9 {
+    display: block;
+    text-align: center
+    }
+.calibre10 {
+    background-color: #FFF;
+    border-collapse: separate;
+    border-spacing: 2px;
+    display: table;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-indent: 0
+    }
+.calibre11 {
+    display: table-header-group;
+    vertical-align: middle
+    }
+.calibre12 {
+ 
+    }
+.calibre13 {
+    color: #00f;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.75em
+    }
+.calibre14 {
+    display: table-footer-group;
+    vertical-align: middle
+    }
+.calibre15 {
+    color: #000;
+    font-family: "Times New Roman", Times, serif
+    }
+.calibre16 {
+    background: #E6E6E6;
+    display: block;
+    border-top: gray solid 0.25pt;
+    border-right: currentColor none medium;
+    border-bottom: currentColor none medium;
+    border-left: currentColor none medium;
+    padding: 1pt 0 0
+    }
+.calibre17 {
+    background: #E6E6E6;
+    color: navy;
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.75em;
+    font-weight: bold;
+    page-break-after: avoid;
+    border: currentColor none medium;
+    padding: 0;
+    margin: 0 0 0.0001pt
+    }
+.calibre18 {
+    font-size: 0.83333em
+    }
+.calibre19 {
+    background: #E6E6E6;
+    color: fuchsia;
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.625em;
+    font-weight: normal;
+    page-break-after: avoid;
+    tab-stops: 36.85pt;
+    margin: 0 0 0.0001pt
+    }
+.calibre20 {
+    background: #E6E6E6;
+    display: block;
+    border-top: currentColor none medium;
+    border-right: currentColor none medium;
+    border-bottom: gray solid 0.25pt;
+    border-left: currentColor none medium;
+    padding: 0 0 1pt
+    }
+.calibre21 {
+    color: #339;
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.75em;
+    font-weight: normal;
+    page-break-after: avoid;
+    margin: 12pt 0
+    }
+.calibre22 {
+    color: maroon;
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.83333em;
+    font-weight: normal;
+    page-break-after: avoid;
+    tab-stops: 36.85pt;
+    text-align: right;
+    margin: 2.25pt 0 1.5pt
+    }
+.calibre23 {
+    font-size: 0.75em
+    }
+.calibre24 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.83333em
+    }
+.calibre25 {
+     font-weight: bold;
+     color: red
+    }
+
+.calibre27 {
+    color: gray;
+    display: block;
+    height: 2px;
+    text-align: left;
+    border-top: currentColor solid 1px;
+    border-right: currentColor none 1px;
+    border-bottom: currentColor none 1px;
+    border-left: currentColor none 1px;
+    margin: 0.5em auto
+    }
+
+.calibre30 {
+    color: #000080;
+    font-family: "Times New Roman", Times, serif; 
+    font-style: italic;
+    font-size: 0.75em
+    }
+.calibre31 {
+    font-weight: bold
+    }
+.calibre32 {
+    color: #C00
+    }
+
+.calibre34 {
+    color: 80;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.75em
+    }
+
+
+.calibre38OLD {
+    display: block;
+    text-align: justify;
+    margin: 1em 0
+    }
+.calibre39 {
+    font-style: italic
+    }
+
+.calibre41 {
+    color: #000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em
+    }
+.msofootnotereference {
+    color: red;
+    letter-spacing: 0;
+    vertical-align: baseline
+    }
+.msonormal {
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.83333em;
+    tab-stops: 36.85pt;
+    text-align: justify;
+    text-indent: 18pt;
+    margin: 4.5pt 0 0.0001pt
+    }
+.section {
+    display: block;
+    page: Section1
+    }
+.section1 {
+    display: block;
+    page: Section2
+    }
+.vaial {
+    background: #E6E6E6;
+    color: blue;
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.625em;
+    tab-stops: 36.85pt;
+    border: currentColor none medium;
+    padding: 0;
+    margin: 0 0 0.0001pt
+    }
+.pcalibre:link {
+    color: blue;
+    text-decoration: none
+    }
+.pcalibre1:visited {
+    color: purple;
+    text-decoration: underline
+    }
